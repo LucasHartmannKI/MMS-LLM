@@ -1,0 +1,1300 @@
+{
+  "prompt": "This is an object of ",
+  "results": [
+    {
+      "object_id": "tree_0534",
+      "ground_truth": "tree",
+      "model_output": "This is an object of urban furniture, designed to provide seating for people in public spaces."
+    },
+    {
+      "object_id": "tree_0851",
+      "ground_truth": "tree",
+      "model_output": "This is an object of"
+    },
+    {
+      "object_id": "tree_0555",
+      "ground_truth": "tree",
+      "model_output": "This is an object of transportation, used for riding on roads and paths."
+    },
+    {
+      "object_id": "tree_0918",
+      "ground_truth": "tree",
+      "model_output": "This is an object of 3D point cloud, which is a digital model of a physical object. It represents the spatial structure of the object, including its size, shape, and position in relation to its surroundings."
+    },
+    {
+      "object_id": "tree_0986",
+      "ground_truth": "tree",
+      "model_output": "This is an object of urban infrastructure, used to manage and regulate traffic flow in a city."
+    },
+    {
+      "object_id": "tree_0281",
+      "ground_truth": "tree",
+      "model_output": "The object is a bicycle, typically used for transportation and recreation."
+    },
+    {
+      "object_id": "tree_0018",
+      "ground_truth": "tree",
+      "model_output": "This is an object of urban transportation, commonly used for commuting short distances."
+    },
+    {
+      "object_id": "tree_1025",
+      "ground_truth": "tree",
+      "model_output": "The object is a parked car, likely a hatchback, given its compact and practical design. It is positioned parallel to the sidewalk, with its front facing the street. The car's rear hatch door opens upwards, offering additional storage space. This type of car is commonly used for daily commuting and urban transportation due to its maneuverability and fuel efficiency."
+    },
+    {
+      "object_id": "tree_0593",
+      "ground_truth": "tree",
+      "model_output": "This is an object of the 19th century, characterized by its intricate, lacy design and the presence of numerous small windows and balconies. It is typically used for residential or mixed-use buildings."
+    },
+    {
+      "object_id": "tree_0854",
+      "ground_truth": "tree",
+      "model_output": "This is an object of the 19th century, characterized by its tall, slender structure and elongated leaves. It is a type of residential or urban tree commonly used for landscaping and environmental benefits."
+    },
+    {
+      "object_id": "tree_0705",
+      "ground_truth": "tree",
+      "model_output": "The object in question appears to be a street sign, specifically a traffic sign indicating no parking from 6 to 15 hours on weekdays."
+    },
+    {
+      "object_id": "tree_0328",
+      "ground_truth": "tree",
+      "model_output": "This is an object of the urban furniture set, which includes a table, bench, and trash bin."
+    },
+    {
+      "object_id": "tree_0363",
+      "ground_truth": "tree",
+      "model_output": "The object is a street sign pole."
+    },
+    {
+      "object_id": "tree_1057",
+      "ground_truth": "tree",
+      "model_output": "The object is a parking meter."
+    },
+    {
+      "object_id": "tree_0412",
+      "ground_truth": "tree",
+      "model_output": "This is an object of"
+    },
+    {
+      "object_id": "tree_0979",
+      "ground_truth": "tree",
+      "model_output": "This is a small, rectangular trash bin located at the corner of a street. It has a simple, metal design and is attached to the wall. The bin is likely used for disposing of household waste and is common in urban settings for maintaining cleanliness."
+    },
+    {
+      "object_id": "tree_0723",
+      "ground_truth": "tree",
+      "model_output": "The object is a white van with a roof rack."
+    },
+    {
+      "object_id": "tree_0056",
+      "ground_truth": "tree",
+      "model_output": "This is an object of a bicycle."
+    },
+    {
+      "object_id": "tree_0062",
+      "ground_truth": "tree",
+      "model_output": "This is an object of 1960s vintage, characterized by its elongated shape, large windows, and compact, box-like design. It is commonly used for travel and camping, providing a mobile living space for individuals or families on the go."
+    },
+    {
+      "object_id": "tree_0599",
+      "ground_truth": "tree",
+      "model_output": "The object is a streetlight pole."
+    },
+    {
+      "object_id": "tree_0515",
+      "ground_truth": "tree",
+      "model_output": "This is an object of urban street furniture, specifically a metal trash receptacle. It has a rectangular shape with a flat top and sides and is designed for waste disposal. The receptacle is mounted on the sidewalk and has a lever handle for easy trash disposal."
+    },
+    {
+      "object_id": "tree_0229",
+      "ground_truth": "tree",
+      "model_output": "This is an object of a bicycle parked on the sidewalk."
+    },
+    {
+      "object_id": "tree_0970",
+      "ground_truth": "tree",
+      "model_output": "This is an object of"
+    },
+    {
+      "object_id": "tree_0012",
+      "ground_truth": "tree",
+      "model_output": "This is a bicycle."
+    },
+    {
+      "object_id": "tree_0885",
+      "ground_truth": "tree",
+      "model_output": "This is a bicycle."
+    },
+    {
+      "object_id": "tree_0381",
+      "ground_truth": "tree",
+      "model_output": "This is an object of personal transportation, typically used for commuting or recreational rides in urban or suburban areas."
+    },
+    {
+      "object_id": "car_1752",
+      "ground_truth": "car",
+      "model_output": "The object is a white Citro\u00ebn Jumper van, a compact van used for transporting goods or people, commonly for deliveries, small passenger transport, or utility purposes."
+    },
+    {
+      "object_id": "car_1344",
+      "ground_truth": "car",
+      "model_output": "A white Volkswagen Transporter van, commonly used for commercial purposes such as transporting goods and services."
+    },
+    {
+      "object_id": "car_0244",
+      "ground_truth": "car",
+      "model_output": "This is an object of"
+    },
+    {
+      "object_id": "car_1744",
+      "ground_truth": "car",
+      "model_output": "The object in the image is a small, compact car model, possibly a hatchback or a minicar, designed for urban driving."
+    },
+    {
+      "object_id": "car_0163",
+      "ground_truth": "car",
+      "model_output": "The object is a compact, white hatchback car."
+    },
+    {
+      "object_id": "car_1182",
+      "ground_truth": "car",
+      "model_output": "This is an object of personal transportation used for commuting and traveling."
+    },
+    {
+      "object_id": "car_1036",
+      "ground_truth": "car",
+      "model_output": "The object in the image is a bicycle, which is commonly used for transportation and recreational purposes."
+    },
+    {
+      "object_id": "car_1409",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle."
+    },
+    {
+      "object_id": "car_1032",
+      "ground_truth": "car",
+      "model_output": "This is an object of  ASSIST"
+    },
+    {
+      "object_id": "car_0624",
+      "ground_truth": "car",
+      "model_output": "This is an object of  a sedan."
+    },
+    {
+      "object_id": "car_0139",
+      "ground_truth": "car",
+      "model_output": "The object is a Volkswagen car."
+    },
+    {
+      "object_id": "car_0047",
+      "ground_truth": "car",
+      "model_output": "This is an object of personal transportation, commonly used for commuting to work, running errands, or traveling to social events. It is designed for practicality and efficiency, allowing individuals to travel comfortably and efficiently through various terrains."
+    },
+    {
+      "object_id": "car_0877",
+      "ground_truth": "car",
+      "model_output": "This is an object of a compact car."
+    },
+    {
+      "object_id": "car_1680",
+      "ground_truth": "car",
+      "model_output": "This is an object of the 21st century, used for daily transportation."
+    },
+    {
+      "object_id": "car_0593",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle parking rack made of metal. It is designed to hold several bicycles at once and is typically found in urban areas for convenient bike parking."
+    },
+    {
+      "object_id": "car_1578",
+      "ground_truth": "car",
+      "model_output": "This object is a bicycle."
+    },
+    {
+      "object_id": "car_0785",
+      "ground_truth": "car",
+      "model_output": "This is an object of transportation. It is a bicycle."
+    },
+    {
+      "object_id": "car_1474",
+      "ground_truth": "car",
+      "model_output": "This is an object of personal transportation."
+    },
+    {
+      "object_id": "car_0619",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle parking rack."
+    },
+    {
+      "object_id": "car_0477",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle."
+    },
+    {
+      "object_id": "car_0019",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle."
+    },
+    {
+      "object_id": "car_1508",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle, which is commonly used as a means of transportation."
+    },
+    {
+      "object_id": "car_1509",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle, viewed from an angle that shows its structure and components. The bicycle features a frame, wheels, handlebars, a seat, and pedals, designed for human-powered transportation."
+    },
+    {
+      "object_id": "car_0083",
+      "ground_truth": "car",
+      "model_output": "The object is a white compact car, typically used for daily commuting or short-distance travel."
+    },
+    {
+      "object_id": "car_0841",
+      "ground_truth": "car",
+      "model_output": "This is an object of 0000."
+    },
+    {
+      "object_id": "car_1748",
+      "ground_truth": "car",
+      "model_output": "The object is a compact car, commonly used for urban commuting."
+    },
+    {
+      "object_id": "car_0807",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle, typically used for personal transportation and recreational activities."
+    },
+    {
+      "object_id": "car_0930",
+      "ground_truth": "car",
+      "model_output": "This is an object of a  motorcycle."
+    },
+    {
+      "object_id": "car_0589",
+      "ground_truth": "car",
+      "model_output": "This is an object of 3D modeling, commonly used for personal or family transportation."
+    },
+    {
+      "object_id": "car_0610",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle."
+    },
+    {
+      "object_id": "car_1001",
+      "ground_truth": "car",
+      "model_output": "The object is a compact hatchback car, known for its efficient space utilization and practical design, making it suitable for urban environments and city driving."
+    },
+    {
+      "object_id": "car_1397",
+      "ground_truth": "car",
+      "model_output": "The object is a silver Volkswagen T-Roc SUV."
+    },
+    {
+      "object_id": "car_0505",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle, commonly used for transportation and recreational purposes."
+    },
+    {
+      "object_id": "car_0868",
+      "ground_truth": "car",
+      "model_output": "The object in the image is a car parked on the side of a street. It appears to be a compact, four-door vehicle with a hatchback design, commonly used for daily commuting and personal transportation."
+    },
+    {
+      "object_id": "car_1104",
+      "ground_truth": "car",
+      "model_output": "This is an object of a car parked on the side of a street. It is a compact hatchback with a streamlined design, typical of urban vehicles. The car appears to be in good condition and is likely used for daily commuting or short-distance travel."
+    },
+    {
+      "object_id": "car_1418",
+      "ground_truth": "car",
+      "model_output": "The object of the 3D point cloud is a parked car, specifically a white station wagon, identified by its boxy design, sloping rear, and long hood. It is a typical car for daily commuting and family use, offering a balance of comfort and functionality."
+    },
+    {
+      "object_id": "car_0239",
+      "ground_truth": "car",
+      "model_output": "This is an object of"
+    },
+    {
+      "object_id": "car_0231",
+      "ground_truth": "car",
+      "model_output": "The object in the green circle is a compact car, specifically a hatchback model. It has a small body size and a rear hatch for easy access to the cargo area. This type of car is commonly used for urban commuting due to its maneuverability and fuel efficiency."
+    },
+    {
+      "object_id": "car_1655",
+      "ground_truth": "car",
+      "model_output": "This is a white van labeled 'APELONA'."
+    },
+    {
+      "object_id": "car_1029",
+      "ground_truth": "car",
+      "model_output": "This is an object of  ASSIST007"
+    },
+    {
+      "object_id": "car_1158",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle."
+    },
+    {
+      "object_id": "car_0577",
+      "ground_truth": "car",
+      "model_output": "This is an object of urban transportation, used for deliveries and small-scale logistics."
+    },
+    {
+      "object_id": "car_0775",
+      "ground_truth": "car",
+      "model_output": "This is an object of personal transportation, designed for daily commuting and short trips."
+    },
+    {
+      "object_id": "car_0772",
+      "ground_truth": "car",
+      "model_output": "This is a compact SUV vehicle, suitable for urban commuting and light off-road use."
+    },
+    {
+      "object_id": "car_1099",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle."
+    },
+    {
+      "object_id": "car_0759",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle parked on the street, leaning against a pole."
+    },
+    {
+      "object_id": "car_0955",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle."
+    },
+    {
+      "object_id": "car_0553",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle wheel."
+    },
+    {
+      "object_id": "car_1564",
+      "ground_truth": "car",
+      "model_output": "This is an object of"
+    },
+    {
+      "object_id": "car_1574",
+      "ground_truth": "car",
+      "model_output": "This is an object of 5.5 meters in height and 1.3 meters in width."
+    },
+    {
+      "object_id": "car_1050",
+      "ground_truth": "car",
+      "model_output": "The object of the 3D point cloud is a bicycle."
+    },
+    {
+      "object_id": "car_1288",
+      "ground_truth": "car",
+      "model_output": "The object is a compact car, specifically a sedan, characterized by its four doors, two side mirrors, and a typical car body shape designed for personal transportation."
+    },
+    {
+      "object_id": "car_1754",
+      "ground_truth": "car",
+      "model_output": "The object is a Volkswagen, a compact car known for its practicality and fuel efficiency."
+    },
+    {
+      "object_id": "car_0810",
+      "ground_truth": "car",
+      "model_output": "The object of the 3D point cloud is a bicycle wheel, typically found on bicycles, and is used for transportation. It has a circular frame with spokes connecting the center hub to the rim, designed to provide support and mobility for the bike."
+    },
+    {
+      "object_id": "car_0862",
+      "ground_truth": "car",
+      "model_output": "This is an object of the car, specifically the rear wheel with the tire mounted on it."
+    },
+    {
+      "object_id": "car_1761",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle."
+    },
+    {
+      "object_id": "car_1108",
+      "ground_truth": "car",
+      "model_output": "The object is a parked car, specifically a Mercedes-Benz sedan."
+    },
+    {
+      "object_id": "car_1595",
+      "ground_truth": "car",
+      "model_output": "This is an object of 2007, known for its  sporty design and  compact size, making it suitable for urban environments."
+    },
+    {
+      "object_id": "car_0625",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle, which is typically used for transportation and recreation. It features two wheels, a frame, a seat, and handlebars, designed for human-powered propulsion."
+    },
+    {
+      "object_id": "car_0904",
+      "ground_truth": "car",
+      "model_output": "The object is a compact car parked on the side of the street. It appears to be a modern sedan with a hatchback design, featuring a sleek body, a compact size, and a visible rear license plate."
+    },
+    {
+      "object_id": "car_0002",
+      "ground_truth": "car",
+      "model_output": "This is an object of"
+    },
+    {
+      "object_id": "car_0647",
+      "ground_truth": "car",
+      "model_output": "This is an object of daily commuting, used for personal transportation in urban areas."
+    },
+    {
+      "object_id": "car_1355",
+      "ground_truth": "car",
+      "model_output": "This is an object of  ASSIST"
+    },
+    {
+      "object_id": "car_1357",
+      "ground_truth": "car",
+      "model_output": "This object is a bicycle, characterized by two wheels, a frame, handlebars, and a seat. It is designed for human-powered transportation and is commonly used for commuting, recreation, and exercise."
+    },
+    {
+      "object_id": "car_1260",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle."
+    },
+    {
+      "object_id": "car_0365",
+      "ground_truth": "car",
+      "model_output": "This is an object of a white hatchback car."
+    },
+    {
+      "object_id": "car_0449",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle."
+    },
+    {
+      "object_id": "car_0064",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle."
+    },
+    {
+      "object_id": "car_0223",
+      "ground_truth": "car",
+      "model_output": "This is a compact SUV, characterized by its boxy design, elevated ground clearance, and four-wheel drive system, which is commonly used for its versatility and all-terrain capability."
+    },
+    {
+      "object_id": "car_0934",
+      "ground_truth": "car",
+      "model_output": "The object of the 3D model is a compact car, which appears to be a hatchback or station wagon based on its rear design. It has a relatively low profile and appears to be parked on the side of a street. The car\u2019s design suggests it is intended for urban use, offering practicality and efficiency for daily commuting and family transportation."
+    },
+    {
+      "object_id": "car_0892",
+      "ground_truth": "car",
+      "model_output": "This object is a sedan, characterized by its four doors, two-tone body, and a hatchback rear design. It is typically used for personal transportation and often has a sporty or luxury variant."
+    },
+    {
+      "object_id": "car_1584",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle."
+    },
+    {
+      "object_id": "car_1136",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle."
+    },
+    {
+      "object_id": "car_1142",
+      "ground_truth": "car",
+      "model_output": "A compact car, specifically a hatchback model known for its maneuverability and fuel efficiency."
+    },
+    {
+      "object_id": "car_1235",
+      "ground_truth": "car",
+      "model_output": "This is an object of 3D point cloud, typically used for urban or traffic analysis."
+    },
+    {
+      "object_id": "car_0479",
+      "ground_truth": "car",
+      "model_output": "This object is a bicycle."
+    },
+    {
+      "object_id": "car_0905",
+      "ground_truth": "car",
+      "model_output": "This is an object of personal transportation, specifically a bicycle."
+    },
+    {
+      "object_id": "car_1402",
+      "ground_truth": "car",
+      "model_output": "This is an object of  type."
+    },
+    {
+      "object_id": "car_0691",
+      "ground_truth": "car",
+      "model_output": "The object is a white van with a side window covered with shrfortunatelyfortunatelys. It appears to have a cargo space behind the window."
+    },
+    {
+      "object_id": "car_0812",
+      "ground_truth": "car",
+      "model_output": "The object in question is a bicycle. It appears to be a standard road bicycle with thin tires, a lightweight frame, and equipped with handlebars and a seat. Its design is typical of bicycles used for urban commuting or recreational riding."
+    },
+    {
+      "object_id": "car_0591",
+      "ground_truth": "car",
+      "model_output": "This is an object of"
+    },
+    {
+      "object_id": "car_0776",
+      "ground_truth": "car",
+      "model_output": "This is an object of personal transportation, typically used for commuting and daily travel."
+    },
+    {
+      "object_id": "car_0585",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle, which is commonly used for personal transportation and recreation. It features two wheels, a frame, handlebars, and a seat."
+    },
+    {
+      "object_id": "car_0390",
+      "ground_truth": "car",
+      "model_output": "This is an object of 4D point cloud, which captures the spatial structure and appearance of a vehicle. It is typically used for automated parking systems and collision avoidance."
+    },
+    {
+      "object_id": "car_0101",
+      "ground_truth": "car",
+      "model_output": "This is a compact car, characterized by its small size and typical features such as four doors, a compact body, and a relatively short wheelbase."
+    },
+    {
+      "object_id": "car_1267",
+      "ground_truth": "car",
+      "model_output": "The object is a compact car parked on a city street, characterized by its small size, four doors, and a typical sedan shape."
+    },
+    {
+      "object_id": "car_1316",
+      "ground_truth": "car",
+      "model_output": "This is an object of  ASSIST"
+    },
+    {
+      "object_id": "car_1110",
+      "ground_truth": "car",
+      "model_output": "The object of the 3D model is a car."
+    },
+    {
+      "object_id": "car_1430",
+      "ground_truth": "car",
+      "model_output": "The object of the image is a compact hatchback car."
+    },
+    {
+      "object_id": "car_0315",
+      "ground_truth": "car",
+      "model_output": "This is an object of  ASSIST000."
+    },
+    {
+      "object_id": "car_1673",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle, designed for personal transportation."
+    },
+    {
+      "object_id": "car_0303",
+      "ground_truth": "car",
+      "model_output": "This is an object of"
+    },
+    {
+      "object_id": "car_0840",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle."
+    },
+    {
+      "object_id": "car_1312",
+      "ground_truth": "car",
+      "model_output": "The object is a car, specifically a hatchback. It has a compact design with a short rear overhang and a tailgate that opens upwards for cargo access. The car is typically used for urban commuting and has a following in city driving due to its maneuverability and fuel efficiency."
+    },
+    {
+      "object_id": "car_0490",
+      "ground_truth": "car",
+      "model_output": "This is a bicycle."
+    },
+    {
+      "object_id": "car_0608",
+      "ground_truth": "car",
+      "model_output": "This is an object of"
+    },
+    {
+      "object_id": "car_0895",
+      "ground_truth": "car",
+      "model_output": "This is an object of 9th century Sassanid Persian art. It is a silver dish with a central hub and a ring of evenly spaced spokes radiating from the hub to the rim. The dish is likely used for transporting food or drink and is a significant example of Persian metalwork."
+    },
+    {
+      "object_id": "car_1127",
+      "ground_truth": "car",
+      "model_output": "This is an object of 3D point cloud modeling."
+    },
+    {
+      "object_id": "car_0035",
+      "ground_truth": "car",
+      "model_output": "This is an object of an automobile, specifically a compact car. It appears to be a standard four-door sedan with a roof rack and a visible license plate."
+    },
+    {
+      "object_id": "car_1467",
+      "ground_truth": "car",
+      "model_output": "This is an object of"
+    },
+    {
+      "object_id": "car_1684",
+      "ground_truth": "car",
+      "model_output": "This is an object of personal transportation, commonly used for daily commuting or leisure riding."
+    },
+    {
+      "object_id": "car_0786",
+      "ground_truth": "car",
+      "model_output": "This is an object of 507, a hatchback car."
+    },
+    {
+      "object_id": "car_0433",
+      "ground_truth": "car",
+      "model_output": "The object is a sedan, a type of passenger car with a four-door configuration. It appears to be parked on a street, indicating its use for personal transportation. The design suggests it is designed for comfort and efficiency, suitable for daily commuting and long-distance travel."
+    },
+    {
+      "object_id": "traffic_light_0243",
+      "ground_truth": "traffic light",
+      "model_output": "This is a white minivan parked on the street."
+    },
+    {
+      "object_id": "traffic_sign_0160",
+      "ground_truth": "traffic sign",
+      "model_output": "The object is a bicycle parked on a sidewalk."
+    },
+    {
+      "object_id": "traffic_sign_0274",
+      "ground_truth": "traffic sign",
+      "model_output": "The object is a street sign, specifically a traffic sign indicating no parking from 6 to 15 hours on weekdays."
+    },
+    {
+      "object_id": "traffic_sign_0026",
+      "ground_truth": "traffic sign",
+      "model_output": "An object of a bicycle parked on the side of a street."
+    },
+    {
+      "object_id": "traffic_light_0175",
+      "ground_truth": "traffic light",
+      "model_output": "This is an object of interest for urban planning, as it shows the distribution of parking spaces in a city environment."
+    },
+    {
+      "object_id": "traffic_light_0134",
+      "ground_truth": "traffic light",
+      "model_output": "This is an object of personal transportation."
+    },
+    {
+      "object_id": "traffic_light_0170",
+      "ground_truth": "traffic light",
+      "model_output": "This is an object of personal transportation."
+    },
+    {
+      "object_id": "traffic_light_0137",
+      "ground_truth": "traffic light",
+      "model_output": "This is an object of metal."
+    },
+    {
+      "object_id": "traffic_sign_0204",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of urban transportation, designed to carry multiple passengers along designated routes. It is often used for commuting, running errands, or leisure rides within cities and towns."
+    },
+    {
+      "object_id": "traffic_light_0053",
+      "ground_truth": "traffic light",
+      "model_output": "This is an object of daily transportation, commonly used for commuting or recreational purposes."
+    },
+    {
+      "object_id": "traffic_sign_0056",
+      "ground_truth": "traffic sign",
+      "model_output": "A parked car, specifically a black SUV, with modern design features and a prominent rear spoiler."
+    },
+    {
+      "object_id": "traffic_light_0131",
+      "ground_truth": "traffic light",
+      "model_output": "This is an object of utility, typically used to store goods and materials securely for safe transit over roads and highways."
+    },
+    {
+      "object_id": "traffic_sign_0292",
+      "ground_truth": "traffic sign",
+      "model_output": "This is a bicycle parking rack attached to a pole on the sidewalk."
+    },
+    {
+      "object_id": "traffic_light_0259",
+      "ground_truth": "traffic light",
+      "model_output": "The object is a parking meter."
+    },
+    {
+      "object_id": "traffic_sign_0311",
+      "ground_truth": "traffic sign",
+      "model_output": "This object is a compact, white hatchback car."
+    },
+    {
+      "object_id": "traffic_sign_0169",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of  ASS"
+    },
+    {
+      "object_id": "traffic_sign_0428",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of a pedestrian crossing sign. It is designed to indicate safe areas for people to walk across the road or street."
+    },
+    {
+      "object_id": "traffic_sign_0300",
+      "ground_truth": "traffic sign",
+      "model_output": "The object is a street lamp post."
+    },
+    {
+      "object_id": "traffic_sign_0347",
+      "ground_truth": "traffic sign",
+      "model_output": "This is a pedestrian crossing sign, which indicates a designated area where pedestrians can cross safely."
+    },
+    {
+      "object_id": "traffic_sign_0048",
+      "ground_truth": "traffic sign",
+      "model_output": "An object of a bicycle is a crucial component of the bike, designed to support and propel the vehicle."
+    },
+    {
+      "object_id": "traffic_light_0036",
+      "ground_truth": "traffic light",
+      "model_output": "This is an object of a bicycle."
+    },
+    {
+      "object_id": "traffic_sign_0121",
+      "ground_truth": "traffic sign",
+      "model_output": "This is a compact car, often used for daily commuting or short trips due to its small size and maneuverability."
+    },
+    {
+      "object_id": "traffic_sign_0043",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of a bicycle."
+    },
+    {
+      "object_id": "traffic_sign_0282",
+      "ground_truth": "traffic sign",
+      "model_output": "The object of the 3D point cloud model is a road sign, specifically a pedestrian crossing sign, indicating where pedestrians can cross safely."
+    },
+    {
+      "object_id": "traffic_sign_0220",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of urban transportation infrastructure, likely used for commuting or leisure rides in the city."
+    },
+    {
+      "object_id": "traffic_sign_0084",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of personal transportation used for commuting and daily travel."
+    },
+    {
+      "object_id": "traffic_sign_0087",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of street signage, typically found along city roads to inform drivers and pedestrians of traffic rules and directions."
+    },
+    {
+      "object_id": "traffic_sign_0362",
+      "ground_truth": "traffic sign",
+      "model_output": "The object is a bicycle parking rack, typically used to store bicycles and keep them safe from theft. It is composed of metal bars or poles and is designed to accommodate multiple bicycles at once."
+    },
+    {
+      "object_id": "traffic_sign_0120",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of urban infrastructure, specifically a parking sign indicating parking availability for residents and visitors."
+    },
+    {
+      "object_id": "traffic_light_0203",
+      "ground_truth": "traffic light",
+      "model_output": "This is an object of personal transportation. It is a bicycle, which is commonly used for commuting, recreation, or exercise."
+    },
+    {
+      "object_id": "traffic_sign_0319",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of a bicycle."
+    },
+    {
+      "object_id": "traffic_sign_0215",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of a bicycle parked on a sidewalk."
+    },
+    {
+      "object_id": "traffic_light_0019",
+      "ground_truth": "traffic light",
+      "model_output": "The object is a bicycle."
+    },
+    {
+      "object_id": "traffic_sign_0299",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of urban infrastructure, specifically a traffic sign indicating no parking from 6 to 15 hours on weekdays."
+    },
+    {
+      "object_id": "traffic_sign_0171",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of a bicycle."
+    },
+    {
+      "object_id": "traffic_light_0014",
+      "ground_truth": "traffic light",
+      "model_output": "This is a portable, wheeled trailer, commonly used for transporting goods, equipment, or supplies in various settings such as home improvement projects, outdoor events, or as a utility trailer for businesses."
+    },
+    {
+      "object_id": "traffic_sign_0126",
+      "ground_truth": "traffic sign",
+      "model_output": "The object in the image is a van, specifically a white van. It is parked on the street and has a side cargo door and a rear door. The van is likely used for transporting goods or equipment."
+    },
+    {
+      "object_id": "traffic_light_0082",
+      "ground_truth": "traffic light",
+      "model_output": "The object is a parking meter for bicycles, used to regulate the time that bicycles can be parked in a designated area."
+    },
+    {
+      "object_id": "traffic_light_0044",
+      "ground_truth": "traffic light",
+      "model_output": "This is a bicycle."
+    },
+    {
+      "object_id": "traffic_sign_0338",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of urban infrastructure, typically used for transporting people or goods."
+    },
+    {
+      "object_id": "traffic_sign_0396",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of urban infrastructure, specifically a traffic sign post."
+    },
+    {
+      "object_id": "traffic_light_0241",
+      "ground_truth": "traffic light",
+      "model_output": "This is a white Volkswagen van parked on the side of a street."
+    },
+    {
+      "object_id": "person_0145",
+      "ground_truth": "person",
+      "model_output": "This is an object of urban street lighting, designed to provide illumination to the surrounding area during nighttime."
+    },
+    {
+      "object_id": "person_0058",
+      "ground_truth": "person",
+      "model_output": "This is an object of street lighting, typically used to illuminate streets and sidewalks during dark hours to ensure safety and visibility for pedestrians and drivers."
+    },
+    {
+      "object_id": "person_0351",
+      "ground_truth": "person",
+      "model_output": "This is an object of personal transportation."
+    },
+    {
+      "object_id": "person_0288",
+      "ground_truth": "person",
+      "model_output": "This is an object of street signage, specifically a traffic sign indicating no parking from 6 to 15 hours on weekdays."
+    },
+    {
+      "object_id": "person_0025",
+      "ground_truth": "person",
+      "model_output": "This is an object of street parking."
+    },
+    {
+      "object_id": "person_0055",
+      "ground_truth": "person",
+      "model_output": "This is an object of street furniture, likely used for lighting or signage."
+    },
+    {
+      "object_id": "person_0196",
+      "ground_truth": "person",
+      "model_output": "The object is a street sign indicating a parking zone for disabled drivers."
+    },
+    {
+      "object_id": "person_0484",
+      "ground_truth": "person",
+      "model_output": "This is an object of parking signage, typically used to indicate parking availability or restrictions along roads or in parking lots."
+    },
+    {
+      "object_id": "person_0322",
+      "ground_truth": "person",
+      "model_output": "This is an object of utility, typically used for transporting goods or equipment. It is a white Volkswagen van."
+    },
+    {
+      "object_id": "person_0268",
+      "ground_truth": "person",
+      "model_output": "This is an object of street furniture, specifically a traffic sign indicating no parking from 6 to 15 hours on weekdays."
+    },
+    {
+      "object_id": "person_0480",
+      "ground_truth": "person",
+      "model_output": "This is an object of utility, likely used for deliveries or transportation purposes. It is a small, compact vehicle with a cargo area, commonly used for carrying goods or equipment."
+    },
+    {
+      "object_id": "person_0197",
+      "ground_truth": "person",
+      "model_output": "The object is a parking meter, typically used for regulating the duration of time vehicles can park in designated areas. It is usually found at the side of roads where parking is controlled and features a display screen, buttons for payment, and a coin slot."
+    },
+    {
+      "object_id": "person_0456",
+      "ground_truth": "person",
+      "model_output": "This is an object of personal transportation."
+    },
+    {
+      "object_id": "person_0535",
+      "ground_truth": "person",
+      "model_output": "This is an object of a bicycle, specifically a street bike, featuring a frame, wheels, and a seat."
+    },
+    {
+      "object_id": "person_0065",
+      "ground_truth": "person",
+      "model_output": "This is an object of environmental infrastructure, providing essential services for the city's residents and businesses."
+    },
+    {
+      "object_id": "person_0079",
+      "ground_truth": "person",
+      "model_output": "This is a bicycle rack mounted on the sidewalk beside a building."
+    },
+    {
+      "object_id": "person_0387",
+      "ground_truth": "person",
+      "model_output": "This is an object of personal transportation, commonly used for commuting in urban areas."
+    },
+    {
+      "object_id": "person_0231",
+      "ground_truth": "person",
+      "model_output": "This is a bicycle parked next to a lamp post on a street."
+    },
+    {
+      "object_id": "person_0312",
+      "ground_truth": "person",
+      "model_output": "This is an object of personal transportation."
+    },
+    {
+      "object_id": "person_0170",
+      "ground_truth": "person",
+      "model_output": "The object is a bicycle."
+    },
+    {
+      "object_id": "person_0091",
+      "ground_truth": "person",
+      "model_output": "This is an object of personal transportation, used for commuting to work, running errands, or traveling for leisure."
+    },
+    {
+      "object_id": "person_0532",
+      "ground_truth": "person",
+      "model_output": "This is an object of utility, typically used for outdoor lighting in urban areas to ensure visibility and safety for pedestrians at night."
+    },
+    {
+      "object_id": "person_0362",
+      "ground_truth": "person",
+      "model_output": "The object is a bicycle, which is commonly used for transportation and recreation. It typically consists of a frame, two wheels, a seat, handlebars, and pedals."
+    },
+    {
+      "object_id": "person_0436",
+      "ground_truth": "person",
+      "model_output": "This is an object of street lighting, used to illuminate the street at night."
+    },
+    {
+      "object_id": "person_0375",
+      "ground_truth": "person",
+      "model_output": "This is an object of street infrastructure, specifically a traffic sign indicating no parking from 6 to 15 hours on weekdays."
+    },
+    {
+      "object_id": "person_0092",
+      "ground_truth": "person",
+      "model_output": "This is a street sign post."
+    },
+    {
+      "object_id": "person_0151",
+      "ground_truth": "person",
+      "model_output": "This is an object of"
+    },
+    {
+      "object_id": "person_0439",
+      "ground_truth": "person",
+      "model_output": "This is an object of public transportation, specifically a street sign indicating a bus route."
+    },
+    {
+      "object_id": "bicycle_1318",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of a bicycle, commonly used for transportation and leisure."
+    },
+    {
+      "object_id": "bicycle_0527",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of a bicycle."
+    },
+    {
+      "object_id": "bicycle_1125",
+      "ground_truth": "bicycle",
+      "model_output": "This is a compact hatchback car."
+    },
+    {
+      "object_id": "bicycle_0321",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a small, portable, wheeled trailer."
+    },
+    {
+      "object_id": "bicycle_1319",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a compact, four-door hatchback car."
+    },
+    {
+      "object_id": "bicycle_1177",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a bicycle parking rack, designed to hold multiple bicycles securely. It features multiple vertical bars and a base for stabilization."
+    },
+    {
+      "object_id": "bicycle_1282",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of"
+    },
+    {
+      "object_id": "bicycle_0802",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a silver compact hatchback car, commonly used for daily commuting and short trips."
+    },
+    {
+      "object_id": "bicycle_1044",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of urban infrastructure, specifically a traffic sign indicating no parking from Monday to Saturday between 6 AM and 5 PM."
+    },
+    {
+      "object_id": "bicycle_0720",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of a bicycle."
+    },
+    {
+      "object_id": "bicycle_0847",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a compact car."
+    },
+    {
+      "object_id": "bicycle_0729",
+      "ground_truth": "bicycle",
+      "model_output": "This is a compact car, specifically a hatchback model."
+    },
+    {
+      "object_id": "bicycle_0105",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of transportation, commonly used for commuting and traveling short distances."
+    },
+    {
+      "object_id": "bicycle_1326",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of personal transportation, commonly used for commuting and traveling within urban areas."
+    },
+    {
+      "object_id": "bicycle_0131",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a small, compact car, typically used for urban commuting. It has a boxy shape with a short hood, a short rear deck, and is designed for easy parking and maneuverability in city environments."
+    },
+    {
+      "object_id": "bicycle_0362",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of a bicycle."
+    },
+    {
+      "object_id": "bicycle_0779",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a white station wagon car, which is a type of vehicle that combines the features of a sedan with those of a cargo van, making it suitable for transporting large loads. It has a boxy shape and a sloping rear end, indicating its design for both passenger comfort and cargo space."
+    },
+    {
+      "object_id": "bicycle_0403",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of 4D modeling, characterized by a compact body, a short hood, and a sloping rear window that connects to the trunk. It is designed for urban commuting and provides efficient space utilization."
+    },
+    {
+      "object_id": "bicycle_0207",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a compact SUV vehicle."
+    },
+    {
+      "object_id": "bicycle_0147",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of personal transportation, commonly used for commuting to work, running errands, or traveling to social events."
+    },
+    {
+      "object_id": "bicycle_1111",
+      "ground_truth": "bicycle",
+      "model_output": "This is a bicycle."
+    },
+    {
+      "object_id": "bicycle_0497",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a compact car with a sleek, modern design. It has a hatchback body style, which typically offers good space for storage. The car appears to be in good condition and is likely used for daily commuting or short trips."
+    },
+    {
+      "object_id": "bicycle_0148",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of"
+    },
+    {
+      "object_id": "bicycle_0881",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of a bicycle, a two-wheeled human-powered vehicle used for transportation and recreational purposes. It typically consists of a frame, two wheels connected by a chain drive, and handlebars for steering and braking."
+    },
+    {
+      "object_id": "bicycle_0576",
+      "ground_truth": "bicycle",
+      "model_output": "A bicycle, which is a two-wheeled vehicle used primarily for transportation and exercise."
+    },
+    {
+      "object_id": "bicycle_0163",
+      "ground_truth": "bicycle",
+      "model_output": "This is a road signpost mounted on a pole."
+    },
+    {
+      "object_id": "bicycle_0298",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of personal transportation, commonly used for commuting short distances and designed for easy maneuverability in city environments."
+    },
+    {
+      "object_id": "bicycle_0969",
+      "ground_truth": "bicycle",
+      "model_output": "This is a motorcycle parked on the side of a street."
+    },
+    {
+      "object_id": "bicycle_1006",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of a bicycle, characterized by its two wheels, a frame, handlebars, a seat, and pedals."
+    },
+    {
+      "object_id": "bicycle_0488",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of a bicycle parked on a sidewalk, surrounded by other bicycles and a green circle highlighted for analysis."
+    },
+    {
+      "object_id": "bicycle_0468",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of personal transportation."
+    },
+    {
+      "object_id": "bicycle_1063",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a white compact car, likely a hatchback, with a modern design. It appears to be parked on the side of a street."
+    },
+    {
+      "object_id": "bicycle_1171",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a bicycle."
+    },
+    {
+      "object_id": "bicycle_0909",
+      "ground_truth": "bicycle",
+      "model_output": "The object in the 3D point cloud is a car, specifically a hatchback model. It appears to be parked along the side of a street. The car has a compact design with a short rear overhang and a tailgate that opens upwards for cargo access. This type of car is commonly used for urban environments due to its maneuverability and ease of parking."
+    },
+    {
+      "object_id": "bicycle_0751",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of personal transportation, commonly used for commuting and short trips."
+    },
+    {
+      "object_id": "bicycle_0025",
+      "ground_truth": "bicycle",
+      "model_output": "This is a bicycle."
+    },
+    {
+      "object_id": "bicycle_0887",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of personal transportation."
+    },
+    {
+      "object_id": "bicycle_0155",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a bicycle parked on the sidewalk with its kickstand down, indicating it is stationary."
+    },
+    {
+      "object_id": "bicycle_0733",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of a bicycle."
+    },
+    {
+      "object_id": "bicycle_0188",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of daily transportation, commonly used for commuting and traveling short distances."
+    },
+    {
+      "object_id": "bicycle_0301",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of a car, specifically a sedan."
+    },
+    {
+      "object_id": "bicycle_0827",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a parking meter."
+    },
+    {
+      "object_id": "bicycle_0987",
+      "ground_truth": "bicycle",
+      "model_output": "The object in the image is a bicycle."
+    },
+    {
+      "object_id": "bicycle_0284",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a bicycle."
+    },
+    {
+      "object_id": "bicycle_0769",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of personal transportation, designed for daily commuting or short-distance travel."
+    },
+    {
+      "object_id": "bicycle_0198",
+      "ground_truth": "bicycle",
+      "model_output": "The object of the 3D point cloud is a bicycle, which appears to be parked on the street."
+    },
+    {
+      "object_id": "bicycle_0476",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of"
+    },
+    {
+      "object_id": "bicycle_1038",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of a bicycle."
+    },
+    {
+      "object_id": "bicycle_0107",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a parked compact car with a green and white exterior, featuring a hatchback design."
+    },
+    {
+      "object_id": "scooter_0001",
+      "ground_truth": "scooter",
+      "model_output": "This is an object of personal transportation."
+    },
+    {
+      "object_id": "wall_0017",
+      "ground_truth": "wall",
+      "model_output": "This is an object of urban transportation. It is a bicycle rack, used to store bicycles in a city setting."
+    },
+    {
+      "object_id": "wall_0015",
+      "ground_truth": "wall",
+      "model_output": "The object is a van."
+    },
+    {
+      "object_id": "sign_0004",
+      "ground_truth": "sign",
+      "model_output": "This is an object of street signage, specifically a traffic sign indicating no parking from 6 to 15 hours on weekdays."
+    },
+    {
+      "object_id": "fence_0001",
+      "ground_truth": "fence",
+      "model_output": "A bicycle parked on the side of a street, surrounded by trees and a brick fence."
+    },
+    {
+      "object_id": "rider_0007",
+      "ground_truth": "rider",
+      "model_output": "This is an object of a pedestrian crossing sign."
+    },
+    {
+      "object_id": "motorcycle_0003",
+      "ground_truth": "motorcycle",
+      "model_output": "The object is a bicycle."
+    },
+    {
+      "object_id": "table_0003",
+      "ground_truth": "table",
+      "model_output": "This is an object of 3D point cloud, typically used for urban planning, traffic management, or environmental analysis."
+    },
+    {
+      "object_id": "umbrella_0001",
+      "ground_truth": "umbrella",
+      "model_output": "A bicycle is an object of transportation, typically used for daily commuting in urban areas."
+    },
+    {
+      "object_id": "cart_0001",
+      "ground_truth": "cart",
+      "model_output": "This is an object of urban infrastructure, typically used for deliveries or transporting goods. It is a van, which is parked on the side of a street."
+    },
+    {
+      "object_id": "dog_0001",
+      "ground_truth": "dog",
+      "model_output": "This is an object of personal transportation, typically used for commuting, running errands, or traveling for leisure purposes."
+    }
+  ]
+}

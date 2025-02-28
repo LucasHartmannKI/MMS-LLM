@@ -1,0 +1,1826 @@
+{
+  "inference_prompt": "Caption this 3D model in detail.",
+  "gpt_prompt": "Evaluate a model-generated caption against a human-generated caption (ground truth) for a 3D model. Identify the aspects mentioned in the human caption and calculate the percentage of these aspects correctly mentioned or partially matched in the model caption. Score from 0 to 100, where each aspect contributes equally to the score. Consider similar concepts for partial score.\n\nProvide your score (0-100) and a short justification (less than 15 words) in the format of 'score#reason'\n\nExample:\nHuman: A white brown skeleton\nModel: This is a 3D model of a small, cartoon-like robot. It has a spherical body and is covered in a layer of white dust.\nOutput: 50#mention white; skeleton and robot have similar appearence.\n\nNow score the following:\nHuman: {ground_truth}\nModel: {model_output}\nOutput: ",
+  "average_score": "14.33",
+  "total_score": "3711.00",
+  "total_predictions": 259,
+  "invalid_responses": 0,
+  "prompt_tokens": 68128,
+  "completion_tokens": 3712,
+  "GPT_cost": 2.2665599999999997,
+  "results": [
+    {
+      "object_id": "tree_0534",
+      "ground_truth": "A tree with a trunk, branches, leaves, and twigs.",
+      "model_output": "The 3D model represents a parked white Volkswagen car. It appears to be a standard passenger car with features such as a front grille, headlights, and a windshield. The car is parked on the side of a street, likely indicating its use for daily commuting or personal transportation.",
+      "gpt_score": 0,
+      "gpt_reason": "none of the tree aspects are mentioned."
+    },
+    {
+      "object_id": "tree_0412",
+      "ground_truth": "A tree is a three-dimensional object with a trunk, branches, leaves, and roots. It has a symmetrical hemisphere shape with a spherical base and top.",
+      "model_output": "The 3D model represents a parked car, specifically a compact hatchback. It is characterized by a boxy shape, a sloped rear window, and a hatch for accessing the trunk. The car is likely used for everyday transportation and is seen in a residential area with buildings and parked cars in the background.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the aspects in the human caption are mentioned."
+    },
+    {
+      "object_id": "tree_0328",
+      "ground_truth": "A tree with a slanted trunk and canopy, tetrahedral polyhedron shape, and a spherical base.",
+      "model_output": "The 3D model represents a bicycle, identifiable by its two wheels, frame, handlebars, and a saddle. It appears to be parked on the sidewalk, indicating its role as a mode of transportation for daily commuting or leisure riding.",
+      "gpt_score": 0,
+      "gpt_reason": "no shared aspects between human and model captions."
+    },
+    {
+      "object_id": "tree_0281",
+      "ground_truth": "Three trees in a row, each with a base, stem, leaves and trunk.",
+      "model_output": "The 3D model represents a white van parked on the side of a street. The van has a rectangular shape with a closed body and appears to be a standard passenger vehicle used for transportation purposes.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from human caption mentioned in model caption."
+    },
+    {
+      "object_id": "tree_0979",
+      "ground_truth": "The tree is a symmetrical object with a base and top, made up of a trunk, branches, leaves, and twigs.",
+      "model_output": "The 3D model represents a street lamp post. It has a vertical structure with a horizontal arm extending outwards, which holds the lamp fixture. The lamp post is typically made of metal and designed to securely hold the lamp, providing stability and durability.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from the human caption are mentioned in the model caption."
+    },
+    {
+      "object_id": "tree_0723",
+      "ground_truth": "The tree has a symmetrical structure with asymmetrical branches and leaves.",
+      "model_output": "The 3D model represents a building, specifically a multi-story residential structure with a facade that features a mix of brick and stone materials. The building has multiple windows and doors, indicative of residential spaces. The structure appears to be part of a row of similar buildings, likely in a residential area.",
+      "gpt_score": 0,
+      "gpt_reason": "No relevant aspects mentioned"
+    },
+    {
+      "object_id": "tree_0056",
+      "ground_truth": "A tree with a curved trunk and slanted canopy.",
+      "model_output": "The 3D model represents a road sign mounted on a pole. The sign is rectangular with rounded corners and features a white background with black symbols and text. It is designed to be mounted on a pole and is commonly used to provide information to drivers and pedestrians about traffic regulations and directions.",
+      "gpt_score": 0,
+      "gpt_reason": "Model does not mention any aspects from the human caption."
+    },
+    {
+      "object_id": "tree_0599",
+      "ground_truth": "A tree with a central trunk and branches radiating outwards, leaves arranged in various shapes, and twigs forming triangles.",
+      "model_output": "The 3D model represents a parked car, specifically a sedan. It appears to be a modern vehicle with a sleek design, featuring a four-door configuration with a relatively low stance and a curved roofline. The car is likely used for personal transportation and is seen in a residential or suburban area.",
+      "gpt_score": 0,
+      "gpt_reason": "No related aspect mentioned."
+    },
+    {
+      "object_id": "tree_0515",
+      "ground_truth": "A tree is a collection of twigs and branches arranged in a way that resembles a tree, with leaves and trunk.",
+      "model_output": "The 3D model represents a person riding a bicycle. The rider is positioned upright, with two wheels on the ground and one wheel in the air, indicating a typical posture for cycling. The bicycle appears to be a standard road bicycle, equipped with a frame, handlebars, pedals, and a seat. The model likely represents an actual person riding a bicycle, possibly for commuting, exercise, or leisure purposes.",
+      "gpt_score": 0,
+      "gpt_reason": "completely different objects mentioned"
+    },
+    {
+      "object_id": "tree_0229",
+      "ground_truth": "A tree in the middle of a white background, a field of white, and a square with a circle in the middle. The tree is a truncated octagon with a slanted base and a few branches and leaves.",
+      "model_output": "The 3D model represents a typical urban street lamp post. It features a vertical pole with a horizontal arm extending outwards, which holds the lamp fixture. The lamp post is commonly used along streets and sidewalks to provide illumination during nighttime, enhancing safety and visibility for pedestrians and drivers.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the aspects from the human caption are mentioned in the model caption."
+    },
+    {
+      "object_id": "tree_1057",
+      "ground_truth": "A tree with a trunk, leaves, and branches.",
+      "model_output": "The 3D model represents a parking signpost. It is typically rectangular in shape, mounted on a post, and indicates parking information such as time limits, parking regulations, or parking hours.",
+      "gpt_score": 0,
+      "gpt_reason": "Model does not mention any aspect of a tree."
+    },
+    {
+      "object_id": "tree_0363",
+      "ground_truth": "A tree with a trunk, branches, leaves, and twigs.",
+      "model_output": "The 3D model represents a building, specifically a multi-story residential structure typical of European architecture. It features a pitched roof with dormer windows and a brick facade. The building's design includes arched windows and decorative brick patterns, contributing to its classic, yet functional residential appearance. It is likely used for housing and has a semi-urban setting with nearby trees and other buildings.",
+      "gpt_score": 0,
+      "gpt_reason": "no aspects of the tree are mentioned."
+    },
+    {
+      "object_id": "tree_0885",
+      "ground_truth": "The tree is a coniferous tree with a symmetrical shape, trunk and branches.",
+      "model_output": "The 3D model is of a car, specifically a black sedan. It features a sleek body design with smooth lines, large windows, and a distinctive grille. The car is parked on the side of a street, indicating its role as a mode of transportation for daily commuting or personal use.",
+      "gpt_score": 0,
+      "gpt_reason": "no matched aspects in the model's caption."
+    },
+    {
+      "object_id": "tree_0381",
+      "ground_truth": "The tree is a symmetrical shape with a symmetrical base and a symmetrical top.",
+      "model_output": "The 3D model represents a street lamp post. It has a rectangular base and a vertical structure extending upwards, with the lamp fixture at the top. The street lamp is typically used for illuminating the street at night, providing safety and visibility for pedestrians and drivers.",
+      "gpt_score": 0,
+      "gpt_reason": "no aspects from human caption mentioned in model caption."
+    },
+    {
+      "object_id": "tree_0593",
+      "ground_truth": "A pair of trees with a horizontal axis and vertical axis, symmetrical structure, and a spherical base and top.",
+      "model_output": "The 3D model represents a small, white, portable, wheeled trailer. It has a flatbed design and side rails for securing items. This type of trailer is commonly used for transporting goods, equipment, or supplies in various settings such as home improvement projects, outdoor events, or as a utility trailer for businesses.",
+      "gpt_score": 0,
+      "gpt_reason": "no relevant aspects mentioned"
+    },
+    {
+      "object_id": "car_1344",
+      "ground_truth": "A four-wheel drive vehicle with a high ground clearance and center of gravity, the van has a curved roofline, front hood, and rear hood. It is structured like a tetrahedron and resembles a London black cab. The van is used for transporting people and goods.",
+      "model_output": "The 3D model represents the rear part of a white station wagon car, likely a Volkswagen Passat, identifiable by its distinct tail lights and rear bumper design. It's parked alongside the road, showing its typical shape and design features.",
+      "gpt_score": 15,
+      "gpt_reason": "mentions vehicle; misses many other aspects"
+    },
+    {
+      "object_id": "car_0244",
+      "ground_truth": "The Toyota Tacoma is a four-door sedan with a hatchback, featuring a tetrahedral prism structure and geometry. It has a sloping roofline, hood, and fender, making it distinct from other vehicles like the Mercedes Benz S Class or Volkswagen Beetle. The Mazda CX-5 is another example of a three-dimensional polygonal shape vehicle, while the Toyota Corolla is a four-door sedan with a sloping roofline and hood.",
+      "model_output": "The 3D model represents the rear part of a white station wagon car, likely a Volkswagen Passat, identifiable by its distinct tail lights and rear bumper design. This type of car is commonly used for daily transportation, providing both passenger comfort and extra cargo space.",
+      "gpt_score": 10,
+      "gpt_reason": "mentions car and distinctive features, missing specifics."
+    },
+    {
+      "object_id": "car_1744",
+      "ground_truth": "The Volkswagen Beetle and Toyota Tacoma are both two-door hatchbacks with curved roofs and windshields. The Beetle has a slanted roof, while the Tacoma is a pickup truck. Both cars have polygonal shapes.",
+      "model_output": "The 3D model represents a bicycle wheel, specifically the rear wheel. It appears to be part of a bicycle, which is parked on the sidewalk. The wheel features a circular rim and a hub connected by spokes. The wheel's design suggests it is meant for rotation and support, typical for a bicycle's functional components.",
+      "gpt_score": 0,
+      "gpt_reason": "no relevant aspects mentioned."
+    },
+    {
+      "object_id": "tree_0012",
+      "ground_truth": "A tree with a lot of branches and leaves, the tree is a symmetrical structure with a symmetrical base and a spherical top.",
+      "model_output": "The 3D model represents a tree, specifically a large deciduous tree with a thick trunk, a wide canopy, and branches that extend outwards. It is commonly used for urban landscaping due to its versatility and environmental benefits.",
+      "gpt_score": 70,
+      "gpt_reason": "mention tree, branches and leaves; similar concept of a spherical top with a wide canopy."
+    },
+    {
+      "object_id": "car_1182",
+      "ground_truth": "A van is a wheeled vehicle with a roof and sides.",
+      "model_output": "The 3D model represents a compact car, specifically a sedan, characterized by its four doors, a typical elongated body, and a relatively low ground clearance. Sedans are designed for both urban commuting and daily use, often prioritizing comfort and fuel efficiency.",
+      "gpt_score": 0,
+      "gpt_reason": "no mention of van, roof, or sides."
+    },
+    {
+      "object_id": "car_1409",
+      "ground_truth": "A Volkswagen Beetle is a small car with rounded body and flat roof.",
+      "model_output": "The 3D model represents a compact, silver-colored hatchback car. It has a relatively low profile, typical of city cars, with a compact body designed for ease of maneuverability in urban environments. The car features a front grille, headlights, and a compact cash, emphasizing practicality and efficiency for daily commuting.",
+      "gpt_score": 25,
+      "gpt_reason": "matches small car aspect, misses Volkswagen Beetle, rounded body, and flat roof."
+    },
+    {
+      "object_id": "car_1032",
+      "ground_truth": "The 3D object in question is a four-wheeled vehicle with various descriptions such as SUV, Jeep, Mercedes Benz, Subaru Impreza, Volkswagen Beetle, and Audi A3. It has different structures like front wheel drive and rear wheel drive. The caption for this object should be \"A four-wheeled vehicle with various descriptions such as SUV, Jeep, Mercedes Benz, Subaru Impreza, Volkswagen Beetle, and Audi A3, with different structures like front wheel drive and rear wheel drive.\"",
+      "model_output": "The 3D model represents a compact sedan, characterized by its streamlined body, four doors, and a relatively small size. It is designed for urban environments where maneuverability and parking ease are essential. This type of vehicle is commonly used for personal and family transportation due to its practicality and fuel efficiency.",
+      "gpt_score": 10,
+      "gpt_reason": "mention four-wheeled vehicle; doesn't match any car models or drive structures."
+    },
+    {
+      "object_id": "car_0624",
+      "ground_truth": "Van.",
+      "model_output": "The 3D model represents a sedan car, characterized by its elongated body, four doors, and a typical car chassis with wheels. The car's design is indicative of a modern vehicle, likely used for passenger transportation, with features such as a front grille, headlights, and windows.",
+      "gpt_score": 0,
+      "gpt_reason": "No mention of van, different vehicle model described."
+    },
+    {
+      "object_id": "car_0047",
+      "ground_truth": "The Volkswagen Beetle is a two-door hatchback vehicle, the Toyota Tacoma is a pickup truck, and both have curved rooflines. The Volkswagen Beetle is a two-seater with a curved windshield, while the Toyota Tacoma has a sloping roofline. Both are vehicles used for transportation, but they differ in their design and purpose.",
+      "model_output": "The 3D model represents a sedan car, characterized by its elongated body, four doors, and a visible front grille. The car is designed for everyday transportation, typically used for personal, family, or business purposes.",
+      "gpt_score": 10,
+      "gpt_reason": "only matched that both are used for transportation."
+    },
+    {
+      "object_id": "car_0163",
+      "ground_truth": "A small car with a sloping roofline and windshield, the structure of which is a tetrahedral prism.",
+      "model_output": "The 3D model represents a compact car, characterized by a small, boxy structure typical of urban vehicles designed for efficiency and maneuverability in city environments. It has a short hood, a rear door, and a rear window, which are common features of modern cars designed for convenience and ease of parking.",
+      "gpt_score": 25,
+      "gpt_reason": "small car mentioned; no roofline, windshield, or tetrahedral prism reference."
+    },
+    {
+      "object_id": "car_1680",
+      "ground_truth": "The Honda Civic Hatchback is a front wheel drive hatchback based on the Honda Civic Hatchback. The Volkswagen Golf GTI is a rear wheel drive hatchback, while the Toyota Yaris is a small car with either front or rear wheel drive. The sports car has a two-seater design and can be driven with either front or rear wheel drive. The Tesla Model S is an electric car.",
+      "model_output": "The 3D model represents the front left portion of a silver sedan car. The car features headlights, a grille, and a set of side mirrors. Its design suggests it is a typical passenger vehicle used for daily commuting and personal transportation.",
+      "gpt_score": 0,
+      "gpt_reason": "no mentioned aspects match with the human caption."
+    },
+    {
+      "object_id": "car_0877",
+      "ground_truth": "The Toyota Corolla is a four-door sedan with a sloping roofline and hood, while the Porsche 911 is a two-seater sports car with a curved roof. Both cars have front wheel drive and share similar structure and geometry as sports cars.",
+      "model_output": "The 3D model represents a compact sedan type of car, characterized by its streamlined body, four doors, and a hatchback design. It is designed for practicality and efficiency, suitable for everyday commuting and light travel needs.",
+      "gpt_score": 25,
+      "gpt_reason": "Mentions four-door sedan; missed details about Toyota Corolla, Porsche 911, and specific structures."
+    },
+    {
+      "object_id": "car_0593",
+      "ground_truth": "The Volkswagen Golf is a front-wheel drive hatchback car with a curved roof and squared-off design.",
+      "model_output": "The 3D model represents a bicycle wheel, specifically one that is attached to a bike and positioned against a bike rack. The wheel appears to be in good condition with a visible spoke pattern and a standard-sized rim, indicating it is designed for general urban or road use.",
+      "gpt_score": 0,
+      "gpt_reason": "no aspects from the human caption are mentioned in the model caption."
+    },
+    {
+      "object_id": "tree_0918",
+      "ground_truth": "A tree with a square base and slender trunk.",
+      "model_output": "The 3D model represents a multi-story residential building. It features multiple floors, each with a series of windows and balconies. The structure is characterized by a mix of architectural styles, including a combination of rectangular and slightly rounded windows and balconies. The building appears to be part of a row of similar buildings, likely in a residential area.",
+      "gpt_score": 0,
+      "gpt_reason": "no aspects from the human caption mentioned in the model."
+    },
+    {
+      "object_id": "tree_0062",
+      "ground_truth": "A tree with a slanted base and top, composed of a trunk, branches, leaves, and twigs.",
+      "model_output": "The 3D model represents a compact SUV, characterized by a boxy structure with a high ride height and a spacious interior. It typically serves as a family or urban car, offering versatility and practicality for daily commutes and occasional travel.",
+      "gpt_score": 0,
+      "gpt_reason": "no aspects from human caption found in model caption."
+    },
+    {
+      "object_id": "car_0619",
+      "ground_truth": "The Mercedes Benz E Class, Audi A4 Wagon, and Volkswagen Beetle are all three-dimensional objects with distinct structures and geometries. The Mercedes is a mid-sized luxury sedan, the Audi A4 is a four-door sedan with a hatchback, and the Volkswagen Beetle is a two-door hatchback car.",
+      "model_output": "The 3D model represents a car, specifically a white hatchback, parked on the side of a street. It has a compact design with a rear hatch, typical of small to medium-sized vehicles. The car's appearance suggests it is likely used for daily commuting or short trips, offering practicality and ease of maneuverability in urban environments.",
+      "gpt_score": 20,
+      "gpt_reason": "only partially mentions hatchback aspect of cars."
+    },
+    {
+      "object_id": "car_0477",
+      "ground_truth": "The sports car has a tetrahedral prism structure and geometry, similar to the Toyota Tacoma pickup truck. It is also described as having a rectilinear body with a sloping roof and a Volkswagen Beetle-like shape. The caption should not include any information about background or posture.",
+      "model_output": "The 3D model represents a compact, rectangular vehicle, likely a van or minivan, with a boxy shape and a flat roof. It has four doors and is positioned on a street, with its front facing the viewer. The vehicle appears to be designed for everyday transportation, providing seating for multiple passengers and storage space. Its functionality includes providing a means for people to travel together and carrying various items.",
+      "gpt_score": 30,
+      "gpt_reason": "Mentions rectangular body; doesn't match prism structure or specific car types."
+    },
+    {
+      "object_id": "car_0019",
+      "ground_truth": "The Volkswagen Polo is a small car, the Toyota Tacoma is a pickup truck, and the Volkswagen Beetle is a two-door hatchback vehicle. All three are wheeled vehicles with roofs and sides, but the Polo has a curved roof and hood, while the Tacoma is rectilinear with a front and rear.",
+      "model_output": "The 3D model represents a bicycle wheel, specifically one that is attached to a bike and positioned against a bike rack. The wheel appears to be in good condition with a visible spoke pattern and a standard-sized rim, indicating it is designed for general urban or road use.",
+      "gpt_score": 0,
+      "gpt_reason": "model caption does not mention any aspect from human caption."
+    },
+    {
+      "object_id": "car_1508",
+      "ground_truth": "The BMW X5 is a four-cylinder engine car with front and rear wheel drive. It shares similarities with the BMW X5 xDrive35, Volkswagen Polo, and BMW 1 Series in terms of structure and geometry.",
+      "model_output": "The 3D model represents a station wagon or estate car, typically characterized by its longer body and increased cargo space. It features a hatchback rear end with a slightly curved rear end, providing more room for storage. The car has a standard set of features for everyday use, including side mirrors, windows, and a visible door handle.",
+      "gpt_score": 0,
+      "gpt_reason": "No mention of BMW, engine type, car structure or mentioned models."
+    },
+    {
+      "object_id": "car_1509",
+      "ground_truth": "The Jeep Grand Cherokee is a four-wheel drive vehicle with a front wheel drive system and a rear wheel drive system. Its structure and geometry are that of a tetrahedral prism, and it has a length of , a width of , and a height of . It features a hood and windshield, making it suitable for both on-road and off-road adventures.",
+      "model_output": "The 3D model represents a compact car, typically used for urban commuting. It has a streamlined body with a front hood, side panels, and a rear trunk. The car is designed to be practical for daily use, featuring elements such as side mirrors, windows, and a visible license plate.",
+      "gpt_score": 30,
+      "gpt_reason": "Correctly mentions hood, no mention of size, wheel system, or shape."
+    },
+    {
+      "object_id": "car_0083",
+      "ground_truth": "The car is a small hatchback with a flat roof and sloping roofline, front wheel drive, and the structure and geometry of this is a Toyota Yaris.",
+      "model_output": "The 3D model is an SUV, characterized by a large body, elevated ground clearance, and robust features such as tires, suspension, and a spacious interior. It is designed for all-terrain capability, providing comfort and durability in various driving conditions.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from the human caption mentioned in the model caption."
+    },
+    {
+      "object_id": "car_0841",
+      "ground_truth": "The Volkswagen Beetle is a two-seater vehicle with a curved roof and rounded front. It has a cylinder and sphere shape, making it a unique sports car. The Beetle features a slanted windshield and a sloping roofline, giving it a distinctive appearance. Despite its small size, the Beetle is a type of car that stands out on the road.",
+      "model_output": "The 3D model represents a compact SUV, identifiable by its boxy shape, elevated ground clearance, and four-wheel configuration. It is designed for versatility, combining the features of a car with those of an off-road vehicle, making it suitable for urban commuting and light off-road driving. The SUV's compact size allows for efficient maneuverability in city traffic and limited parking spaces.",
+      "gpt_score": 0,
+      "gpt_reason": "none of the aspects match."
+    },
+    {
+      "object_id": "car_1748",
+      "ground_truth": "The Mercedes S Class is a mid-size luxury sedan, the Mercedes E Class is also a mid-sized car, and the Lexus ES 350 has a sedan structure and geometry.",
+      "model_output": "The 3D model represents a vehicle, specifically a compact car. It has a rectangular shape with a low profile and four wheels, including a front wheel that appears to be in contact with the ground. The car's design suggests it is meant for urban driving, providing a balance between compactness and practicality for daily commuting.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the specific cars or car types mentioned."
+    },
+    {
+      "object_id": "car_0807",
+      "ground_truth": "The Volkswagen Beetle is a two-door car with a long hood and short trunk.",
+      "model_output": "The 3D model represents a compact car, characterized by a rectangular shape with a hatchback design. It features a compact size, typical of city or economy vehicles, with a front-engine layout. This type of car is commonly used for personal transportation, offering practicality and ease of maneuverability in urban environments.",
+      "gpt_score": 0,
+      "gpt_reason": "Mentions car but misses specific model, hood, trunk, two-door features."
+    },
+    {
+      "object_id": "car_0930",
+      "ground_truth": "A London Black Cab is a type of vehicle that has a roof and a trunk. It is based on a cuboid and a tetrahedron, with a curved roofline and a sloping roofline. The van is a rectilinear polygon with a front and a rear.",
+      "model_output": "The 3D model represents a car parked on the side of a street. It is a compact vehicle with a hatchback design, featuring a boxy shape with a sloping rear section and a rear hatch for cargo access. The car is positioned parallel to the curb, and its appearance suggests it is designed for everyday urban use, providing both passenger and cargo space.",
+      "gpt_score": 60,
+      "gpt_reason": "partially mentions car, roofline, front and rear."
+    },
+    {
+      "object_id": "car_0589",
+      "ground_truth": "A Chevrolet Silverado towing a trailer.",
+      "model_output": "The 3D model represents a compact, white hatchback car. It appears to be a modern vehicle with a sleek design, featuring a compact body, prominent wheels, and a streamlined profile. The car likely serves as a personal or family vehicle, designed for everyday urban and highway use.",
+      "gpt_score": 0,
+      "gpt_reason": "neither Chevrolet Silverado nor trailer mentioned"
+    },
+    {
+      "object_id": "car_0610",
+      "ground_truth": "The Toyota Yaris is a small car with a tetrahedral cuboid structure and geometry.",
+      "model_output": "The 3D model represents a compact car, specifically a hatchback, parked along a street. It has a boxy shape with a short hood, a sloped rear roofline, and a compact trunk. The car appears to have four doors and is positioned parallel to the curb. Its design suggests it is meant for urban driving, prioritizing space efficiency and maneuverability in tight city environments.",
+      "gpt_score": 75,
+      "gpt_reason": "mentions compact (small) car, boxy (cuboid) shape; doesn't mention Toyota Yaris."
+    },
+    {
+      "object_id": "car_1001",
+      "ground_truth": "The Audi Q3 is a four-wheel drive SUV with a tetrahedral cuboid structure and geometry.",
+      "model_output": "The 3D model represents a compact car parked on the side of a street. It appears to be a modern vehicle with a hatchback design, featuring a streamlined body, four doors, and a visible license plate. This type of car is commonly used for personal transportation, providing a balance between size and functionality.",
+      "gpt_score": 20,
+      "gpt_reason": "mentions four doors, neglects make, model, SUV and geometry details."
+    },
+    {
+      "object_id": "car_1397",
+      "ground_truth": "The Mercedes Benz S Class, BMW 3 Series, and Audi A4 are all mid-sized luxury sedans. The Mercedes Benz E Class is also a mid-sized luxury sedan. The BMW M3 is a rear wheel drive sports car, while the Audi A4 has a front wheel drive and a hatchback.",
+      "model_output": "The 3D model represents the rear part of a white station wagon car, likely a Volkswagen Passat, identifiable by its distinct tail lights and rear bumper design. The car is parked alongside the road, showing its typical shape and design features.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the listed cars or attributes mentioned."
+    },
+    {
+      "object_id": "car_0505",
+      "ground_truth": "The Fiat 500 and Smart Fortwo are both small cars with unique features. The Fiat 500 has an octahedral tetrahedron structure, while the Smart Fortwo is a two-door hatchback with front and rear hatches. Both vehicles have a curved roof and windshield, but the Fiat 500 has a rectilinear structure, whereas the Smart Fortwo has a front engine and rear wheel drive.",
+      "model_output": "The 3D model represents a parked car, specifically a black SUV, which is positioned on the right side of the street in the image. The car appears to be a Citro\u00ebn, judging by the emblem on the front. It is a common type of personal vehicle used for daily commuting and transporting goods.",
+      "gpt_score": 0,
+      "gpt_reason": "Model is a SUV; human caption refers to small cars."
+    },
+    {
+      "object_id": "car_0868",
+      "ground_truth": "A van is a vehicle that has a roof and two doors, used for transporting people and goods.",
+      "model_output": "The 3D model represents a compact car, specifically a hatchback type. It has a boxy shape with a short hood, a short rear deck, and is designed for urban driving and small family use. Its functionality includes four doors, a compact size, and a hatchback design which offers practical storage space.",
+      "gpt_score": 33,
+      "gpt_reason": "Mention of vehicle and doors, miss the representation of van."
+    },
+    {
+      "object_id": "car_1104",
+      "ground_truth": "The Volkswagen Beetle is a small car with a curved roof and slanted windshield.",
+      "model_output": "The 3D model represents a compact hatchback car. It appears to be parked on the right side of the street in the image, with its rear facing the camera. The car seems to have a standard hatchback design with four doors and a compact body. Its functionality hints at everyday use, such as commuting, running errands, or family transportation.",
+      "gpt_score": 60,
+      "gpt_reason": "References a small and compact car, missing unique Beetle features."
+    },
+    {
+      "object_id": "car_1418",
+      "ground_truth": "The Toyota Tacoma is a tetrahedral prism, the Chevrolet Silverado is a chevrolet silverado, and the Volkswagen Beetle is a tetrahedral cuboid with a curved roof.",
+      "model_output": "The 3D model represents a compact SUV, characterized by a boxy structure and elevated ground clearance. It typically serves as a family or urban car, offering practicality and versatility for everyday use. The design emphasizes functionality and space efficiency, making it suitable for city driving and light off-road use.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the aspects from the human caption are mentioned in the model caption."
+    },
+    {
+      "object_id": "tree_0851",
+      "ground_truth": "A tree is a symmetrical arrangement of leaves and branches on a horizontal axis.",
+      "model_output": "The 3D model represents a street lamp post. It features a vertical pole with a horizontal arm extending outwards, which holds the lamp fixture. The lamp post is typically used along urban streets to provide illumination during nighttime. It has a robust design to withstand various weather conditions and daily wear and tear.",
+      "gpt_score": 0,
+      "gpt_reason": "no mention of tree, leaves, branches, and symmetry."
+    },
+    {
+      "object_id": "car_0231",
+      "ground_truth": "The Audi A4, Volkswagen Beetle, and Bentley are all tetrahedral prisms. The Chrysler Town & Country is a tetrahedron. The Phantom has a slender body with a long hood and short trunk. The station wagon is a vehicle with a roof and trunk. The SUV is a truncated oblate spheroid with a.",
+      "model_output": "The 3D model represents a compact hatchback car. It has a boxy design with a flat roof and a rectangular body. The car has a prominent front grille and headlights, and it appears to be a modern model. Its functionality includes providing transportation for daily commuting and city driving, offering a balance of fuel efficiency and maneuverability, making it suitable for urban environments.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the specific car models or shapes mentioned in human caption."
+    },
+    {
+      "object_id": "car_1655",
+      "ground_truth": "The Toyota Sienna is a mid-sized minivan with a tetrahedral cuboid structure and geometry.",
+      "model_output": "The 3D model represents a compact car, identifiable by its streamlined shape, four doors, and a relatively small size. This type of vehicle is commonly used for urban commuting, providing ease of maneuverability and parking convenience in tight spaces.",
+      "gpt_score": 0,
+      "gpt_reason": "misses Toyota Sienna, minivan, and geometric structure features."
+    },
+    {
+      "object_id": "car_1029",
+      "ground_truth": "A Volkswagen Beetle is a two-door car with a curved roof and hood.",
+      "model_output": "The 3D model represents the rear portion of a white station wagon car, likely a Volkswagen Passat, identifiable by its distinct tail lights and rear bumper design. It's parked alongside a road, indicating its usage for daily transportation purposes.",
+      "gpt_score": 20,
+      "gpt_reason": "mention Volkswagen; misidentified model and body type."
+    },
+    {
+      "object_id": "tree_0018",
+      "ground_truth": "The tree has a symmetrical structure with a symmetrical base and a symmetrical top.",
+      "model_output": "The object in the 3D model appears to be a parked car. It is a compact vehicle, likely used for personal transportation. The car is parked on a cobblestone street and is enclosed by other vehicles.",
+      "gpt_score": 0,
+      "gpt_reason": "no similarity or aspect match."
+    },
+    {
+      "object_id": "car_1158",
+      "ground_truth": "The Toyota Avensis, Skoda Octavia, and Volkswagen Beetle all have distinct structures and geometries. The Avensis has a truncated octagon shape, the Suv is a cylinder with a flat top and bottom, while the Beetle is a tetrahedral cuboid. Meanwhile, the Mercedes Benz is a sedan with a hatchback, and the Octavia is a front-wheel drive hatchback.",
+      "model_output": "The 3D model represents a compact car with a streamlined design, featuring smooth lines and a low profile. It is likely used for urban commuter vehicle, characterized by its size and functionality in city environments.",
+      "gpt_score": 0,
+      "gpt_reason": "No specific models or shapes mentioned"
+    },
+    {
+      "object_id": "car_0775",
+      "ground_truth": "A small car with a cylinder and sphere structure, a van with a wheeled design, a tetrahedral prism shape, and a spherical surface.",
+      "model_output": "The 3D model represents a parked car, specifically a black sedan, with its rear facing the road. The car is positioned parallel to the curb on the side of a city street, with its front wheels still in contact with the pavement. The model includes details such as the tire rims, suspension components, and the basic structure of the vehicle's body.",
+      "gpt_score": 10,
+      "gpt_reason": "only mentioned car."
+    },
+    {
+      "object_id": "car_0772",
+      "ground_truth": "A small car with a front wheel drive and a rear wheel drive.",
+      "model_output": "The 3D model represents a compact car, identifiable by its boxy shape and typical features of a passenger vehicle including windows, wheels, and a roof. This car is designed for personal transportation, commonly used for daily commuting, family trips, and business purposes.",
+      "gpt_score": 33,
+      "gpt_reason": "mentions car and implies small size, doesn't mention wheel drives."
+    },
+    {
+      "object_id": "car_1099",
+      "ground_truth": "The Fiat 500 is a small car with a curved roof and slanted windshield. It has a tetrahedral cuboid structure and is designed for front wheel drive or rear wheel drive.",
+      "model_output": "The 3D model is a parked car, specifically a sedan. It appears to be a relatively modern vehicle with a sleek design, featuring four doors, two side mirrors, and a visible license plate. The car is positioned on the side of a street, likely indicating its use for personal transportation.",
+      "gpt_score": 30,
+      "gpt_reason": "Identifies as a car with modern and sleek design; missing specific Fiat 500, roof, windshield, and drive details."
+    },
+    {
+      "object_id": "car_0759",
+      "ground_truth": "A van is a three-dimensional object with a curved roof and sides, featuring a front and back.",
+      "model_output": "The 3D model represents a sedan car, characterized by its elongated body, four doors, and a typical car chassis. It is designed to resemble a passenger vehicle used for transportation purposes, often found on city streets or highways.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from the human caption matched in the model caption."
+    },
+    {
+      "object_id": "car_1036",
+      "ground_truth": "Toyota Tacoma is a pickup truck, Yaris is a small car, Prius is a hybrid car. The structure and geometry of the Toyota Tacoma is a car, four-door sedan with hatchback. Nissan 370Z is a tetrahedral prism, Volkswagen Beetle is a two-seater car with curved roof and windshield.",
+      "model_output": "The 3D model represents a parked car, specifically a sedan. It appears to be a modern vehicle with a sleek design, featuring a four-door configuration with a relatively low stance and a curved roofline. The car is positioned on the side of a street, likely indicating its use for transportation purposes.",
+      "gpt_score": 40,
+      "gpt_reason": "Correctly mentioned sedan and roof; missed car brands and models."
+    },
+    {
+      "object_id": "car_0553",
+      "ground_truth": "The Subaru WRX is a compact crossover SUV with a sloping roofline and a high-roof design. It has a truncated trapezoid body, and the hatchback is a front-wheel drive vehicle with both a hatchback and rear hatchback roof. The structure of this SUV is based on a t-shape with a sloping roofline.",
+      "model_output": "The 3D model represents a compact car with a hatchback design, typically used for urban transportation due to its size and maneuverability. It features a rectangular body with a sloping rear end, a simple front grille, and a set of side mirrors. Its primary function is to serve as a mode of personal transportation for daily commuting in city environments.",
+      "gpt_score": 33,
+      "gpt_reason": "Mention compact, hatchback, and sloping. Misses SUV and t-shape."
+    },
+    {
+      "object_id": "car_1564",
+      "ground_truth": "'A four wheel drive SUV with a sloping roofline and hoodline, based on a tetrahedral prism and rectilinear structure with a truncated octagon. It has a roof, hood, and windshield.'",
+      "model_output": "The 3D model represents a sedan car, characterized by a four-door configuration, a curved roofline, and a rear trunk. It is designed for personal transportation, typically used for commuting, family trips, or business purposes.",
+      "gpt_score": 20,
+      "gpt_reason": "only mentioned four-wheel aspect, rest is unmatched."
+    },
+    {
+      "object_id": "car_1574",
+      "ground_truth": "The Audi A4 is a sedan with a hatchback, while the SUV has a truncated octahedral shape with a sloping roofline and can be either four wheel drive or rear wheel drive.",
+      "model_output": "The 3D model represents a compact hatchback car, identifiable by its sleek design, compact body, and distinctive headlight shape. This type of car is typically used for urban driving, offering ease of maneuverability in tight spaces.",
+      "gpt_score": 20,
+      "gpt_reason": "mentions hatchback; missed sedan, Audi A4, SUV, and drive type."
+    },
+    {
+      "object_id": "car_0955",
+      "ground_truth": "A van is a wheeled vehicle with a hood and a roof.",
+      "model_output": "The 3D model represents the front part of a white camper van, including the hood, windshield, and front bumper. This type of vehicle is commonly used for travel and camping, providing a mobile living space for individuals or families on the go.",
+      "gpt_score": 80,
+      "gpt_reason": "mentions van, hood and roof; missed wheels aspect."
+    },
+    {
+      "object_id": "car_1288",
+      "ground_truth": "A van is a wheeled vehicle with a roof and windshield, made up of polygons arranged in a circle.",
+      "model_output": "The 3D model represents a compact car, identifiable by its streamlined design and boxy structure. It is characterized by its four doors, two front wheels, and a typical sedan body shape. This type of vehicle is commonly used for personal transportation, offering practicality and ease of use for daily commutes.",
+      "gpt_score": 33,
+      "gpt_reason": "mentions a vehicle with wheels, missed 'roof', 'windshield', 'polygons', and 'circle'."
+    },
+    {
+      "object_id": "car_1754",
+      "ground_truth": "The van is a vehicle with a rectangular shape and a curved roof, based on the structure of a cuboid. It has sides and a floor, and its body is made up of squares and triangles.",
+      "model_output": "The 3D model represents a bicycle parked on a sidewalk. It has two wheels, a frame, handlebars, a seat, and pedals. The bicycle is secured with a bike lock attached to a bike rack. This setup is commonly used for daily transportation and commuting in urban areas.",
+      "gpt_score": 0,
+      "gpt_reason": "no aspects mentioned correctly."
+    },
+    {
+      "object_id": "car_0810",
+      "ground_truth": "The Toyota Yaris is a small car with a hatchback roof and trunk, similar to the Honda Civic and Volkswagen Golf.",
+      "model_output": "The 3D model represents a compact car, specifically a Volkswagen, parked on the side of a street. It is characterized by its boxy design, short hood, and compact body, typical of urban vehicles. This type of car is commonly used for personal transportation, providing practicality and ease of maneuverability in city environments.",
+      "gpt_score": 67,
+      "gpt_reason": "Correctly mentions compact car and Volkswagen, but misses Toyota Yaris and hatchback roof/trunk."
+    },
+    {
+      "object_id": "car_0862",
+      "ground_truth": "Toyota Sienna and Rav4 are both minivans with a rectilinear structure, truncated trapezoid roofs, and four wheel drive. They have front grilles and headlights, as well as rear hoods and taillights.",
+      "model_output": "The 3D model represents a compact hatchback car, characterized by a small body size and a short hood. It features a rounded rear and a sloped hatch, typical of hatchback designs. This type of vehicle is commonly used for urban commuting due to its maneuverability and fuel efficiency.",
+      "gpt_score": 0,
+      "gpt_reason": "No matching or partially matching aspects mentioned."
+    },
+    {
+      "object_id": "tree_0705",
+      "ground_truth": "A coniferous tree with a symmetrical crown and root system, featuring branches, leaves, and twigs.",
+      "model_output": "The 3D model represents a tree located along a residential street. The tree has an expansive canopy with a thick trunk and numerous branches, providing shade to the surrounding area. It appears to be a deciduous tree, as evidenced by the presence of leaves. The tree likely serves multiple functional purposes, including providing shade, contributing to the urban greenery, and enhancing the aesthetic appeal of the neighborhood.",
+      "gpt_score": 80,
+      "gpt_reason": "model mentioned tree, branches, and leaves. Incorrect on type of tree."
+    },
+    {
+      "object_id": "car_1108",
+      "ground_truth": "A smart car is a two-seater, front-engined, rear-wheel drive, two-door hatchback with the structure and geometry of a tetrahedral prism.",
+      "model_output": "The 3D model represents a compact hatchback car, identifiable by its boxy shape, short hood, and overall compact design. It typically features four doors, including a rear hatch, making it suitable for urban environments and daily commuting. The car's functionality includes a focus on fuel efficiency, maneuverability, and practical space utilization.",
+      "gpt_score": 50,
+      "gpt_reason": "mentioned hatchback car; incorrect door and structure details."
+    },
+    {
+      "object_id": "tree_0854",
+      "ground_truth": "A tree with a trunk, branches, leaves, and twigs.",
+      "model_output": "The 3D model represents a parking sign post. It is a vertical pole with a sign attached, typically found along urban roads to indicate parking information.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from the human caption were mentioned in the model caption."
+    },
+    {
+      "object_id": "car_0625",
+      "ground_truth": "The Honda Odyssey is a minivan with a sedan body style, featuring a hatchback and two doors. It has a structure and geometry similar to the Honda Civic.",
+      "model_output": "The 3D model represents the rear part of a white station wagon car, likely a Volkswagen Passat, identifiable by its distinct tail lights and rear bumper design. This type of car is commonly used for both personal and family transportation.",
+      "gpt_score": 0,
+      "gpt_reason": "no mention of Honda Odyssey or similar features."
+    },
+    {
+      "object_id": "car_1595",
+      "ground_truth": "A sports car is a vehicle with a curved roof and sloping roofline. The structure of this toyota tacoma is truncated octahedral, the nissan qashqai has a tetrahedral cubo shape, and the yaris hatchback features a sloping roofline and hood. The volkswagen beetle is a two-seater car with a curved roof and windshield. A hatchback vehicle typically has a roof and trunk.",
+      "model_output": "The 3D model represents a car, specifically a sedan. It has a rectangular body with four doors, a front grille, headlights, and a windshield. The car\u2019s design suggests it is intended for regular transportation, providing seating for up to five passengers and featuring a traditional engine layout.",
+      "gpt_score": 0,
+      "gpt_reason": "Model doesn't mention any specifics from human caption."
+    },
+    {
+      "object_id": "car_1050",
+      "ground_truth": "The Dodge Challenger is a four wheeled vehicle with a hood and roof.",
+      "model_output": "The 3D model represents a parked white minivan on a city street. The minivan is characterized by its elongated shape, high roof, and large windows, typical of a passenger transport vehicle designed for family use or group travel.",
+      "gpt_score": 20,
+      "gpt_reason": "mentions vehicle and roof only."
+    },
+    {
+      "object_id": "car_0002",
+      "ground_truth": "The Toyota Yaris is a small car with a tetrahedral cuboid structure and geometry.",
+      "model_output": "The 3D model represents a compact sedan type of car. It features a streamlined body with a short trunk, a sloped rear end, and a rounded front. The car's design suggests it is intended for urban environments, providing efficient space usage and maneuverability in tight city streets.",
+      "gpt_score": 33,
+      "gpt_reason": "Mention of small car; No mention of Toyota Yaris or tetrahedral cuboid structure."
+    },
+    {
+      "object_id": "car_1355",
+      "ground_truth": "The Toyota Yaris is a small car with a hatchback and rear wheel drive.",
+      "model_output": "The 3D model represents a white car parked on the side of a street. The car appears to be a standard passenger vehicle with a boxy shape, typical of many used for daily transportation.",
+      "gpt_score": 25,
+      "gpt_reason": "only mentioned car, missed Toyota Yaris, hatchback, rear wheel drive."
+    },
+    {
+      "object_id": "car_1357",
+      "ground_truth": "The Volkswagen Touran is a four-wheel drive vehicle with a rectilinear polygon structure and geometry. The Toyota Sienna is also a car, while the Corolla has a tetrahedral prism structure. The Golf is another car, and the SUV has a slanted roof and hood. The Corolla's front end features a hood and roof, with a rear end that includes a hood and roof as well.",
+      "model_output": "The 3D model represents a parked car, specifically a hatchback model. It has a compact design with a rear hatch that typically opens upwards. This type of car is often used for urban commuting due to its maneuverability and practicality in terms of cargo space.",
+      "gpt_score": 0,
+      "gpt_reason": "no specific car models or structures mentioned."
+    },
+    {
+      "object_id": "tree_1025",
+      "ground_truth": "A tree is a three-dimensional structure made up of a trunk, branches, leaves, and twigs.",
+      "model_output": "The 3D model represents a bicycle parked on the side of a street. It is a standard road bicycle with a frame, wheels, handlebars, and a seat. The bicycle appears to be locked to a bike rack for security purposes.",
+      "gpt_score": 0,
+      "gpt_reason": "no aspects from the human caption are mentioned."
+    },
+    {
+      "object_id": "car_0365",
+      "ground_truth": "A small car is a four wheeled vehicle with a roof and a windshield.",
+      "model_output": "The 3D model represents a parked vehicle, specifically a black sedan, which appears to be a modern sedan based on its sleek design and well-maintained exterior. It is parked along the street, and the model includes details such as the tire, rim, and suspension components of the vehicle.",
+      "gpt_score": 90,
+      "gpt_reason": "mentioned vehicle, four wheels, roof and windshield; missed small."
+    },
+    {
+      "object_id": "car_0449",
+      "ground_truth": "The 3D object in question is a compact hybrid car, specifically the Toyota Prius.",
+      "model_output": "The 3D model represents a station wagon or estate car, typically characterized by its longer body and increased cargo space. It features a hatchback rear end, which is common for this type of vehicle, and includes a roof rack to further enhance its utility for carrying larger items.",
+      "gpt_score": 0,
+      "gpt_reason": "No mention of compact, hybrid, car, Toyota Prius."
+    },
+    {
+      "object_id": "car_0064",
+      "ground_truth": "The Toyota Corolla is a front wheel drive sedan with a hatchback. It has the structure and geometry of a sedan, but its appearance can be described as that of a sports car due to its curved roof and windshield. The Volkswagen Beetle is a two-door car with a hatchback, also known for its low center of gravity and high center of gravity.",
+      "model_output": "The 3D model is a compact car, specifically a sedan. It appears to be parked along the side of a street. The car has a rectangular shape with a relatively low profile, typical of city models. Its functionality as a mode of transportation is evident from its position in the urban environment.",
+      "gpt_score": 10,
+      "gpt_reason": "Only correctly identifies sedan."
+    },
+    {
+      "object_id": "car_0223",
+      "ground_truth": "The Fiat 500 is a small car with a tetrahedral prism structure and geometry, featuring a four-door hatchback with front wheel drive or rear wheel drive. The Smart Car is a spherical body with a spherical head, also a small car but squarish in shape.",
+      "model_output": "The 3D model represents a compact car, with a streamlined body design typical of modern hatchbacks. It appears to be a mid-sized vehicle, likely used for daily commuting or short trips. The car's compact dimensions make it suitable for urban environments and parking in tight spaces.",
+      "gpt_score": 40,
+      "gpt_reason": "mentions small car and shape, but incorrect car features and missing Smart Car."
+    },
+    {
+      "object_id": "car_1474",
+      "ground_truth": "The Toyota Yaris is a compact car with a sloping roof and hood, while the Volkswagen Beetle is another type of car. The 370Z is a rear wheel drive sports car with a V6 engine and rear wheel drivetrain. The Nissan Micra is also a small car.",
+      "model_output": "The 3D model represents the rear part of a white utility van, including the tailgate, rear lights, and rear bumper. This type of van is commonly used for various purposes, such as transporting goods, equipment, or providing services in different settings, like home improvement projects, outdoor events, or business sites.",
+      "gpt_score": 0,
+      "gpt_reason": "none of the mentioned car models matched."
+    },
+    {
+      "object_id": "car_0892",
+      "ground_truth": "A van is a four wheeled vehicle with a roof and windshield.",
+      "model_output": "The 3D model represents a compact car, likely a hatchback, with a sleek and modern design. It appears to be parked on the side of a street, suggesting its use for daily commuting or short-distance travel. The car's design suggests it is a passenger vehicle, likely used for individual transportation rather than family or commercial purposes.",
+      "gpt_score": 25,
+      "gpt_reason": "mentions the concept of vehicle and four wheels; misidentifies van as compact car."
+    },
+    {
+      "object_id": "car_1584",
+      "ground_truth": "A Toyota Yaris and a Honda Fit are both small cars with different structures and geometries. The Honda Fit has a subcompact car body style with a hatchback, while the Toyota Yaris is a tetrahedral prism. Both cars share the characteristic of being compact vehicles with front wheel drive or rear wheel drive.",
+      "model_output": "The 3D model represents a bicycle parked on the sidewalk. It has a typical structure with two wheels, handlebars, a frame, and a seat. The bicycle appears to be in good condition and is likely used for commuting or leisure riding.",
+      "gpt_score": 0,
+      "gpt_reason": "Completely different object; aspects not mentioned."
+    },
+    {
+      "object_id": "car_1136",
+      "ground_truth": "A Toyota Corolla.",
+      "model_output": "The 3D model represents a parked car, specifically a blue hatchback vehicle. The car is positioned on the side of a street, with its front facing the camera. The car has a standard hatchback design with a rear door that opens upwards. It appears to be a compact model, possibly used for urban commuting.",
+      "gpt_score": 50,
+      "gpt_reason": "mentions car; incorrect car model."
+    },
+    {
+      "object_id": "car_0239",
+      "ground_truth": "The Volkswagen Beetle, Audi A4, and BMW 1 Series all share a common structure and geometry. The Audi A4 is a four-door sedan with a hatchback, while the BMW 1 Series is a hatchback with front or rear wheel drive.",
+      "model_output": "The 3D model represents a compact car, characterized by a boxy shape, four doors, and a hatchback design. It is designed for urban commuting and typically used for daily errands due to its size and functionality.",
+      "gpt_score": 20,
+      "gpt_reason": "mentions hatchback, four doors; misses brands and specific models."
+    },
+    {
+      "object_id": "car_1142",
+      "ground_truth": "The 3D object is a four-wheel drive vehicle with front and rear wheel drive capabilities, based on the Subaru Impreza WRX STI. It has a rectilinear body with a sloping roofline and is available as a four-door hatchback.",
+      "model_output": "The 3D model represents a compact car, typically used for personal transportation. It appears to have a rectangular shape with four doors, designed for urban use. The car is positioned on a street, likely indicating its use for daily commuting or short trips.",
+      "gpt_score": 25,
+      "gpt_reason": "model mentions four-door, rectilinear body; misses Subaru Impreza WRX STI and 4-wheel drive."
+    },
+    {
+      "object_id": "car_0479",
+      "ground_truth": "The Jeep and Toyota Land Cruiser are both four wheel drive vehicles with high ground clearance and low center of gravity. They have a tetrahedral prism structure and geometry, making them both tetrahedral polyhedra with spherical surfaces.",
+      "model_output": "The 3D model represents a parked car, specifically a sedan. It is a typical four-door vehicle with a rectangular body, a trunk at the back, and a distinct front grille and headlights. The car appears to be positioned on the side of a street, indicating its usage for personal transportation in an urban environment.",
+      "gpt_score": 20,
+      "gpt_reason": "mentions four-wheel drive vehicles; lacks other aspects."
+    },
+    {
+      "object_id": "car_0905",
+      "ground_truth": "The 3D object is a four wheel drive SUV with various drivetrain configurations.",
+      "model_output": "The 3D model represents a black motorcycle parked on the sidewalk. It has a sleek design with two wheels, handlebars, and a seat. It is designed for personal transportation and is commonly used for commuting or recreational purposes.",
+      "gpt_score": 0,
+      "gpt_reason": "No match for aspect 'four wheel drive SUV' and 'drivetrain configurations'."
+    },
+    {
+      "object_id": "car_1402",
+      "ground_truth": "The Volkswagen Golf is a small car with a front wheel drive and a rear wheel drive.",
+      "model_output": "The 3D model is of a compact car, specifically a hatchback, characterized by its small size, four doors, and compact design. It is typically used for urban driving and provides efficient space utilization in city environments.",
+      "gpt_score": 50,
+      "gpt_reason": "mentioned small size and compact design; no mention of Volkswagen Golf, front wheel or rear wheel drive."
+    },
+    {
+      "object_id": "car_0691",
+      "ground_truth": "A hatchback is a vehicle with a roof that opens and closes, the structure and geometry of this suv is a monocoque structure, the suv has a truncated ellipsoid shape and a high ground clearance.",
+      "model_output": "The 3D model represents a compact sedan, characterized by its streamlined body, four doors, and a hatchback design. This type of vehicle is commonly used for urban commuting due to its size and efficiency.",
+      "gpt_score": 50,
+      "gpt_reason": "mentioned hatchback and a car shape, didn't mention high ground clearance or monocoque structure."
+    },
+    {
+      "object_id": "car_0139",
+      "ground_truth": "Mercedes Benz C Class: A car with a tetrahedral mesh structure and geometry.",
+      "model_output": "The 3D model represents a compact car, likely a hatchback. It has a streamlined body with a sloping rear section and a short trunk. The car is designed for urban use, featuring a hatchback door which provides easy access to the cargo area. Its compact dimensions make it suitable for maneuvering through narrow streets and parking in tight spaces.",
+      "gpt_score": 20,
+      "gpt_reason": "mentions car; doesn't mention model and mesh structure."
+    },
+    {
+      "object_id": "car_0591",
+      "ground_truth": "The Volkswagen Camper Van is a rectilinear structure with a curved roof.",
+      "model_output": "The 3D model represents a car parked on the side of a street. It appears to be a compact vehicle with a hatchback design, featuring a relatively low profile and a short wheelbase. The car's position suggests it is likely used for personal transportation in urban settings due to its size and functionality.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the human caption aspects are mentioned."
+    },
+    {
+      "object_id": "car_1761",
+      "ground_truth": "The van is a wheeled vehicle with a roof and sidewalls, designed for transporting people and goods. It has a curved front and back, as well as a curved roof that adds to its distinctive appearance.",
+      "model_output": "The 3D model represents a bicycle parked on a sidewalk. It has a traditional frame design with two wheels, handlebars, a seat, and pedals. The bicycle appears to be stationary, likely used for transportation or leisure riding.",
+      "gpt_score": 0,
+      "gpt_reason": "completely different objects, no similar aspects mentioned."
+    },
+    {
+      "object_id": "car_1235",
+      "ground_truth": "The Fiat 500 is a small car with a tetrahedral prism structure and rectilinear polygon geometry. It has four doors and a sloping roofline, making it a hatchback. The Nissan Altima is a mid-sized sedan with front wheel drive and rear wheel drive. The Volkswagen Golf is also a hatchback car with front-wheel drive and rear-wheel drive.",
+      "model_output": "The 3D model represents a compact car, typically used for urban commuting. It features a streamlined body with a sloping hood, a flat windshield, and a short trunk. The car has a boxy design, suitable for maneuverability in tight city streets. It is designed for everyday use, providing adequate space for passengers and cargo.",
+      "gpt_score": 10,
+      "gpt_reason": "mentioned small car and streamlined body with sloping roofline."
+    },
+    {
+      "object_id": "car_0390",
+      "ground_truth": "The toyota tacoma is a pickup truck with a sloping roofline and hoodline.",
+      "model_output": "The 3D model represents a compact car, specifically a hatchback. It has a streamlined body with a sloping rear end and a compact size, typical of urban vehicles designed for city driving and parking in tight spaces.",
+      "gpt_score": 0,
+      "gpt_reason": "model mentions a compact car, not a pickup truck."
+    },
+    {
+      "object_id": "car_1578",
+      "ground_truth": "The Toyota Yaris is a small hatchback car with a curved roof and a long hood.",
+      "model_output": "The 3D model represents a compact car, identifiable by its small size and typical features of a modern sedan, including a four-door configuration and a hatchback-style trunk. This type of vehicle is commonly used for urban environments due to its efficiency in space utilization and maneuverability.",
+      "gpt_score": 90,
+      "gpt_reason": "Model mentioned small size, hatchback style and car's utility which matches Human's description."
+    },
+    {
+      "object_id": "car_0585",
+      "ground_truth": "The Toyota Yaris is a small car with a tetrahedral cuboid structure and geometry. It has a curved roof and hood, making it a sports car. The car features a truncated octagon shape and a hatchback design.",
+      "model_output": "The 3D model represents a bicycle parked on a sidewalk along with other bicycles and a metal fence. It appears to be a standard city bicycle equipped with a rack and fenders. The bicycle is positioned in a typical upright posture with its wheels still in contact with the ground.",
+      "gpt_score": 0,
+      "gpt_reason": "Model description does not match with the human description."
+    },
+    {
+      "object_id": "car_0101",
+      "ground_truth": "The Volkswagen Beetle is a small car with a curved roof, the structure and geometry of which are based on a polygonal mesh. It is a front-wheel drive hatchback, similar to the Jaguar XF and the Suv, but smaller in size.",
+      "model_output": "The 3D model represents a car wheel, specifically a front wheel, complete with tire, rim, and hubcap. It appears to be designed for urban driving, featuring a tire pattern suitable for city streets and sidewalks.",
+      "gpt_score": 10,
+      "gpt_reason": "only matched the front-wheel aspect."
+    },
+    {
+      "object_id": "car_1110",
+      "ground_truth": "The Volkswagen Beetle is a two-seater, rear-wheel drive, front-engine, front-wheel SUV with a long wheelbase and short overhangs. It has a curved roof and slanted windshield, making it a two-door hatchback car. The structure and geometry of the Beetle is a tetrahedral cuboid.",
+      "model_output": "The 3D model represents a parked car, specifically a black SUV, located on the right side of the street. The car is positioned parallel to the curb, and its rear is facing the viewer. The vehicle appears to be a mid-sized model, commonly used for daily transportation.",
+      "gpt_score": 20,
+      "gpt_reason": "mentions car and SUV, misses other crucial aspects."
+    },
+    {
+      "object_id": "car_1430",
+      "ground_truth": "The Volkswagen Beetle is a spherical object with a rectilinear structure, while the Toyota Tacoma is a pickup truck with a toyota corolla-like car structure.",
+      "model_output": "The 3D model represents a compact car parked on the side of a street. It appears to be a modern, four-door vehicle with a hatchback design, featuring a sleek, aerodynamic shape and a compact size, suitable for urban environments and easy parking in tight spaces.",
+      "gpt_score": 10,
+      "gpt_reason": "Only mentioned car structure partially."
+    },
+    {
+      "object_id": "car_0315",
+      "ground_truth": "The BMW 3 Series, Mercedes-Benz, and BMW 5 Series all have tetrahedral mesh structures.",
+      "model_output": "The 3D model represents a bicycle, viewed from an angle that shows its frame, wheels, and handlebars. The bicycle appears to be parked on the side of a street, with no immediate signs of movement or activity.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from the human caption are mentioned in the model's."
+    },
+    {
+      "object_id": "car_0776",
+      "ground_truth": "A van is a wheeled vehicle with a roof and sides, used for transporting people and goods.",
+      "model_output": "The 3D model represents a bicycle parked on the sidewalk. It has a typical frame structure, handlebars, pedals, and a rear rack. The bicycle appears to be stationary, likely used for urban transportation or commuting.",
+      "gpt_score": 0,
+      "gpt_reason": "model caption doesn't mention any aspect from the human caption."
+    },
+    {
+      "object_id": "car_0303",
+      "ground_truth": "The Volkswagen Beetle is a small car with a tetrahedral prism structure and geometry.",
+      "model_output": "The 3D model represents a car, specifically a hatchback, parked along the street. The car has a compact, boxy design with a short hood and a rear door that opens upwards to access the cargo space. It appears to be a standard hatchback model commonly used for urban transportation.",
+      "gpt_score": 50,
+      "gpt_reason": "mentions car and small size; misses Volkswagen Beetle and tetrahedral prism structure."
+    },
+    {
+      "object_id": "car_0840",
+      "ground_truth": "A van is a rectilinear vehicle with a curved roof and windshield, used for transporting people and goods.",
+      "model_output": "The 3D model represents a sedan, a type of vehicle characterized by its elongated body, four doors, and a typically low ground clearance. Sedans are designed for both urban driving and everyday use, often prioritizing comfort and fuel efficiency.",
+      "gpt_score": 0,
+      "gpt_reason": "model described a sedan, not a van"
+    },
+    {
+      "object_id": "car_1312",
+      "ground_truth": "A van is a large vehicle with a roof and sidewalls, used for transporting people and goods from one place to another.",
+      "model_output": "The 3D model represents a parked car, specifically a compact hatchback. It is characterized by a boxy shape, four doors, and a relatively low ground clearance. The car appears to be situated on a street, likely indicating its use for urban transportation. The model likely represents a real vehicle, used for daily commuting or short trips.",
+      "gpt_score": 50,
+      "gpt_reason": "model mentions transportation; incorrectly identifies as car not van."
+    },
+    {
+      "object_id": "car_0490",
+      "ground_truth": "The Volkswagen Beetle is a two-door hatchback with the structure and geometry of a Chevrolet Tahoe. It is a small car, similar to the Toyota Yaris, but it has a pickup truck body like the Toyota Tacoma. The Beetle is a two-seater vehicle, with sports car-like features. A Nissan 370Z is another example of a two-seater car with similar structure and geometry to the Volkswagen Beetle.",
+      "model_output": "The 3D model represents a compact SUV, characterized by a boxy shape with a sloping rear window and four doors. It typically serves as a family or urban car, offering practicality and versatility for everyday use.",
+      "gpt_score": 10,
+      "gpt_reason": "only mentions general car aspects, no direct matches."
+    },
+    {
+      "object_id": "car_1752",
+      "ground_truth": "The Volkswagen Beetle is a two-door hatchback car with a truncated cone structure and geometry. The BMW i3 has a tetrahedral structure, while the Toyota Yaris is based on a tetrahedral prism. All three cars share similarities in their overall shape and design.",
+      "model_output": "The 3D model represents the front left portion of a silver sedan car. The car features a standard sedan design with defined headlights, a visible grille, and a set of side mirrors. This type of car is commonly used for personal or family transportation.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the mentioned cars or their designs are referenced."
+    },
+    {
+      "object_id": "car_0895",
+      "ground_truth": "The Audi A4 is a front wheel drive car with a tetrahedral prism structure and geometry.",
+      "model_output": "The 3D model represents a compact hatchback car, characterized by a boxy structure with a short hood, a short rear deck, and a compact crossover. It typically has four doors and is designed for urban driving, offering good maneuverability and fuel efficiency. The car's design suggests it is suited for practical daily use, such as commuting, running errands, and family transportation.",
+      "gpt_score": 0,
+      "gpt_reason": "No mention of Audi A4, front wheel drive, or tetrahedral prism structure."
+    },
+    {
+      "object_id": "car_1127",
+      "ground_truth": "A van is a wheeled vehicle with a roof and sidewalls, typically used for transportation or recreational purposes. It can be further classified as a camper van, which has additional features such as a flattened apex and the ability to be towed behind a car.",
+      "model_output": "The 3D model represents a car wheel, specifically a rear wheel, complete with tire, rim, and suspension components. The wheel appears to be in good condition, with a noticeable tire tread pattern and a visible spoke rim. The suspension components suggest it is designed for standard passenger vehicle use, providing necessary support and stability for the wheel during driving.",
+      "gpt_score": 5,
+      "gpt_reason": "mentions wheels, but misses vehicle and transportation aspects."
+    },
+    {
+      "object_id": "car_0035",
+      "ground_truth": "A compact car with front wheel drive and rear wheel drive, the structure of which is similar to a Honda Civic.",
+      "model_output": "The 3D model represents a compact, modern hatchback car. It features a streamlined body design with a sloping rear section and a compact, angular shape. The car has a four-door configuration and is parked perpendicular to the curb on the side of a street. It appears to be a typical vehicle used for daily commuting or short trips, characterized by its compact size and modern design.",
+      "gpt_score": 50,
+      "gpt_reason": "compact car mentioned; does not address the drive type or Honda Civic similarity."
+    },
+    {
+      "object_id": "car_0904",
+      "ground_truth": "The Volkswagen Beetle is a two-seater vehicle with a long hood and short trunk.",
+      "model_output": "The 3D model represents a compact car, specifically a hatchback type. It appears to be a modern vehicle with a streamlined design, featuring a compact body, a short trunk, and a sloping rear end. This type of car is typically used for urban driving due to its maneuverability and efficiency in space utilization.",
+      "gpt_score": 50,
+      "gpt_reason": "mentions short trunk, but misses Volkswagen Beetle, two-seater, and long hood."
+    },
+    {
+      "object_id": "car_0785",
+      "ground_truth": "The Toyota Yaris is a compact car with an Audi A4-like structure and geometry. It has a four-door hatchback with a sloping roofline and a sloping hoodline, making it a truncated octahedral prism in structure and a tetrahedral prism in geometry. The Toyota Tacoma is a pickup truck with a Ford Focus-like structure and geometry, featuring a four-door hatchback with a high roofline and low roofline. It also has a sports car-like tetrahedral prism structure.",
+      "model_output": "The 3D model represents a bicycle parked on the side of a street. It has a traditional frame with two wheels, handlebars, and a saddle. The bicycle appears to be in good condition and is likely used for daily transportation or commuting.",
+      "gpt_score": 0,
+      "gpt_reason": "caption refers to completely different objects"
+    },
+    {
+      "object_id": "car_0786",
+      "ground_truth": "The Toyota Supra is a rear wheel drive sports car with a truncated oblate spheroid structure and monocoque geometry. It has a long hood and short trunk, making it a two-seater vehicle with a streamlined body and low center of gravity.",
+      "model_output": "The 3D model represents a compact hatchback car, characterized by a streamlined design, four doors, and a relatively small size. This type of car is commonly used for urban commuting, providing efficient space utilization and maneuverability in city environments.",
+      "gpt_score": 10,
+      "gpt_reason": "Only mentions streamlined design; missing other aspects."
+    },
+    {
+      "object_id": "car_0433",
+      "ground_truth": "The Toyota Yaris is a small hatchback car with a tetrahedral cuboid structure and geometry.",
+      "model_output": "The 3D model represents a compact car, characterized by a streamlined body design, a sloping rear end, and four wheels. It is commonly used for urban commuting and daily travel due to its small size and maneuverability.",
+      "gpt_score": 70,
+      "gpt_reason": "mentioned small car, similar concept of streamlined body design with tetrahedral cuboid structure."
+    },
+    {
+      "object_id": "traffic_light_0243",
+      "ground_truth": "A traffic light with a metal pole and a light on top.",
+      "model_output": "The 3D model represents a bicycle wheel, specifically one that is attached to a bike and positioned against a bike rack. The wheel appears to be in good condition, with a visible spoke pattern and a standard-sized rim, indicating it is designed for general urban or road use.",
+      "gpt_score": 0,
+      "gpt_reason": "No matching aspects mentioned."
+    },
+    {
+      "object_id": "traffic_sign_0160",
+      "ground_truth": "A traffic sign with two arrows pointing in different directions on a pole.",
+      "model_output": "The 3D model represents a car parked on the side of a street. The car appears to be a compact hatchback with its rear facing the viewer. The model likely represents an actual vehicle, possibly used for personal transportation or commuting.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from the human caption are mentioned in the model's caption."
+    },
+    {
+      "object_id": "car_0647",
+      "ground_truth": "The 3D object in question is a sports car, specifically the Volkswagen Beetle. It has a curved body with a long hood and short trunk, and it's a two-seater, front-engine, rear-wheel drive vehicle.",
+      "model_output": "The 3D model is a compact car, typically used for urban transportation. It has a rectangular shape with a low profile, four doors, and a compact size suitable for maneuvering in tight city streets.",
+      "gpt_score": 10,
+      "gpt_reason": "mentions car, but incorrectly describes its structure and type."
+    },
+    {
+      "object_id": "traffic_sign_0026",
+      "ground_truth": "A traffic sign with a red circle in the center and an arrow pointing to the right.",
+      "model_output": "The 3D model represents a bicycle parked on the side of a street. It appears to be a standard road bicycle with a rack attached to the back. This type of bicycle is commonly used for urban commuting and is designed for efficiency and convenience in city environments.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from the human caption mentioned in the model-generated caption."
+    },
+    {
+      "object_id": "traffic_light_0175",
+      "ground_truth": "A traffic light is a device used to control the flow of vehicular and pedestrian traffic at intersections. It typically consists of a pole with a light at the top and one at the bottom, along with a reflector for increased visibility.",
+      "model_output": "The 3D model represents a car wheel, specifically one that is attached to a vehicle and parked along the street. The wheel appears to be in good condition with a visible spoke pattern and a standard-sized rim, indicating it is designed for general road use.",
+      "gpt_score": 0,
+      "gpt_reason": "no aspects mentioned or partially matched."
+    },
+    {
+      "object_id": "car_1316",
+      "ground_truth": "The Toyota Yaris is a small car with a tetrahedral mesh structure and monocoque geometry. The Chevrolet Spark is also a small car with a similar structure, featuring a tetrahedral prism design. Both cars have hatchbacks with truncated trapezoid bodies.",
+      "model_output": "The 3D model represents a compact, white hatchback car. It appears to be a modern vehicle with a sleek design, featuring a compact body, prominent wheels, and a streamlined profile. This type of car is commonly used for both personal and family transportation, offering a balance of practicality and style.",
+      "gpt_score": 10,
+      "gpt_reason": "only mentions hatchback; misses car models, mesh structure, geometry, and design."
+    },
+    {
+      "object_id": "traffic_light_0170",
+      "ground_truth": "Traffic light is a 3D object with a slanted base and top, made up of a base, pole, lens, and reflector.",
+      "model_output": "The 3D model represents a parked white car, likely a hatchback or station wagon, given its compact size and design. It is positioned on the street with all four wheels on the ground, facing the opposite direction of the street. The car appears to be a standard passenger vehicle with features such as side mirrors, windows, and a visible door handle.",
+      "gpt_score": 0,
+      "gpt_reason": "The model caption does not feature any aspect from the human caption."
+    },
+    {
+      "object_id": "tree_0970",
+      "ground_truth": "The tree has a symmetrical structure with a symmetrical number of limbs and leaves.",
+      "model_output": "The 3D model represents a street lamp post. It is a tall, cylindrical structure typically found along urban roads. The primary function of the street lamp post is to provide illumination to the surrounding area during nighttime. It often includes multiple bulbs and can have a rotating or adjustable light color and intensity. Street lamp posts are designed to be sturdy and weather-resistant, often made of metal, to withstand various environmental conditions.",
+      "gpt_score": 0,
+      "gpt_reason": "model caption describes a lamp post, not a tree."
+    },
+    {
+      "object_id": "traffic_light_0137",
+      "ground_truth": "Traffic light is a device used to control the flow of traffic on a road. It consists of a metal pole with a light bulb at the top and a base.",
+      "model_output": "The 3D model represents a building's exterior facade, including the ground-level entrance and the vertical structure up to the roof. It captures the architectural details of the urban residential structure, providing information on the spatial organization and material composition.",
+      "gpt_score": 0,
+      "gpt_reason": "Model caption doesn't match with any aspect of the human caption."
+    },
+    {
+      "object_id": "traffic_sign_0274",
+      "ground_truth": "A traffic sign with an arrow pointing to the left and another arrow pointing to the right.",
+      "model_output": "The 3D model represents a street lamp post. It features a vertical pole extending upwards, with the lamp attached to the top. The pole is likely made of metal and designed to support the weight of the lamp and any other components. The street lamp post is commonly used to provide illumination along roads and streets, enhancing visibility and safety for pedestrians and vehicles at night.",
+      "gpt_score": 0,
+      "gpt_reason": "no aspects from the human caption are mentioned."
+    },
+    {
+      "object_id": "traffic_sign_0204",
+      "ground_truth": "A traffic sign made up of a base, post and reflector.",
+      "model_output": "The 3D model is a bicycle, specifically a road bicycle, with a sleek frame, drop handlebars, and thin tires. It is designed for efficient and fast urban commuting and is commonly used for daily transportation in city environments.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspect of a traffic sign mentioned."
+    },
+    {
+      "object_id": "traffic_sign_0056",
+      "ground_truth": "A traffic sign with a slanted arrow pointing to the left and right.",
+      "model_output": "The 3D model represents a street sign, specifically a pedestrian crossing sign, located at the edge of a street. The sign is mounted on a pole and is used to indicate to drivers that they are approaching a pedestrian crossing, requiring them to slow down and be cautious of pedestrians crossing the street.",
+      "gpt_score": 0,
+      "gpt_reason": "No mention of slanted arrows or directions."
+    },
+    {
+      "object_id": "traffic_sign_0292",
+      "ground_truth": "A traffic sign with a red circle on a white background.",
+      "model_output": "The 3D model is a street lamp post. It features a vertical pole with a horizontal arm extending outwards that holds the lamp fixture. The lamp post is typically made of metal and designed to support the weight of the lamp and any other components. It serves as a critical component for providing illumination along the street, ensuring visibility and safety for pedestrians and vehicles at night.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from the human caption are mentioned."
+    },
+    {
+      "object_id": "traffic_light_0259",
+      "ground_truth": "Traffic light is a 3D object with a base, top, and pole. It consists of a vertical pole with a red light at the top and a green light at the bottom.",
+      "model_output": "The 3D model represents a street lamp post. It is designed to be cylindrical in shape with a vertical pole extending upwards, and it includes a horizontal arm supporting the lamp fixture. The street lamp post is commonly used in urban environments for providing illumination during nighttime hours.",
+      "gpt_score": 10,
+      "gpt_reason": "only 'pole' aspect mentioned."
+    },
+    {
+      "object_id": "traffic_sign_0311",
+      "ground_truth": "A traffic sign with a rectilinear structure and arrows pointing to the right and left.",
+      "model_output": "The 3D model represents a parked car. It appears to be a compact vehicle with its rear facing the camera. The car is positioned on a street, likely indicating its use for transportation purposes. The model likely includes details such as the car's wheels, windows, and the basic structure of its body.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the identified aspects from the human caption are mentioned."
+    },
+    {
+      "object_id": "traffic_sign_0169",
+      "ground_truth": "A rectilinear traffic sign with a stop sign on top and a no left turn sign below it.",
+      "model_output": "The 3D model is a parking sign, specifically a blue parking sign indicating parking availability. It is mounted on a post and appears to be situated in a residential or commercial area. The sign is designed to be mounted on a pole and is commonly used in urban settings to indicate parking regulations or restrictions.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspect mentioned correctly or partially."
+    },
+    {
+      "object_id": "traffic_sign_0428",
+      "ground_truth": "The traffic sign is a three-dimensional structure with a metal pole and a cylinder on top. It has a base, a spherical top, and an arrow pointing to the left and another arrow pointing to the right.",
+      "model_output": "The 3D model represents a bicycle wheel, specifically one that is attached to a bike and positioned against a bike rack. The wheel appears to be in good condition with a visible spoke pattern and a standard-sized rim, indicating it is designed for general urban or road use.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from the human description are mentioned in the model description."
+    },
+    {
+      "object_id": "traffic_sign_0300",
+      "ground_truth": "A traffic sign with a red, white, and blue flag on top of a pole.",
+      "model_output": "The 3D model is a car, specifically a sedan, represented by a series of points connected by lines. The car features a standard design with defined headlights, a visible grille, and a set of side mirrors.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from human caption are mentioned in model caption."
+    },
+    {
+      "object_id": "traffic_sign_0347",
+      "ground_truth": "A traffic sign with a white background and a black arrow pointing to the right.",
+      "model_output": "The 3D model represents a parking sign. It consists of a rectangular frame with a white background and a red diagonal bar. The frame includes a white arrow pointing left and right, suggesting parking options. The sign is typically used to indicate parking regulations or restrictions along roads or in parking lots.",
+      "gpt_score": 75,
+      "gpt_reason": "mention white background, arrow and sign but direction and color mismatched."
+    },
+    {
+      "object_id": "traffic_sign_0048",
+      "ground_truth": "A red arrow on a white background with a white circle in the middle of the arrow.",
+      "model_output": "The 3D model represents a parking sign mounted on a pole. It is typically used to indicate parking regulations or restrictions along roads or in parking lots.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the described aspects are mentioned in the model caption."
+    },
+    {
+      "object_id": "traffic_light_0036",
+      "ground_truth": "Traffic light is a device used to indicate the presence or absence of traffic signal. It consists of a base, pole, reflector and lens.",
+      "model_output": "The 3D model represents a classic European-style apartment building with a pitched roof and multiple dormer windows. It features red brickwork and white plaster detailing, with ornate architectural elements such as arched windows and a decorative brick pattern. The building has multiple floors and seems to be part of a row of similar buildings, likely in a historical residential area.",
+      "gpt_score": 0,
+      "gpt_reason": "model caption doesn't mention any aspect of the traffic light."
+    },
+    {
+      "object_id": "traffic_sign_0121",
+      "ground_truth": "A triangle with a dot in the center and a slanted arrow pointing to the right.",
+      "model_output": "The 3D model represents a parked car, specifically a compact sedan. It is positioned parallel to the curb on a city street, with its front facing the camera. The car appears to be in good condition, with no visible damages or significant wear and tear. It is likely used for daily commuting or short-distance travel.",
+      "gpt_score": 0,
+      "gpt_reason": "no relevant aspects mentioned."
+    },
+    {
+      "object_id": "traffic_sign_0043",
+      "ground_truth": "A traffic sign with a slanted base and top, consisting of a post and reflector.",
+      "model_output": "The 3D model represents a bicycle parked on the street, secured by a bike lock attached to a metal post. The bicycle appears to have a standard frame, handlebars, pedals, and a rear rack, indicating its use for everyday transportation and storage.",
+      "gpt_score": 10,
+      "gpt_reason": "only 'post' aspect is mentioned."
+    },
+    {
+      "object_id": "traffic_sign_0282",
+      "ground_truth": "A traffic sign with a rectangle shape, slanted arrows pointing to the left and right, and a triangle on top.",
+      "model_output": "The 3D model represents a building, specifically a multi-story residential structure typical of European architecture. It features a pitched roof with multiple dormer windows, each with a decorative brick pattern. The building is likely used for residential purposes, common in urban settings.",
+      "gpt_score": 0,
+      "gpt_reason": "none of the aspects are mentioned"
+    },
+    {
+      "object_id": "traffic_sign_0220",
+      "ground_truth": "A triangle with a slanted base and apex, pointing to the left.",
+      "model_output": "The 3D model represents a road sign post, commonly used to support and display road signs along roads and highways. It features a vertical pole extending towards the sky, with a horizontal arm extending outwards to hold the sign. The sign post is typically made of metal and designed to be sturdy, anchored into the ground to withstand various weather conditions. It serves a crucial functional purpose, providing essential information to drivers and pedestrians, such as traffic regulations, speed limits, and directions.",
+      "gpt_score": 0,
+      "gpt_reason": "model does not mention any aspects from the human caption."
+    },
+    {
+      "object_id": "traffic_sign_0084",
+      "ground_truth": "A collection of 3D objects, including a square with a line through it and a dot in the center, a square with a rounded corner and a straight line through the center, a square with a rounded corner and a vertical line through the center, a square with a curved edge, a square with an arrow pointing to the left and an arrow pointing to the right, a square with a rounded corner and a straight line through it.",
+      "model_output": "The 3D model represents a traffic sign. It is designed to be mounted on a post and is typically found along roads or at intersections. The sign indicates restrictions or directions related to traffic flow, such as speed limits, one-way streets, or pedestrian crossings.",
+      "gpt_score": 0,
+      "gpt_reason": "model caption does not mention any specifics from the human caption"
+    },
+    {
+      "object_id": "traffic_sign_0087",
+      "ground_truth": "A traffic sign warning drivers of an impending hazard.",
+      "model_output": "The 3D model represents a street signpost. It features a vertical pole with a horizontal arm extending outwards, which holds the sign. The signpost is typically used to indicate street names, directions, or other relevant information, helping pedestrians and drivers navigate the area.",
+      "gpt_score": 50,
+      "gpt_reason": "mentions a street signpost; does not give information about hazard warning."
+    },
+    {
+      "object_id": "traffic_light_0131",
+      "ground_truth": "A traffic light is a three-dimensional object with a rectilinear shape, consisting of a horizontal bar and a vertical bar. It has a square with a circle in the center and a line through it.",
+      "model_output": "The 3D model represents a street lamp post. It is a tall, slender structure typically found along city streets. The primary function of the street lamp post is to provide illumination to the surrounding area during nighttime. It often includes multiple bulbs and can have features such as rotating or adjustable light color and intensity. In daily life, street lamp posts are integral components of urban infrastructure, ensuring safety and visibility in nighttime hours.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from human caption found in model description."
+    },
+    {
+      "object_id": "traffic_sign_0120",
+      "ground_truth": "A traffic sign with a red and white arrow on it.",
+      "model_output": "The 3D model represents a parked motorcycle, characterized by its two wheels, handlebars, and a seat. The motorcycle is positioned on the side of a street, likely indicating its use for transportation or leisure riding.",
+      "gpt_score": 0,
+      "gpt_reason": "No mention of traffic sign or red and white arrow."
+    },
+    {
+      "object_id": "traffic_light_0203",
+      "ground_truth": "A traffic light is a three-dimensional structure consisting of a base, pole, lens, and reflector.",
+      "model_output": "The 3D model represents a car positioned on the roadside. It appears to be a sedan, characterized by its four-door configuration and typical car features such as windows, wheels, and a roof. The car's design suggests it is intended for personal transportation, likely used for daily commuting or travel.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the aspects from the human-caption is mentioned in the model-caption."
+    },
+    {
+      "object_id": "traffic_sign_0319",
+      "ground_truth": "A traffic sign with a blue arrow on it, pointing to the left.",
+      "model_output": "The 3D model represents a bicycle, characterized by its two wheels, a frame, handlebars, and a seat. The bicycle is positioned upright, indicating it is likely parked and not in use at the moment. Its design suggests it is a standard urban bicycle, likely used for commuting or casual riding within the city environment.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from human caption mentioned in model caption."
+    },
+    {
+      "object_id": "traffic_light_0053",
+      "ground_truth": "Traffic light made up of a pole with a light at the top and bottom.",
+      "model_output": "The 3D model represents a traffic cone, specifically a conical traffic cone with a wide base tapering to a pointed top. It is designed to be brightly colored to ensure visibility, often used in road construction zones or other areas where temporary navigation assistance is needed.",
+      "gpt_score": 0,
+      "gpt_reason": "Model described a traffic cone instead of a traffic light"
+    },
+    {
+      "object_id": "traffic_light_0019",
+      "ground_truth": "Traffic light is a metal pole with a red and green light at the top.",
+      "model_output": "The 3D model represents a compact hatchback car. It has a sleek and modern design with a compact body, featuring smooth curves and lines. The car is positioned on a narrow street, between other parked vehicles. It appears to be a hatchback model, typically used for urban commuting and daily errands.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the aspects from the human caption are mentioned."
+    },
+    {
+      "object_id": "traffic_sign_0215",
+      "ground_truth": "A traffic sign with a black arrow on a white background.",
+      "model_output": "The 3D model represents a parking sign mounted on a pole. It indicates parking information, including the duration of time and the specific parking regulations. The sign is designed to be mounted on a vertical pole and is typically found in urban areas to manage parking space efficiently.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from human caption present in model description."
+    },
+    {
+      "object_id": "car_1260",
+      "ground_truth": "The image depicts a truck, which is a rectangle with a curved roof and hood. It is a two wheeled vehicle with front and rear wheels, similar to a motorcycle. The structure of the truck resembles that of a Chevrolet Tahoe or Silverado pickup truck.",
+      "model_output": "The 3D model represents a bicycle wheel, specifically one that is attached to a bike and positioned against a bike rack. The wheel appears to be in good condition with a visible spoke pattern and a standard-sized rim. It is likely used for daily transportation or leisure riding.",
+      "gpt_score": 0,
+      "gpt_reason": "model doesn't mention any aspect of the human's description."
+    },
+    {
+      "object_id": "traffic_sign_0171",
+      "ground_truth": "A traffic sign with a metal pole and reflector on top.",
+      "model_output": "The 3D model represents a bicycle parked on the side of a street. It appears to be a standard road bicycle with thin tires, a straight frame, and equipped with handlebars. The bicycle is likely used for commuting, running errands, or leisure riding.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the described aspects were mentioned in the model's caption."
+    },
+    {
+      "object_id": "car_0577",
+      "ground_truth": "The Audi A4, Mercedes-Benz E-Class Wagon, and Volkswagen Golf GTI all share similarities in their rectilinear structures and front wheel drive capabilities. The BMW E30 is a rear wheel drive hatchback with either a rear or front wheel drive configuration. The BMW M3 is a sports car with rear wheel drive. The Mercedes-Benz E-Class is a mid-sized luxury car. The Volkswagen Golf GTI's structure is based on a monocoque design, while the Audi A4's structure is the same as an Audi A4.",
+      "model_output": "The 3D model represents a compact SUV with a boxy shape and a prominent rear spoiler, indicating its utility and versatility. It is designed for practicality, comfort, and style, suitable for urban commuting and family use.",
+      "gpt_score": 0,
+      "gpt_reason": "Model caption does not mention any aspect from human caption."
+    },
+    {
+      "object_id": "traffic_sign_0126",
+      "ground_truth": "A traffic sign with a black pole and a white arrow on it.",
+      "model_output": "The 3D model represents a person, specifically a manhole cover worker, characterized by a flat top and a round, central hole. This type of worker is commonly used in urban environments to provide access to underground utilities, such as sewers, cables, and water pipes. Their primary function is to facilitate maintenance and repairs, allowing for efficient and safe access to these critical infrastructure components.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from the human description are mentioned in the model caption."
+    },
+    {
+      "object_id": "traffic_light_0082",
+      "ground_truth": "A traffic light is a 3D object made up of a pole, a base, and a light bulb. It has a slanted top and bottom and consists of a metal pole with a light at the top and a light at the bottom.",
+      "model_output": "The 3D model represents a pedestrian crossing signpost, which is typically found at the entrance of pedestrian crossings to guide and inform drivers and pedestrians about the pedestrian crossing ahead. The signpost is usually made of metal and has printed text or symbols to communicate the rules and regulations for pedestrians crossing.",
+      "gpt_score": 25,
+      "gpt_reason": "mentions the pole and metal material but misses the remainder."
+    },
+    {
+      "object_id": "traffic_light_0044",
+      "ground_truth": "A tall metal pole with a light at the top.",
+      "model_output": "The 3D model represents a pedestrian crossing sign, typically found at busy intersections or crosswalks to guide and inform pedestrians about safe areas to walk. It is designed to be mounted on a pole and is often made of metal for durability and visibility.",
+      "gpt_score": 75,
+      "gpt_reason": "Mentioned pole and made of metal, missed the light."
+    },
+    {
+      "object_id": "traffic_sign_0396",
+      "ground_truth": "The 3D object is a cylinder with a slanted base and top, featuring a white circle on a blue background with arrows pointing to the left and right.",
+      "model_output": "The object is a compact van with a boxy design, featuring a sliding door on the side and a cargo area. It is commonly used for transporting goods or equipment, and the sliding door is designed for easy access to the cargo area.",
+      "gpt_score": 0,
+      "gpt_reason": "The model description does not match any aspects of the human description."
+    },
+    {
+      "object_id": "traffic_light_0241",
+      "ground_truth": "Traffic light is a three-dimensional model of a traffic light, consisting of a base, a pole, and a lens.",
+      "model_output": "The 3D model represents a bicycle parked on the side of a street. It has a typical frame structure with two wheels, handlebars, and a seat. The bicycle appears to be locked to a bike rack, which is attached to a metal pole on the sidewalk. This setup is commonly used for daily transportation and is seen in urban areas.",
+      "gpt_score": 0,
+      "gpt_reason": "Model's description does not mention a traffic light."
+    },
+    {
+      "object_id": "traffic_light_0134",
+      "ground_truth": "Traffic light is a three-dimensional structure consisting of a base, lens, and reflector.",
+      "model_output": "The 3D model represents a street lamp post. It has a rectangular base with a vertical pole extending upwards, where the lamp fixture is attached. The pole is likely made of metal and designed to support the weight of the lamp and any other components. The street lamp post is commonly used along roads and sidewalks to provide illumination at night, enhancing safety and visibility for pedestrians and drivers.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the aspects mentioned in human caption are captured in model caption."
+    },
+    {
+      "object_id": "traffic_sign_0338",
+      "ground_truth": "Traffic sign with a rectangular base and rounded top and bottom.",
+      "model_output": "The 3D model represents a bicycle parked on the sidewalk with its kickstand down, indicating it is stationary. The bicycle appears to have a typical frame structure, handlebars, pedals, and a seat. It is likely used for daily transportation or commuting.",
+      "gpt_score": 0,
+      "gpt_reason": "model does not mention any aspect of the traffic sign"
+    },
+    {
+      "object_id": "person_0351",
+      "ground_truth": "A person with a head, neck, shoulders, hips, and torso.",
+      "model_output": "The 3D model is an architectural building, specifically a multi-story residential structure typical of European architecture. It features a pitched roof with dormer windows and a brick facade. The building's design includes arched windows and decorative brick patterns, contributing to its classic, yet functional residential appearance. It is likely used for housing and has a semi-urban setting with nearby trees and other buildings.",
+      "gpt_score": 0,
+      "gpt_reason": "model does not mention any human body parts."
+    },
+    {
+      "object_id": "person_0145",
+      "ground_truth": "A person riding a motorcycle on a white background.",
+      "model_output": "The 3D model represents a parking meter. It is designed to be mounted on a pole and is used to regulate parking time in urban areas. The parking meter typically has a coin slot, a digital display, and a mechanism to lock or unlock parking spaces. Its functionality is to manage parking demand and ensure that parking spaces are available for other users.",
+      "gpt_score": 0,
+      "gpt_reason": "Model caption does not match any aspect of the human caption."
+    },
+    {
+      "object_id": "person_0025",
+      "ground_truth": "A person wearing a hat and scarf stands in front of a white background.",
+      "model_output": "The 3D model represents a bicycle parked on the street, leaning against a metal pole. It has a frame, wheels, handlebars, and a seat. The bicycle appears to be in good condition and is likely used for daily commuting or leisure riding.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects of human-generated caption present in model-generated caption."
+    },
+    {
+      "object_id": "person_0055",
+      "ground_truth": "A person with a head, neck, shoulders, hips, and torso.",
+      "model_output": "The 3D model represents a street sign, specifically a traffic sign indicating no parking from 6 to 15 hours on weekdays.",
+      "gpt_score": 0,
+      "gpt_reason": "Model caption does not match with any aspects mentioned in the human caption."
+    },
+    {
+      "object_id": "person_0196",
+      "ground_truth": "A person is standing in the middle of a field of dots.",
+      "model_output": "The 3D model represents a person in a wheelchair, characterized by a round, flat top and a pair of side rails. It is designed to securely hold the wheelchair's occupant, allowing for smooth movement while ensuring safety during travel.",
+      "gpt_score": 0,
+      "gpt_reason": "no mention of field of dots, wrong person depiction."
+    },
+    {
+      "object_id": "person_0484",
+      "ground_truth": "A person standing in front of a white background.",
+      "model_output": "The 3D model represents a pedestrian crossing sign. It is a rectangular sign mounted on a pole, located at the side of a street, indicating a designated area where pedestrians can cross safely.",
+      "gpt_score": 0,
+      "gpt_reason": "Model description doesn't match any aspect of the human caption."
+    },
+    {
+      "object_id": "person_0322",
+      "ground_truth": "A person with a head, torso, arms, legs, and feet.",
+      "model_output": "The 3D model represents a bicycle parked on the side of a street. It has two wheels, a frame, handlebars, and a seat. The bicycle appears to be stationary, likely used for transportation or leisure riding.",
+      "gpt_score": 0,
+      "gpt_reason": "No matching aspects."
+    },
+    {
+      "object_id": "person_0268",
+      "ground_truth": "A person with a head, shoulders, torso, and hips.",
+      "model_output": "The 3D model represents a street lamp post, identifiable by its vertical structure and rectangular top. It appears to be made of metal, likely used for supporting street lights to provide illumination along the street at night. The street lamp post is commonly used in urban environments for public lighting, ensuring safety and visibility for pedestrians and vehicles.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the aspects were mentioned in the model caption."
+    },
+    {
+      "object_id": "person_0480",
+      "ground_truth": "A person is walking with a dog on a leash.",
+      "model_output": "The 3D model represents a bicycle parked on a sidewalk. It is a standard city bicycle with a rack attached to the back. The bicycle appears to be in good condition and is likely used for commuting or casual cycling within the city environment.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the aspects from human caption are mentioned."
+    },
+    {
+      "object_id": "person_0058",
+      "ground_truth": "A person in a suit and tie walking on a white background.",
+      "model_output": "The 3D model represents a bicycle wheel, specifically one that is attached to a bicycle and positioned against a bike rack. The wheel appears to be in good condition, with a visible spoke pattern and a standard-sized rim, indicating it is designed for general urban or road use.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from human caption mentioned in the model caption"
+    },
+    {
+      "object_id": "person_0456",
+      "ground_truth": "A person with blue dots on a white background, a person with a head and torso in the shape of a sphere, and a person's face made up of a series of dots.",
+      "model_output": "The 3D model represents a parking meter pole. It is a tall, vertical structure typically found along roads and streets. The primary function of the parking meter pole is to allow drivers to pay for parking time using coins or cards. It also displays the remaining time and is often equipped with a payment terminal for easy payment.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the mentioned aspects are found in the model description."
+    },
+    {
+      "object_id": "person_0535",
+      "ground_truth": "A person with a head, shoulders, hips, knees, ankles, and feet.",
+      "model_output": "The 3D model represents a bicycle parked on a sidewalk. It appears to be a standard city bicycle with a rack attached to the back, indicating it is likely used for commuting or short-distance travel. The bicycle has a typical frame structure, handlebars, and a seat, suggesting it is designed for riding.",
+      "gpt_score": 0,
+      "gpt_reason": "Model does not mention any human body parts."
+    },
+    {
+      "object_id": "person_0065",
+      "ground_truth": "A person in motion on a white background.",
+      "model_output": "The 3D model represents a bicycle, viewed from an angle that shows its frame, wheels, and handlebars. The bicycle appears to be parked on the sidewalk, indicating its stationary state. The model likely serves as a reference for computer vision or as a starting point for a 3D point cloud reconstruction of the bicycle.",
+      "gpt_score": 0,
+      "gpt_reason": "The model caption does not mention a person, motion, or a white background."
+    },
+    {
+      "object_id": "person_0079",
+      "ground_truth": "A person in a white square with a line drawing of a person in a white square with a line drawing of a, a person in a pixelated image, a person in black and white on a white background, a person is drawn using a grid of dots to represent the structure and geometry of a person, a person in the shape of a teddy bear with a teddy bear's head and a t, a person is drawn in a pixelated style, a person is standing in front of a white background with a pixelated image of a person, a person is drawn in the shape of a triangle with a head on one side and a torso on the other side.",
+      "model_output": "The 3D model represents a parking meter, characterized by its vertical structure and rectangular shape. It is designed to accept coins or cards for the temporary use of parking spaces. The functionality of a parking meter is to enforce parking time limits and generate revenue for parking services.",
+      "gpt_score": 0,
+      "gpt_reason": "no match for any aspect from the human caption."
+    },
+    {
+      "object_id": "person_0387",
+      "ground_truth": "A person is drawn in a dot pattern on a white background.",
+      "model_output": "The 3D model represents a bicycle. It has a frame, handlebars, a seat, pedals, and wheels. The design is typical of a street bike, with a focus on aerodynamics and efficiency for urban riding.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from the human caption are mentioned in the model description."
+    },
+    {
+      "object_id": "person_0231",
+      "ground_truth": "A person in a black and white polka dot pattern is standing on a white background.",
+      "model_output": "The 3D model represents a parking signpost mounted on a pole. It indicates parking information, including time limits, parking regulations, and possibly the hours of operation.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from human caption mentioned in model caption."
+    },
+    {
+      "object_id": "person_0312",
+      "ground_truth": "A person is walking with a stick in their hand.",
+      "model_output": "The 3D model represents a street lamp post. It features a vertical pole with a horizontal arm extending outwards, which holds the lamp fixture. The street lamp is typically used for providing illumination along the street at night, enhancing visibility and safety for pedestrians and drivers.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from human caption mentioned in model caption."
+    },
+    {
+      "object_id": "person_0170",
+      "ground_truth": "A person with a head, neck, shoulders, hips, and torso.",
+      "model_output": "The 3D model is a compact car, characterized by a sleek design with smooth curves and lines. It appears to be a modern vehicle, likely used for personal transportation in urban settings. The car's body is streamlined, suggesting it is designed for efficient use in tight city streets.",
+      "gpt_score": 0,
+      "gpt_reason": "Model does not mention any human body parts."
+    },
+    {
+      "object_id": "traffic_light_0014",
+      "ground_truth": "Traffic light with a base, stem, and reflector.",
+      "model_output": "The 3D model represents a car parked on a street. It appears to be a modern vehicle with a hatchback design, featuring a sleek body, prominent wheels, and a compact crossover. The car's position suggests it is likely used for daily commuting and urban transportation.",
+      "gpt_score": 0,
+      "gpt_reason": "No mention of traffic light, base, stem, or reflector."
+    },
+    {
+      "object_id": "person_0532",
+      "ground_truth": "A person walking in a straight line on a white background.",
+      "model_output": "The 3D model represents a bicycle parking rack. It is designed to hold multiple bicycles securely and is typically found in urban areas to facilitate cycling. The rack consists of horizontal bars and possibly a locking mechanism for securing the bikes.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from the human caption were mentioned in the model's caption."
+    },
+    {
+      "object_id": "person_0362",
+      "ground_truth": "A person with a head, neck, shoulders, hips, and torso.",
+      "model_output": "The 3D model represents a bicycle wheel, specifically one that is attached to a bike and positioned against a bike rack. The wheel appears to be in good condition with a visible spoke pattern and a standard-sized rim, indicating it is designed for general urban or road use.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the human aspects were mentioned in the model caption."
+    },
+    {
+      "object_id": "person_0436",
+      "ground_truth": "A person is depicted in various poses and descriptions, including a horizontal and vertical line representation, a walking motion, and a torso, legs, arms, and head outline.",
+      "model_output": "The 3D model represents a street sign. It features a white background with a red border and a black number 26, indicating the maximum speed allowed for vehicles within the designated area.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from the human caption are mentioned in the model caption."
+    },
+    {
+      "object_id": "person_0375",
+      "ground_truth": "A person with a head, shoulders, hips, and knees standing in front of a white background.",
+      "model_output": "The 3D model represents a car parked on the side of a street. It appears to be a small, compact car with a modern design, featuring a hatchback body style. The car is positioned parallel to the curb, and its appearance suggests it is a typical vehicle used for personal transportation.",
+      "gpt_score": 0,
+      "gpt_reason": "model doesn't mention person, body parts nor white background."
+    },
+    {
+      "object_id": "person_0092",
+      "ground_truth": "A person with a dotty face and body.",
+      "model_output": "The 3D model represents a street lamp post. It features a vertical pole with a horizontal arm extending outwards, which holds the lamp fixture. The street lamp is designed to provide illumination along the road at night, ensuring visibility and safety for pedestrians and vehicles.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from the human caption mentioned"
+    },
+    {
+      "object_id": "car_0608",
+      "ground_truth": "The van is a rectangular vehicle with a curved roof and front fender.",
+      "model_output": "The 3D model represents a compact car, positioned with its front and back wheels parallel to the curb on the side of a city street. The car's design suggests it is built for urban environments and likely used for daily commuting or short trips.",
+      "gpt_score": 25,
+      "gpt_reason": "mentions vehicle (car), no mention of rectangular or curved characteristics."
+    },
+    {
+      "object_id": "person_0151",
+      "ground_truth": "A person with a torso, arms, legs, and head is standing on a grassy hill.",
+      "model_output": "The 3D model represents a parking signpost mounted on a pole. It indicates parking information, such as time limits, parking regulations, and possibly the hours of operation. The signpost is designed to provide clear and easily readable information to drivers and pedestrians to manage parking in the area.",
+      "gpt_score": 0,
+      "gpt_reason": "model does not mention any aspects of human caption"
+    },
+    {
+      "object_id": "bicycle_1318",
+      "ground_truth": "A bicycle is a wheeled vehicle with a seat and pedals. It has a frame, fork, seat post, handlebars, and pedals.",
+      "model_output": "The 3D model represents a pedestrian crossing sign, commonly used in urban areas to indicate a designated area for pedestrians to cross safely. It features a blue circle with a white background and a red diagonal bar, ensuring the sign is easily visible to drivers and pedestrians alike.",
+      "gpt_score": 0,
+      "gpt_reason": "no matching elements at all."
+    },
+    {
+      "object_id": "bicycle_0527",
+      "ground_truth": "A bicycle is a two-wheeled vehicle with a seat, handlebars, and pedals.",
+      "model_output": "The 3D model represents a bicycle parked on the sidewalk. It has two wheels, a frame, handlebars, and a seat. The bicycle appears to be stationary, likely used for transportation or leisure riding.",
+      "gpt_score": 100,
+      "gpt_reason": "All aspects mentioned correctly"
+    },
+    {
+      "object_id": "bicycle_1125",
+      "ground_truth": "A bicycle is a wheeled vehicle with two wheels and a handlebar. It has a frame, a fork, a seat, a handlebar, a seat post, pedals, and a chain.",
+      "model_output": "The 3D model represents a modern SUV (Sport Utility Vehicle), characterized by its large size, high ground clearance, and spacious interior. It is designed for versatility, combining the features of a car with those of an off-road vehicle, making it suitable for urban commuting and light off-road driving.",
+      "gpt_score": 0,
+      "gpt_reason": "Model description does not match with Human description."
+    },
+    {
+      "object_id": "person_0091",
+      "ground_truth": "A person with a head, neck, shoulders, and hips.",
+      "model_output": "The 3D model is a street sign, specifically a traffic sign indicating no parking from 6 to 15 hours on weekdays.",
+      "gpt_score": 0,
+      "gpt_reason": "no aspects of the human body mentioned."
+    },
+    {
+      "object_id": "bicycle_1319",
+      "ground_truth": "A bicycle is a two wheeled vehicle with a front wheel and a rear wheel, featuring a seat, handlebars, pedals, and a chain. It has a frame, fork, seat post, and handlebar stem. The geometry of the bicycle is based on the human body, making it an efficient mode of transportation.",
+      "model_output": "The 3D model represents a compact car, characterized by a streamlined body, four doors, and a hatchback design. This type of vehicle is commonly used for daily commuting, providing a balance between size and functionality.",
+      "gpt_score": 0,
+      "gpt_reason": "Model caption does not mention any aspects of a bicycle."
+    },
+    {
+      "object_id": "person_0197",
+      "ground_truth": "A person with a head, neck, shoulders, hips, torso, arms, legs, and feet.",
+      "model_output": "The 3D model represents a person riding a bicycle. The rider wears a helmet, has a bicycle in hand, and is about to embark on a journey. The model is designed to capture the spatial relationships and dimensions of the rider and the bicycle, ensuring they appear to be in motion.",
+      "gpt_score": 80,
+      "gpt_reason": "mentions the model of a person but not all body parts."
+    },
+    {
+      "object_id": "bicycle_1177",
+      "ground_truth": "A bicycle is a two-wheeled vehicle with a seat and handlebars, featuring a frame, fork, seat, handlebar, seat post, and rear wheel.",
+      "model_output": "The 3D model represents a bicycle wheel, specifically one that is attached to a bike and positioned against a bike rack. The wheel appears to be in good condition with a visible spoke pattern and a standard-sized rim, indicating it is likely used for general urban or road cycling.",
+      "gpt_score": 16,
+      "gpt_reason": "mentioned wheel only"
+    },
+    {
+      "object_id": "bicycle_0802",
+      "ground_truth": "A bicycle is a wheeled vehicle with a seat, handlebars, and pedals. It has a frame, fork, seat post, handlebar stem, and chain.",
+      "model_output": "The 3D model represents a person riding a bicycle. The rider is wearing a helmet, has a jacket on, and is using a bike lock to secure the bicycle. The image suggests the rider is parked on the side of a street, possibly indicating a stop or pause in the bike ride.",
+      "gpt_score": 20,
+      "gpt_reason": "only mentioned bicycle."
+    },
+    {
+      "object_id": "tree_0986",
+      "ground_truth": "A tree with a lot of branches and leaves, the tree is a truncated pyramid with a spherical base and a spherical top.",
+      "model_output": "The 3D model represents a pedestrian crossing sign, commonly used to mark safe areas for people to walk across a road or street. It is typically rectangular with a white background and a black symbol depicting a person walking in a zigzag pattern. This sign is often found at intersections or along roads to ensure the safety of pedestrians crossing.",
+      "gpt_score": 0,
+      "gpt_reason": "No relevant aspects mentioned."
+    },
+    {
+      "object_id": "tree_0555",
+      "ground_truth": "A coniferous tree with a single trunk and branches, topped by a canopy of leaves.",
+      "model_output": "The 3D model represents the rear wheel of a car. It shows a detailed structure of the wheel components, including the tire, rim, and suspension components. The wheel appears to be stationary, likely used for analysis or simulation purposes.",
+      "gpt_score": 0,
+      "gpt_reason": "No related aspects mentioned in the model caption."
+    },
+    {
+      "object_id": "bicycle_0720",
+      "ground_truth": "A bicycle is a two-wheeled vehicle with a frame, wheels, pedals, and a seat.",
+      "model_output": "The 3D model represents the rear part of a silver sedan car, including the trunk, rear lights, rear windshield, and part of the rear bumper. The car appears to be parked along a street, with its rear facing the camera. The model likely serves as a reference for automated parking systems or rearview cameras.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the aspects about bicycle are mentioned."
+    },
+    {
+      "object_id": "bicycle_0729",
+      "ground_truth": "A bicycle is a wheeled vehicle with two wheels and a frame, seat, pedals, fork, handlebar, seat post, and geometry based on a tetrahedron and cuboid.",
+      "model_output": "The 3D model represents a car, specifically a modern sedan with sleek design lines and a compact structure. It appears to be parked along a street, suggesting it is a typical vehicle used for daily commuting or personal transportation. The model likely represents a combination of form and function, emphasizing both the aesthetic and practical aspects of the car.",
+      "gpt_score": 0,
+      "gpt_reason": "model completely missed the bicycle concept."
+    },
+    {
+      "object_id": "bicycle_1044",
+      "ground_truth": "A bicycle is a two-wheeled vehicle with a frame, fork, seat, handlebar, and pedals.",
+      "model_output": "The 3D model represents a bicycle wheel. It has a circular rim with spokes connecting the center hub to the rim edges. The wheel is designed for smooth rotation and is commonly used in bicycles for transportation and recreational purposes.",
+      "gpt_score": 20,
+      "gpt_reason": "only mentioned bicycle and wheel; missed frame, fork, seat, handlebar, and pedals."
+    },
+    {
+      "object_id": "bicycle_1326",
+      "ground_truth": "A bicycle is a two-wheeled vehicle with a seat, handlebars, pedals, wheels, and a frame.",
+      "model_output": "The 3D model represents a bicycle parked on the side of a street. It has a traditional frame with two wheels, handlebars, and a seat. The bicycle is leaning against a metal post, and its design suggests it is used for everyday transportation and travel.",
+      "gpt_score": 100,
+      "gpt_reason": "All aspects from the human caption are mentioned in the model's."
+    },
+    {
+      "object_id": "bicycle_0131",
+      "ground_truth": "A bicycle is a two-wheeled vehicle with a frame, fork, seat, handlebar, and wheels.",
+      "model_output": "The 3D model represents a bicycle, characterized by a distinct frame, wheels, handlebars, and a seat. It is designed for human-powered transportation and is commonly used for commuting, exercise, and recreational purposes.",
+      "gpt_score": 100,
+      "gpt_reason": "All aspects perfectly mentioned."
+    },
+    {
+      "object_id": "bicycle_0362",
+      "ground_truth": "A bicycle is a wheeled vehicle with a seat, handlebars, and pedals.",
+      "model_output": "The 3D model represents a compact sedan car. It has a sleek and elongated body design with a smooth front end, side panels, and a curved roofline. The car features large headlights, a prominent grille, and alloy wheels. Its functionality includes seating up to five passengers and providing a relatively spacious cargo area for storage. It is typically used for daily commuting, personal, and family transportation.",
+      "gpt_score": 0,
+      "gpt_reason": "Model describes a car instead of a bicycle."
+    },
+    {
+      "object_id": "bicycle_0779",
+      "ground_truth": "A bicycle is a two-wheeled vehicle with a seat, handlebars, pedals, and a chain. It has a frame, fork, seat post, handlebar stem, and rear wheel. The geometry of a bicycle is a tetrahedral polyhedron.",
+      "model_output": "The 3D model represents a bicycle, specifically designed for urban commuting. It features a frame, wheels, handlebars, a seat, and a rear rack. The bicycle is equipped with necessary components such as a chain, pedals, and a bike lock, ensuring its functionality as a mode of transportation.",
+      "gpt_score": 100,
+      "gpt_reason": "All aspects of the human description are mentioned or partially matched in the model description."
+    },
+    {
+      "object_id": "bicycle_0321",
+      "ground_truth": "A bicycle is a wheeled vehicle with a frame, fork, seat, handlebars, pedals, and chain. It is propelled by human or animal power through pedaling.",
+      "model_output": "The 3D model represents a small, compact car, possibly a hatchback or a minicar, designed for urban use. It has a low profile, short wheelbase, and compact dimensions, making it easy to maneuver in tight city spaces. The car's functionality includes likely being used for daily commuting, running errands, and short-distance travel. Its form factor suggests it is designed for personal transportation, suitable for individuals or small families.",
+      "gpt_score": 0,
+      "gpt_reason": "model completely misidentifies the object as a car."
+    },
+    {
+      "object_id": "bicycle_0207",
+      "ground_truth": "A bicycle with a frame, fork, seat, handlebar, and stem.",
+      "model_output": "The 3D model represents a car, specifically a sedan. It features a streamlined design with a smooth body, a sloping roofline, and a rectangular shape. The car has four doors, side mirrors, and windows. It is designed for practicality and efficiency, suitable for daily commuting and personal transportation.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from human description matched."
+    },
+    {
+      "object_id": "bicycle_0147",
+      "ground_truth": "A bicycle is a human powered vehicle with a seat and pedals, made up of a frame, fork, handlebar, seat, and pedals. Its structure and geometry are represented by a set of vertices and edges in a graph.",
+      "model_output": "The 3D model represents a bicycle wheel, specifically one that is attached to a bike and positioned against a bike rack. The wheel appears to be in good condition, with a visible spoke pattern and a standard-sized rim, indicating it is designed for general urban or road use.",
+      "gpt_score": 20,
+      "gpt_reason": "mentions bicycle and parts but not all specified in human caption."
+    },
+    {
+      "object_id": "bicycle_1111",
+      "ground_truth": "A bicycle is a two wheeled vehicle with a seat, handlebars, pedals, and wheels.",
+      "model_output": "The 3D model represents a person riding a bicycle. The rider is wearing a helmet, has a bike mounted on the back, and is using a hand signal to indicate a change in direction. The model appears to be in motion, indicating its use for simulation or analysis of a bike-related activity.",
+      "gpt_score": 80,
+      "gpt_reason": "mentions bicycle, rider implies seat and handlebars, no mention of pedals."
+    },
+    {
+      "object_id": "traffic_sign_0299",
+      "ground_truth": "A triangle with a point at the top and bottom.",
+      "model_output": "The 3D model represents a street lamp post. It is a tall, slender structure typically found along roads and streets. The primary function is to provide illumination to roadways at night, enhancing safety and visibility for pedestrians and vehicles. Street lamp posts are integral components of urban and suburban environments, ensuring that areas are well-lit, even in low-light conditions.",
+      "gpt_score": 0,
+      "gpt_reason": "no mention of triangle, point at top and bottom."
+    },
+    {
+      "object_id": "bicycle_0105",
+      "ground_truth": "A mountain bike with a front suspension fork and a rear suspension fork, equipped with a frame, a fork, a handlebar, a seat, pedals, a chain, and a saddle.",
+      "model_output": "The 3D model represents a compact car parked on the side of a street. It appears to be a modern hatchback with a streamlined design, featuring a compact body, a sloping roofline, and a rear spoiler. The car's hatchback design suggests it is practical for urban use, providing additional storage space for carrying items.",
+      "gpt_score": 0,
+      "gpt_reason": "model caption describes a car, not a bike."
+    },
+    {
+      "object_id": "bicycle_0847",
+      "ground_truth": "A bicycle is a wheeled vehicle with a seat and pedals.",
+      "model_output": "The 3D model represents a parked car. It is a compact vehicle with a hatchback design, featuring a rear window, side mirrors, and a visible door handle. This type of car is commonly used for daily transportation, providing practicality and efficiency for urban commuting.",
+      "gpt_score": 0,
+      "gpt_reason": "no aspects mentioned or partially matched."
+    },
+    {
+      "object_id": "bicycle_0576",
+      "ground_truth": "A bicycle is a two-wheeled vehicle with a seat, handlebars, and pedals.",
+      "model_output": "The 3D model represents a bicycle parked on a sidewalk. It has a typical frame structure, handlebars, a seat, and two wheels. The bicycle appears to be stationary, likely used for transportation or leisure riding.",
+      "gpt_score": 100,
+      "gpt_reason": "All aspects are correctly mentioned."
+    },
+    {
+      "object_id": "bicycle_0881",
+      "ground_truth": "A bicycle is a two-wheeled vehicle with a seat, handlebars, pedals, wheels, and a frame.",
+      "model_output": "The 3D model represents a bicycle, which appears to be parked on a sidewalk with its kickstand down and the wheels still in contact with the ground.",
+      "gpt_score": 90,
+      "gpt_reason": "Most aspects are correctly mentioned. Only 'seat' is not mentioned."
+    },
+    {
+      "object_id": "bicycle_0403",
+      "ground_truth": "A bicycle is a two-wheeled vehicle with a frame, pedals, wheels, and a seat. It can be used to travel from point A to point B.",
+      "model_output": "The 3D model represents a compact hatchback car. It has a sleek design with a compact body, featuring a hatchback rear door and a relatively low ground clearance. The car is likely designed for urban driving, offering good maneuverability and fuel efficiency.",
+      "gpt_score": 0,
+      "gpt_reason": "no aspects from the human caption were mentioned."
+    },
+    {
+      "object_id": "bicycle_0298",
+      "ground_truth": "A bicycle is a wheeled vehicle with a seat and pedals, composed of a frame, fork, handlebar, seat, and chain.",
+      "model_output": "The 3D model represents a parked car, specifically a black SUV, which appears to be a Citro\u00ebn. The car is positioned on the right-hand side of the street, facing the camera. It has a rectangular shape with a boxy design typical of many practical family SUVs. The car's windows are rolled up, and the trunk is closed, indicating it might be unused at the moment.",
+      "gpt_score": 0,
+      "gpt_reason": "no similarities between bicycle and car aspects."
+    },
+    {
+      "object_id": "bicycle_1006",
+      "ground_truth": "A bicycle with a frame, fork, seat, handlebar, and pedal.",
+      "model_output": "The 3D model represents a person riding a bicycle. The rider is wearing a helmet, a jacket, and has a basket attached to the back of the bike. The bicycle appears to be parked on the street, indicating its usage for transportation or leisure riding.",
+      "gpt_score": 40,
+      "gpt_reason": "mentions bicycle; misses frame, fork, seat, handlebar, and pedal aspects."
+    },
+    {
+      "object_id": "car_1267",
+      "ground_truth": "The Volkswagen Beetle is a small car with a tetrahedral prism structure and geometry. It has a curved roof, slanted windshield, and two seats. The Toyota Yaris is another small car that shares similarities with the Beetle in terms of its compact size and two-seater design. The Smart Fortwo is also a two-seater hatchback with a sloping roofline and a long hood. All three cars are popular choices for urban driving due to their maneuverability and fuel efficiency.",
+      "model_output": "The 3D model represents a compact car parked on the side of a street. The vehicle appears to be a hatchback or small sedan, with a streamlined body and a visible license plate at the rear.",
+      "gpt_score": 15,
+      "gpt_reason": "mention compact, two-seater, and hatchback."
+    },
+    {
+      "object_id": "bicycle_0468",
+      "ground_truth": "A bicycle is a wheeled vehicle with two wheels, a seat, a handlebar, pedals, and a chain. It can be propelled by a human or powered by a motor.",
+      "model_output": "The 3D model represents a bicycle, specifically a road bicycle with drop handlebars used primarily for urban commuting and recreational cycling. Its design includes a frame, wheels, pedals, and a seat, resembling a standard bicycle used for daily transportation and leisure activities.",
+      "gpt_score": 100,
+      "gpt_reason": "all aspects mentioned correctly."
+    },
+    {
+      "object_id": "bicycle_1063",
+      "ground_truth": "A bicycle is a two wheeled vehicle with a front wheel and a rear wheel, featuring a frame, fork, seat, handlebar, pedal, chain, and seat post.",
+      "model_output": "The 3D model represents a parked car, specifically a black SUV, located on the side of a street. The car appears to be a Citro\u00ebn or a similar model, with a boxy design typical of many practical family SUVs. Its functionality includes seating up to seven passengers and providing a spacious cargo area, making it suitable for family use and daily commutes.",
+      "gpt_score": 0,
+      "gpt_reason": "Completely different object; car versus bicycle."
+    },
+    {
+      "object_id": "bicycle_1171",
+      "ground_truth": "A bicycle is a two-wheeled vehicle with a seat, handlebars, pedals, and wheels.",
+      "model_output": "The 3D model represents a compact SUV parked on the side of a city street. It has a boxy shape with a short hood, a tall windshield, and a relatively short rear deck. The vehicle is positioned perpendicular to the curb, showing its front and rear profile. Its design suggests it is meant for urban commuting, offering a balance between practicality and style.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from the human caption are mentioned in the model's."
+    },
+    {
+      "object_id": "bicycle_0909",
+      "ground_truth": "A bicycle is a wheeled vehicle with a seat, handlebars, and pedals.",
+      "model_output": "The 3D model represents a compact hatchback car. It has a sleek design with a compact body, featuring a hatchback rear door. The car is likely used for urban commuting and is designed for efficiency and maneuverability in tight city streets.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects matched; bicycle and car are different."
+    },
+    {
+      "object_id": "bicycle_1282",
+      "ground_truth": "A bicycle is a two wheeled vehicle with a seat, handlebars, and pedals.",
+      "model_output": "The 3D model is a compact car, appearing to be a hatchback, characterized by its compact size and practical design. It is likely used for urban driving, offering ease of maneuverability in tight spaces. Its hatchback design suggests it is efficient for carrying various items, making it suitable for daily commuting and city driving.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the aspects from human caption are mentioned in the model caption."
+    },
+    {
+      "object_id": "bicycle_0969",
+      "ground_truth": "A bicycle is a wheeled vehicle with a seat and handlebars, designed for one or more riders to sit on while propelling themselves using pedals.",
+      "model_output": "The 3D model represents a bicycle. It appears as a standard two-wheeled vehicle with a frame, handlebars, pedals, and a seat. The design is commonly used for personal transportation, offering mobility and the ability to navigate various terrains.",
+      "gpt_score": 100,
+      "gpt_reason": "Mentioned all aspects: wheeled vehicle, seat, handlebars, designed for riders, propelling, pedals."
+    },
+    {
+      "object_id": "bicycle_0887",
+      "ground_truth": "A bicycle is a two-wheeled vehicle with a front wheel and a rear wheel, equipped with a seat, handlebars, and pedals.",
+      "model_output": "The 3D model represents a vehicle, specifically a white Volkswagen van, parked on the side of a city street. The van is a multi-purpose vehicle commonly used for transporting goods and passengers, and its design suggests it could be used for various other purposes like delivery or maintenance work.",
+      "gpt_score": 0,
+      "gpt_reason": "model description not related to bicycle."
+    },
+    {
+      "object_id": "person_0288",
+      "ground_truth": "A person in a dress is standing in front of a white background.",
+      "model_output": "The 3D model represents the front wheel of a car. It shows the structure of the wheel components, including the tire, rim, and hubcap (if present). The wheel appears to be in good condition, with no visible damage to the tire or rim.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the aspects in human caption are mentioned in model caption."
+    },
+    {
+      "object_id": "bicycle_0733",
+      "ground_truth": "A bicycle is a two-wheeled vehicle with a frame, fork, seat post, handlebars, pedals, and chain. It is propelled by the rider's pedaling and consists of essential components such as the frame, fork, seat, handlebar, and chain.",
+      "model_output": "The 3D model represents a bicycle wheel. It is a circular structure typically found on bicycles, featuring spokes radiating from the hub to the rim. The object's primary function is to support and facilitate the rotation of the bike's tires, enabling the vehicle to move forward. In daily life, bicycle wheels are an integral part of bicycles, providing the necessary support and mobility for pedaling.",
+      "gpt_score": 25,
+      "gpt_reason": "Only aspect of 'wheels' correctly identified, others missed."
+    },
+    {
+      "object_id": "bicycle_0188",
+      "ground_truth": "A bicycle with a seat, handlebar, and pedals.",
+      "model_output": "The 3D model represents a compact car, which appears to be parked on the side of a street. It has a relatively boxy shape with a flat roof and side windows. The car's design suggests it is designed for everyday use, providing seating for multiple passengers and enough space for personal items.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the aspects mentioned were referenced in the model description."
+    },
+    {
+      "object_id": "bicycle_0751",
+      "ground_truth": "A bicycle is a wheeled vehicle with a seat and pedals, propelled by a chain. It has a frame, fork, seat, handlebar, and stem.",
+      "model_output": "The 3D model represents a car, specifically a sedan. It features a streamlined body with a smooth design, indicating it is likely used for personal transportation. The car's profile includes a front bumper, side mirrors, and a visible license plate, indicating it is a typical vehicle used for daily commuting and errands.",
+      "gpt_score": 0,
+      "gpt_reason": "Model caption does not match with any aspects of the human caption."
+    },
+    {
+      "object_id": "bicycle_0025",
+      "ground_truth": "A bicycle with a seat and handlebars.",
+      "model_output": "The 3D model represents a car, specifically a van, parked on the side of the road. It has a boxy structure with a long body, a side door, and a rear hatch. The van is designed for carrying various items and is commonly used for transporting goods, equipment, or passengers.",
+      "gpt_score": 0,
+      "gpt_reason": "no relevant aspects mentioned"
+    },
+    {
+      "object_id": "bicycle_0155",
+      "ground_truth": "A bicycle is a wheeled vehicle with a seat and pedals, propelled by human power. It has a frame, fork, seat post, handlebars, and pedals, and is used for transportation or recreation.",
+      "model_output": "The 3D model represents a bicycle parked on a sidewalk. It is a standard road bicycle with two wheels, a frame, handlebars, and a seat. The bicycle appears to be leaning against a metal railing, typical for urban street fencing.",
+      "gpt_score": 90,
+      "gpt_reason": "Almost all aspects matched except for the use of bicycle for transportation or recreation."
+    },
+    {
+      "object_id": "bicycle_0827",
+      "ground_truth": "A bicycle with a black and white image of the United States on its frame.",
+      "model_output": "The 3D model represents a pedestrian crossing sign. It is a rectangular shape with a white background and a red border. The sign typically indicates a designated area where pedestrians can cross safely.",
+      "gpt_score": 0,
+      "gpt_reason": "No relevant aspects mentioned."
+    },
+    {
+      "object_id": "bicycle_0769",
+      "ground_truth": "A bicycle is a two wheeled vehicle with a seat, handlebars, and pedals. It consists of a frame, fork, wheel, chain, seat, and handlebar.",
+      "model_output": "The 3D model represents a car, specifically a hatchback model. It has a compact design with a short rear deck and a tailgate that opens upwards for cargo access. The car is characterized by its rounded headlights and a sloping rear end. It is typically used for urban driving due to its maneuverability and ease of parking.",
+      "gpt_score": 0,
+      "gpt_reason": "The model description does not match the human caption at all."
+    },
+    {
+      "object_id": "bicycle_0284",
+      "ground_truth": "A bicycle is a two wheeled vehicle with a frame, fork, seat, handlebar, seat post, and pedals.",
+      "model_output": "The 3D model represents a bicycle parked on a sidewalk. It appears to be a standard city bicycle with a rack attached to the back. This type of bicycle is commonly used for urban transportation and is designed for efficiency and convenience in navigating city environments.",
+      "gpt_score": 83,
+      "gpt_reason": "Mentioned bicycle, two-wheel vehicle, handlebar, and seat."
+    },
+    {
+      "object_id": "bicycle_0476",
+      "ground_truth": "A bicycle is a two-wheeled vehicle with a seat, handlebars, pedals, wheels, and a frame.",
+      "model_output": "The 3D model represents a bicycle wheel, specifically one that is attached to a bike and positioned against a bike rack. The wheel appears to be in good condition, with a visible spoke pattern and a standard-sized rim, indicating it is designed for general urban or road use.",
+      "gpt_score": 20,
+      "gpt_reason": "mentions wheels, partial match for bicycle."
+    },
+    {
+      "object_id": "bicycle_1038",
+      "ground_truth": "A bicycle is a wheeled vehicle with a seat and pedals, propelled by human power. It has a frame, fork, handlebar, seat, chain, and stem.",
+      "model_output": "The 3D model represents a parked car, specifically a van, with its rear facing the camera. The car appears to be stationed on the side of a street, with its position indicated by the parked state and the visible parked cars around it.",
+      "gpt_score": 0,
+      "gpt_reason": "model caption doesn't mention any aspects of the human caption."
+    },
+    {
+      "object_id": "bicycle_0107",
+      "ground_truth": "A bicycle is a wheeled vehicle with a seat, handlebars, and pedals. It consists of a frame, fork, seat, handlebars, pedals, and a chain.",
+      "model_output": "The 3D model represents the front part of a white camper van. The camper van has a boxy shape with large windows, an extended roof, and a rear storage area. It is designed for travel and camping and is commonly used for road trips and extended stays in remote areas.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the bicycle aspects were mentioned."
+    },
+    {
+      "object_id": "scooter_0001",
+      "ground_truth": "A scooter with a wheel and handlebar, composed of cylinders and spheres.",
+      "model_output": "The 3D model represents a parked car, specifically a Mercedes-Benz sedan. It is a modern vehicle with a sleek design, featuring rectangular headlights, a grille, and alloy wheels. The car is positioned on a street, with its front and back clearly visible. It appears to be a typical passenger car used for daily commuting or personal transportation.",
+      "gpt_score": 0,
+      "gpt_reason": "model caption describes a car, not a scooter."
+    },
+    {
+      "object_id": "wall_0017",
+      "ground_truth": "The wall is a rectilinear structure with a grid of squares and rectangles.",
+      "model_output": "The 3D model represents a person riding a bicycle. The rider is wearing a helmet, has a jacket on, and is holding a bicycle in their hand. The bicycle appears to be parked on the side of a street, likely indicating its use for transportation or leisure.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from the human caption are mentioned in the model caption."
+    },
+    {
+      "object_id": "wall_0015",
+      "ground_truth": "The wall is a grid of squares and rectangles.",
+      "model_output": "The 3D model represents a bicycle parked on the side of a street. The bicycle has a frame, wheels, handlebars, and a seat. It appears to be a standard city bicycle equipped with a rack to carry items. This type of bicycle is commonly used for daily commuting, running errands, or leisure riding in urban environments.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the aspects from the human caption are mentioned in the model caption."
+    },
+    {
+      "object_id": "sign_0004",
+      "ground_truth": "A tetrahedron made up of intersecting triangles, a rectangle with a curved top and bottom, a cylinder with a truncated cone at the top and a slanted octagon at the bottom, a letter A in the shape of a tetrahedron, a sign composed of squares arranged in a grid, and a rectangle with an arrow pointing to the bottom right corner.",
+      "model_output": "The 3D model represents a person riding a bicycle. The rider is wearing a helmet, has a bike in hand, and is positioned on the right side of the street, ready to embark on a journey.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the aspects mentioned in the human caption are represented in the model caption."
+    },
+    {
+      "object_id": "fence_0001",
+      "ground_truth": "The fence is a series of horizontal and vertical slats, arranged in a zigzag pattern with a gap between each slat.",
+      "model_output": "The 3D model represents a bicycle, viewed from an angle that shows its frame, wheels, and handlebars. The bicycle appears to be parked, with a focus on its structural components, including the seat, pedals, and front fork.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from the human caption are mentioned in the model caption."
+    },
+    {
+      "object_id": "rider_0007",
+      "ground_truth": "The rider has a slender body with a low center of gravity and a fork.",
+      "model_output": "The 3D model represents a parked bicycle, characterized by its two wheels, frame, and handlebars. The bike is positioned upright, leaning against a metal stand, indicating its stationary state. The model likely serves as a reference for analysis or simulation of the bike's mechanical properties.",
+      "gpt_score": 50,
+      "gpt_reason": "mention of bike frame which could be a partial match to 'fork', rider's body not mentioned."
+    },
+    {
+      "object_id": "motorcycle_0003",
+      "ground_truth": "The motorcycle has a cylinder head with three cylinders and a tetrahedral mesh structure.",
+      "model_output": "The 3D model represents a compact car, identifiable by its rectangular shape, compact size, and typical features such as wheels, windows, and a roof. Its design is optimized for urban environments, providing transportation for individuals or small families.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the aspects mentioned in the human caption are present in the model's."
+    },
+    {
+      "object_id": "table_0003",
+      "ground_truth": "A 3D object with a grid of dots, which can represent various images or patterns when viewed from different angles.",
+      "model_output": "The 3D model represents a compact, rectangular vehicle, commonly known as a delivery van or cargo van. It has a boxy design with a flat roof and a rear cargo door, which is typical for such vehicles. This type of vehicle is typically used for transporting goods and supplies in urban settings, often for businesses such as delivery services, moving companies, or small-scale logistics operations.",
+      "gpt_score": 0,
+      "gpt_reason": "Model caption doesn't mention any aspect from human caption."
+    },
+    {
+      "object_id": "umbrella_0001",
+      "ground_truth": "The umbrella is a three-dimensional object with a ribbed structure, featuring a slender handle and a ribbed canopy. It has a truncated cone shape with a curved tip and a slanted apex. The umbrella consists of a series of ribs that support the canopy and handle, providing stability and durability.",
+      "model_output": "The 3D model represents a bicycle. It has a typical bicycle frame structure, with two wheels, handlebars, a seat, and pedals. The design is intended for urban commuting and recreational use, offering a balance between functionality and aesthetics.",
+      "gpt_score": 0,
+      "gpt_reason": "completely different objects, no aspects matched."
+    },
+    {
+      "object_id": "cart_0001",
+      "ground_truth": "A tetrahedrally symmetrical polygon with a slanted base and a truncated octagon at the top.",
+      "model_output": "The 3D model represents a parked car, specifically a white Fiat Scudo. It is a medium-sized van commonly used for commercial purposes, featuring a boxy design with a high roof and spacious cargo area. The vehicle is parked on the side of a street, indicating its use for transportation or delivery purposes.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from the human caption are mentioned in the model caption."
+    },
+    {
+      "object_id": "dog_0001",
+      "ground_truth": "A dog drawn in a zigzag pattern on a white background.",
+      "model_output": "The 3D model represents a parked car positioned between other vehicles on a city street. It appears to be a modern hatchback with a sleek design, indicating it is likely used for daily commuting or short trips. The car's placement suggests it is parked temporarily, as it is aligned parallel to the curb.",
+      "gpt_score": 0,
+      "gpt_reason": "No relevant aspect matched."
+    },
+    {
+      "object_id": "bicycle_0148",
+      "ground_truth": "A bicycle is a two wheeled vehicle with a front wheel and rear wheel, featuring a seat, pedals, handlebar, saddle, and chain.",
+      "model_output": "The 3D model represents a compact, hatchback car. It has a sleek design with a compact body, featuring a front hood, side panels, and a rear trunk. The car is typically used for urban commuting and is known for its efficiency in maneuvering through tight spaces and parking spots.",
+      "gpt_score": 0,
+      "gpt_reason": "model completely mismatched, completely different vehicle."
+    },
+    {
+      "object_id": "car_1684",
+      "ground_truth": "The Honda Civic is a four-door hatchback with a sloping roofline and hood.",
+      "model_output": "The 3D model represents a compact car, specifically a hatchback. It features a rectangular shape with a sloping rear end, indicating its hatchback design. The vehicle appears to be parked on the side of a street, suggesting its use for urban transportation. The model includes details such as the car's wheels, windows, and the basic structure of its body.",
+      "gpt_score": 67,
+      "gpt_reason": "mentions hatchback and sloping features; misses Honda Civic and four-door aspects."
+    },
+    {
+      "object_id": "person_0439",
+      "ground_truth": "A person walking in a straight line on a white background.",
+      "model_output": "The 3D model represents a parking sign post. It features a vertical pole with a sign attached, indicating parking information. Below the sign is a horizontal arm, which extends outwards to hold a lamp fixture. The pole is designed to be sturdy, anchored into the ground to ensure stability. Its primary function is to provide parking information to drivers and pedestrians, aiding in managing parking space efficiently.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from human caption mentioned."
+    },
+    {
+      "object_id": "bicycle_0198",
+      "ground_truth": "A bicycle is a two-wheeled vehicle with a frame, wheels, pedals, and a seat.",
+      "model_output": "The 3D model represents a manhole cover, typically found at the bottom of a street or parking lot, which provides access to the underground utilities. They are usually circular in shape and have a flat top to support foot traffic and vehicles. The primary function of a manhole cover is to provide a safe and secure access point to the underground infrastructure, allowing for maintenance, repair, and inspection of the utilities.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from human caption mentioned in the model description."
+    },
+    {
+      "object_id": "car_1467",
+      "ground_truth": "The Volvo XC90 is a four-wheel drive SUV with front and rear wheel drive systems. It is based on the structure of the Volvo XC90, and is a mid-sized vehicle. The Subaru Impreza is a rear-wheel drive hatchback, while the Toyota Tacoma is a pickup truck.",
+      "model_output": "The 3D model is a compact car, specifically a hatchback model. It has a rectangular shape with a sloping rear window and a compact body. The car is designed for urban driving and is characterized by its hatchback doors and a rear spoiler.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the mentioned car models/aspects matched."
+    },
+    {
+      "object_id": "bicycle_0163",
+      "ground_truth": "A bicycle is a three-dimensional object consisting of a frame, wheels, pedals, handlebars, and a seat.",
+      "model_output": "The 3D model represents a compact car, specifically a sedan. It features a streamlined body with a smooth design, typical of modern cars. The car appears to be parked on the side of a street, indicating its use for personal transportation.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from the human caption are mentioned in the model's."
+    },
+    {
+      "object_id": "car_1673",
+      "ground_truth": "The Volkswagen Golf is a small car with front wheel drive and rear wheel drive options. It has a tetrahedral cuboid structure and geometry, making it a compact hatchback vehicle. The Jetta, another model by Volkswagen, is a sedan with a hatchback option. The Toyota Yaris is also a small car, but belongs to a different brand.",
+      "model_output": "The 3D model represents a car parked on a residential street. The car appears to be a compact hatchback, with its front facing the viewer. The model includes details such as the car's tire, rim, and the basic structure of the vehicle's body.",
+      "gpt_score": 50,
+      "gpt_reason": "mentioned compact hatchback and basic structure of car."
+    },
+    {
+      "object_id": "bicycle_0488",
+      "ground_truth": "Two bicycles parked next to each other on a white background.",
+      "model_output": "The 3D model represents a parked car, specifically a black SUV, located on the right side of the street. The car is positioned parallel to the curb, and its rear is facing the camera. The vehicle appears to be a modern, compact model, possibly used for daily commuting or family transportation.",
+      "gpt_score": 0,
+      "gpt_reason": "No mention of bicycles, parking, or a white background."
+    },
+    {
+      "object_id": "car_0934",
+      "ground_truth": "The Toyota Corolla, Audi A4, BMW X5, Volkswagen Beetle, and Volkswagen Polo all have distinct structures and geometries. The Corolla is a tetrahedral cuboid, the A4 is a car, the X5 is a four-wheel drive vehicle, the small car is a cylinder with a spherical surface, and the Beetle is a two-door hatchback with a curved roof and slanted profile. The Polo is a sedan with front wheel drive and rear wheel drive.",
+      "model_output": "The 3D model represents a compact car, specifically a sedan, characterized by its streamlined body, four doors, and a relatively small size. Sedans are commonly used for personal transportation due to their practicality, fuel efficiency, and comfort. They are designed to accommodate a few passengers comfortably, making them suitable for families or individuals needing a reliable and economical vehicle for daily commutes and errands.",
+      "gpt_score": 8,
+      "gpt_reason": "Only represents sedan, missing other car models and details."
+    },
+    {
+      "object_id": "bicycle_0987",
+      "ground_truth": "A bicycle is a two-wheeled vehicle with a front wheel and a rear wheel, featuring a frame, fork, seat, handlebar, pedal, chain, and seat post. It is propelled by human or animal power and has a wheeled design for efficient movement on various terrains.",
+      "model_output": "The 3D model represents a street lamp post, commonly used to illuminate roads and pedestrian areas at night. It features a vertical pole with a horizontal arm extending outwards, which holds the lamp fixture. The street lamp post is designed to provide consistent and adequate lighting for safe navigation and road safety.",
+      "gpt_score": 0,
+      "gpt_reason": "model description doesn't match any aspect of the human description."
+    },
+    {
+      "object_id": "bicycle_0301",
+      "ground_truth": "A bicycle is a two wheeled vehicle with a seat, handlebars, and pedals.",
+      "model_output": "The 3D model represents a compact SUV, characterized by a boxy shape, elevated ground clearance, and four doors. It is designed for versatility, spacious interiors, and all-wheel drive, making it suitable for both urban commuting and light off-road driving. The compact SUV is typically used for families or individuals requiring a vehicle that offers a balance of comfort, safety, and reliability.",
+      "gpt_score": 0,
+      "gpt_reason": "No aspects from the human caption are mentioned in the model caption."
+    },
+    {
+      "object_id": "car_0812",
+      "ground_truth": "A hatchback with a sloping roofline and an openable trunk.",
+      "model_output": "The 3D model represents a bicycle parked on the side of a road. It is a standard city bike with a rack attached to the back. This type of bicycle is commonly used for urban commuting and is designed for efficiency and convenience in navigating city environments.",
+      "gpt_score": 0,
+      "gpt_reason": "None of the aspects were correctly mentioned or partially matched."
+    },
+    {
+      "object_id": "bicycle_0497",
+      "ground_truth": "A bicycle is a two wheeled vehicle with a seat, handlebars, pedals, and wheels. It has a frame and fork, a chain, and a seat.",
+      "model_output": "The 3D model represents a compact car, characterized by its small size, four doors, and typical sedan shape. It is designed for urban environments where space is at a premium, and maneuverability is crucial. The car\u2019s compactness makes it ideal for city driving where efficient parking and maneuvering through traffic are essential.",
+      "gpt_score": 0,
+      "gpt_reason": "no common elements between a bike and a compact car."
+    },
+    {
+      "object_id": "traffic_sign_0362",
+      "ground_truth": "A traffic sign with an arrow pointing to the left and another arrow pointing to the right.",
+      "model_output": "The 3D model represents a road sign. It is designed to resemble a rectangular, metallic structure mounted on a post. The primary function of the road sign is to provide information to drivers and pedestrians about traffic regulations, speed limits, directions, warnings, or other important details. Road signs are crucial for maintaining order and safety on the roads.",
+      "gpt_score": 0,
+      "gpt_reason": "Model does not mention arrows or their directions."
+    }
+  ]
+}

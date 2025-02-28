@@ -1,0 +1,1826 @@
+{
+  "inference_prompt": "Please tell me its category only. (No more than 3 words)",
+  "prompt": "Analyze two sentences and determine if they're referring to the same general object or concept, focusing on the type of object, not attributes such as color, size, or shape. Respond with 'T' if they refer to the same thing and 'F' if not. Also, provide a brief rationale (no more than 20 words) for your judgment.\nExample:\nInput: 1. Spiral staircase that goes from a ground floor. 2. This is a 3D model of wooden stairs in light brown\nOutput: T#Both refer to a staircase.\n\nNow, analyze the following:\nInput: 1. {ground_truth} 2. {model_output}\nOutput: ",
+  "accuracy": "44.79%",
+  "total_predictions": 259,
+  "correct_predictions": 116,
+  "invalid_responses": 0,
+  "prompt_tokens": 38623,
+  "completion_tokens": 3567,
+  "GPT_cost": 1.37271,
+  "results": [
+    {
+      "object_id": "tree_0018",
+      "ground_truth": "tree",
+      "model_output": "Trees.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a tree."
+    },
+    {
+      "object_id": "tree_0854",
+      "ground_truth": "tree",
+      "model_output": "The category is urban settings.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a natural element, the other to a type of location."
+    },
+    {
+      "object_id": "tree_0979",
+      "ground_truth": "tree",
+      "model_output": "Trees.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a tree."
+    },
+    {
+      "object_id": "tree_1057",
+      "ground_truth": "tree",
+      "model_output": "Outdoor parking meter.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a natural object while the other refers to a man-made object."
+    },
+    {
+      "object_id": "tree_0851",
+      "ground_truth": "tree",
+      "model_output": "Parking signpost.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a natural object (tree), the other to a man-made object (signpost)."
+    },
+    {
+      "object_id": "tree_0723",
+      "ground_truth": "tree",
+      "model_output": "Environmental area.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a plant, the other to a location or setting."
+    },
+    {
+      "object_id": "tree_0062",
+      "ground_truth": "tree",
+      "model_output": "The category is white cars.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a tree, the other to cars."
+    },
+    {
+      "object_id": "tree_0599",
+      "ground_truth": "tree",
+      "model_output": "It is a white van labeled 'APELONA'.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a tree and the other to a van."
+    },
+    {
+      "object_id": "tree_0515",
+      "ground_truth": "tree",
+      "model_output": "Urban street signpost.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a plant and the other to a man-made object."
+    },
+    {
+      "object_id": "tree_0056",
+      "ground_truth": "tree",
+      "model_output": "Bicycle parking rack.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a natural object (tree) and the other refers to a man-made object (bicycle parking rack)."
+    },
+    {
+      "object_id": "tree_0328",
+      "ground_truth": "tree",
+      "model_output": "It is a building with a mix of architectural styles, featuring a combination of brick and stone materials.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a tree, the other to a building."
+    },
+    {
+      "object_id": "tree_0885",
+      "ground_truth": "tree",
+      "model_output": "The category is \"outdoor parking\".",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a tree and the other to parking."
+    },
+    {
+      "object_id": "tree_0918",
+      "ground_truth": "tree",
+      "model_output": "Environmental and urban issues.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a natural element (tree) and the other refers to broader concepts (environmental and urban issues)."
+    },
+    {
+      "object_id": "tree_0012",
+      "ground_truth": "tree",
+      "model_output": "Category, street lamp, pedestrian crossing.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a tree, the other to urban objects."
+    },
+    {
+      "object_id": "car_1752",
+      "ground_truth": "car",
+      "model_output": "Its category is hatchback cars.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to cars."
+    },
+    {
+      "object_id": "tree_0412",
+      "ground_truth": "tree",
+      "model_output": "The category is 'urban landscape'.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a natural object (tree), the other is a type of scenery (urban landscape)."
+    },
+    {
+      "object_id": "car_1744",
+      "ground_truth": "car",
+      "model_output": "Compact car, suitable for urban driving.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0163",
+      "ground_truth": "car",
+      "model_output": "It is a compact car, suitable for urban driving.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "tree_0229",
+      "ground_truth": "tree",
+      "model_output": "Tree",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a tree."
+    },
+    {
+      "object_id": "car_1182",
+      "ground_truth": "car",
+      "model_output": "A vehicle with a bike rack attached to its roof.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a vehicle."
+    },
+    {
+      "object_id": "car_0244",
+      "ground_truth": "car",
+      "model_output": "Its category is SUVs.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a type of vehicle."
+    },
+    {
+      "object_id": "car_1409",
+      "ground_truth": "car",
+      "model_output": "SUV, compact car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to types of vehicles."
+    },
+    {
+      "object_id": "car_1032",
+      "ground_truth": "car",
+      "model_output": "The category is compact cars.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0624",
+      "ground_truth": "car",
+      "model_output": "It is a hatchback car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0139",
+      "ground_truth": "car",
+      "model_output": "Its category is 'passenger car'.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0047",
+      "ground_truth": "car",
+      "model_output": "It is a compact car, suitable for urban environments.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0877",
+      "ground_truth": "car",
+      "model_output": "It is a compact hatchback car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1680",
+      "ground_truth": "car",
+      "model_output": "Bicycles.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "They refer to different types of vehicles."
+    },
+    {
+      "object_id": "car_1578",
+      "ground_truth": "car",
+      "model_output": "Motors, cars, and bicycles are all part of the category of transportation.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0593",
+      "ground_truth": "car",
+      "model_output": "The image is of a bicycle, which is a common mode of transportation in urban areas for short commutes and leisure rides.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, the other to a bicycle."
+    },
+    {
+      "object_id": "tree_0593",
+      "ground_truth": "tree",
+      "model_output": "The category is tree.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to the concept of a 'tree'."
+    },
+    {
+      "object_id": "car_1474",
+      "ground_truth": "car",
+      "model_output": "SUV category.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to types of vehicles."
+    },
+    {
+      "object_id": "car_0785",
+      "ground_truth": "car",
+      "model_output": "Bicycles.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "They refer to different types of vehicles."
+    },
+    {
+      "object_id": "tree_0281",
+      "ground_truth": "tree",
+      "model_output": "The category is urban environments.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a natural element, a tree, and the other refers to an urban environment."
+    },
+    {
+      "object_id": "car_1508",
+      "ground_truth": "car",
+      "model_output": "The category is: Street vehicle.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a type of vehicle."
+    },
+    {
+      "object_id": "car_1509",
+      "ground_truth": "car",
+      "model_output": "It is a black SUV, likely used for daily commute or family transport.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a type of vehicle."
+    },
+    {
+      "object_id": "tree_0705",
+      "ground_truth": "tree",
+      "model_output": "The object is a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a tree, the other to a bicycle."
+    },
+    {
+      "object_id": "car_0841",
+      "ground_truth": "car",
+      "model_output": "Its category is compact cars.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a type of car."
+    },
+    {
+      "object_id": "tree_1025",
+      "ground_truth": "tree",
+      "model_output": "Parked cars.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a natural object and the other to a mechanical object."
+    },
+    {
+      "object_id": "car_0619",
+      "ground_truth": "car",
+      "model_output": "It is a compact hatchback.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a type of vehicle."
+    },
+    {
+      "object_id": "car_0019",
+      "ground_truth": "car",
+      "model_output": "It is a compact hatchback.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a type of vehicle."
+    },
+    {
+      "object_id": "car_0930",
+      "ground_truth": "car",
+      "model_output": "This is a passenger car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1001",
+      "ground_truth": "car",
+      "model_output": "The car is a hatchback, known for its practicality and efficiency.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0610",
+      "ground_truth": "car",
+      "model_output": "The category is bicycles.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, the other to bicycles."
+    },
+    {
+      "object_id": "tree_0381",
+      "ground_truth": "tree",
+      "model_output": "Bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a plant and one is referring to a vehicle."
+    },
+    {
+      "object_id": "car_0505",
+      "ground_truth": "car",
+      "model_output": "The category is likely cycling.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, and the other refers to cycling."
+    },
+    {
+      "object_id": "car_0868",
+      "ground_truth": "car",
+      "model_output": "The category is small cars, typically used for urban commuting due to their compact size and maneuverability.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to cars."
+    },
+    {
+      "object_id": "car_1104",
+      "ground_truth": "car",
+      "model_output": "The category is compact cars.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to cars."
+    },
+    {
+      "object_id": "car_1418",
+      "ground_truth": "car",
+      "model_output": "The category is: Bicycles.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car while the other refers to bicycles."
+    },
+    {
+      "object_id": "tree_0970",
+      "ground_truth": "tree",
+      "model_output": "The category is residential buildings.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a plant, the other to a type of building."
+    },
+    {
+      "object_id": "car_0231",
+      "ground_truth": "car",
+      "model_output": "Compact car, suitable for urban environments.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1029",
+      "ground_truth": "car",
+      "model_output": "It's a compact car, typically used for urban environments.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1655",
+      "ground_truth": "car",
+      "model_output": "Vehicle category: car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1158",
+      "ground_truth": "car",
+      "model_output": "The category is compact cars.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to cars."
+    },
+    {
+      "object_id": "car_0577",
+      "ground_truth": "car",
+      "model_output": "Compact car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1748",
+      "ground_truth": "car",
+      "model_output": "Compact car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0775",
+      "ground_truth": "car",
+      "model_output": "The category is only cars.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to cars."
+    },
+    {
+      "object_id": "car_1099",
+      "ground_truth": "car",
+      "model_output": "Vehicle, car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0759",
+      "ground_truth": "car",
+      "model_output": "Sedans.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to types of automobiles."
+    },
+    {
+      "object_id": "car_0553",
+      "ground_truth": "car",
+      "model_output": "It is a sedan car, which is typically used for personal transportation, offering comfort and efficiency for daily commutes and travel.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0955",
+      "ground_truth": "car",
+      "model_output": "The category is: bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, the other to a bicycle."
+    },
+    {
+      "object_id": "car_1574",
+      "ground_truth": "car",
+      "model_output": "The vehicle is a compact car, typically used for daily commuting and short trips.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1050",
+      "ground_truth": "car",
+      "model_output": "Bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "Although both are vehicles, one refers to a car and the other to a bicycle."
+    },
+    {
+      "object_id": "car_1564",
+      "ground_truth": "car",
+      "model_output": "It is a small, compact car with a hatchback design, typically used for urban daily commuting.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0807",
+      "ground_truth": "car",
+      "model_output": "Compact car, four doors, designed for urban use.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0810",
+      "ground_truth": "car",
+      "model_output": "The car is a black SUV, which is typically associated with the category of luxury or premium vehicles.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0862",
+      "ground_truth": "car",
+      "model_output": "The category of the car is hatchback.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1761",
+      "ground_truth": "car",
+      "model_output": "Bicycle category.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, the other to a bicycle."
+    },
+    {
+      "object_id": "car_1344",
+      "ground_truth": "car",
+      "model_output": "Bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car and the other to a bicycle."
+    },
+    {
+      "object_id": "car_1108",
+      "ground_truth": "car",
+      "model_output": "The category is white SUV.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to types of vehicles."
+    },
+    {
+      "object_id": "car_0477",
+      "ground_truth": "car",
+      "model_output": "It is a compact car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0625",
+      "ground_truth": "car",
+      "model_output": "The category is small, compact cars.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to cars."
+    },
+    {
+      "object_id": "car_0904",
+      "ground_truth": "car",
+      "model_output": "The category of the car is compact.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0002",
+      "ground_truth": "car",
+      "model_output": "This is an automotive category vehicle.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a vehicle or car."
+    },
+    {
+      "object_id": "car_1595",
+      "ground_truth": "car",
+      "model_output": "The vehicle is a sedan, suitable for personal transportation.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a vehicle for personal transportation."
+    },
+    {
+      "object_id": "car_1355",
+      "ground_truth": "car",
+      "model_output": "The vehicle is a commercial car, likely used for delivery purposes.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1357",
+      "ground_truth": "car",
+      "model_output": "Bicycle, motorcycle, vehicle.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a type of vehicle."
+    },
+    {
+      "object_id": "car_0365",
+      "ground_truth": "car",
+      "model_output": "Compact car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0449",
+      "ground_truth": "car",
+      "model_output": "It is a compact car, suitable for urban driving.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both sentences refer to a car."
+    },
+    {
+      "object_id": "car_0064",
+      "ground_truth": "car",
+      "model_output": "The category is compact cars.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to cars."
+    },
+    {
+      "object_id": "car_0223",
+      "ground_truth": "car",
+      "model_output": "Mini Cooper, subcompact car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0083",
+      "ground_truth": "car",
+      "model_output": "It's a black-colored vehicle parked on the side of a street.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a vehicle."
+    },
+    {
+      "object_id": "car_0892",
+      "ground_truth": "car",
+      "model_output": "It is a compact SUV.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a type of vehicle."
+    },
+    {
+      "object_id": "car_1584",
+      "ground_truth": "car",
+      "model_output": "The category is cars, specifically hatchbacks.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to cars."
+    },
+    {
+      "object_id": "car_1136",
+      "ground_truth": "car",
+      "model_output": "It is a street sign.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a vehicle while the other refers to a road sign."
+    },
+    {
+      "object_id": "car_1142",
+      "ground_truth": "car",
+      "model_output": "It is a sedan car, suitable for passenger use.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1235",
+      "ground_truth": "car",
+      "model_output": "It's a street signpost.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a vehicle and the other to a signage."
+    },
+    {
+      "object_id": "car_0479",
+      "ground_truth": "car",
+      "model_output": "Bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "They refer to different types of vehicles."
+    },
+    {
+      "object_id": "car_0589",
+      "ground_truth": "car",
+      "model_output": "It's a car category.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to the concept of a \"car\"."
+    },
+    {
+      "object_id": "car_0905",
+      "ground_truth": "car",
+      "model_output": "It is a compact car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0691",
+      "ground_truth": "car",
+      "model_output": "The car is a silver hatchback, likely used for daily commuting.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0812",
+      "ground_truth": "car",
+      "model_output": "Compact hatchback.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a type of vehicle."
+    },
+    {
+      "object_id": "car_0591",
+      "ground_truth": "car",
+      "model_output": "The category is 'A-Class'.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a vehicle, the other refers to a category."
+    },
+    {
+      "object_id": "car_0776",
+      "ground_truth": "car",
+      "model_output": "Cargo van, suitable for transporting goods.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car while the other refers to a cargo van."
+    },
+    {
+      "object_id": "car_1397",
+      "ground_truth": "car",
+      "model_output": "Compact car, suitable for urban environments.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1288",
+      "ground_truth": "car",
+      "model_output": "Bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "They refer to different types of vehicles."
+    },
+    {
+      "object_id": "tree_0363",
+      "ground_truth": "tree",
+      "model_output": "Bicycle parking.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a natural object, the other refers to a man-made object."
+    },
+    {
+      "object_id": "car_1267",
+      "ground_truth": "car",
+      "model_output": "Cars, compact cars, four doors, hatchback design.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both are referring to cars."
+    },
+    {
+      "object_id": "car_1260",
+      "ground_truth": "car",
+      "model_output": "The category is transportation, specifically for cycling short distances in urban areas.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car and the other to a bicycle."
+    },
+    {
+      "object_id": "car_0390",
+      "ground_truth": "car",
+      "model_output": "It is a compact hatchback car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1430",
+      "ground_truth": "car",
+      "model_output": "It is a compact SUV.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a type of vehicle."
+    },
+    {
+      "object_id": "car_0101",
+      "ground_truth": "car",
+      "model_output": "The category of the image is bicycles, as indicated by the word 'bicycle parked' in the title.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, the other refers to bicycles."
+    },
+    {
+      "object_id": "car_0315",
+      "ground_truth": "car",
+      "model_output": "Compact, hatchback car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a type of vehicle, specifically a car."
+    },
+    {
+      "object_id": "car_0303",
+      "ground_truth": "car",
+      "model_output": "The vehicle is a Mercedes-Benz sedan, belonging to the category of luxury cars.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1316",
+      "ground_truth": "car",
+      "model_output": "The category is personal transportation, suitable for individuals or small families.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a mode of personal transportation."
+    },
+    {
+      "object_id": "car_1312",
+      "ground_truth": "car",
+      "model_output": "It is a sedan car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a type of car."
+    },
+    {
+      "object_id": "car_0490",
+      "ground_truth": "car",
+      "model_output": "It is a compact car, commonly used for urban commuting.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0608",
+      "ground_truth": "car",
+      "model_output": "The category is compact cars.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to cars."
+    },
+    {
+      "object_id": "car_0895",
+      "ground_truth": "car",
+      "model_output": "The category is compact cars, typically used for daily commuting and short trips.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to cars."
+    },
+    {
+      "object_id": "car_1127",
+      "ground_truth": "car",
+      "model_output": "Mini Cooper, hatchback car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0035",
+      "ground_truth": "car",
+      "model_output": "This is an image of a parked car, specifically a sedan. It is a common type of personal vehicle used for daily commuting, transporting passengers, and providing a balance between comfort and efficiency.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1467",
+      "ground_truth": "car",
+      "model_output": "It is a small, compact car with a hatchback design, typically used for urban commuting.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1684",
+      "ground_truth": "car",
+      "model_output": "Compact car, specifically a hatchback model.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "tree_0534",
+      "ground_truth": "tree",
+      "model_output": "It is a bicycle parking rack.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a natural object (tree) while the other refers to a man-made object (bicycle parking rack)."
+    },
+    {
+      "object_id": "car_0433",
+      "ground_truth": "car",
+      "model_output": "Miniature cars, designed for urban environments.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to cars."
+    },
+    {
+      "object_id": "traffic_light_0243",
+      "ground_truth": "traffic light",
+      "model_output": "Bicycle parking.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic light, the other to bicycle parking."
+    },
+    {
+      "object_id": "car_0840",
+      "ground_truth": "car",
+      "model_output": "Street lamp post.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a vehicle, the other to a type of lighting fixture."
+    },
+    {
+      "object_id": "car_0786",
+      "ground_truth": "car",
+      "model_output": "The category is small cars, suitable for urban environments.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to cars."
+    },
+    {
+      "object_id": "car_1110",
+      "ground_truth": "car",
+      "model_output": "It is a compact car, suitable for urban driving.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "tree_0555",
+      "ground_truth": "tree",
+      "model_output": "Bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a plant, the other to a vehicle."
+    },
+    {
+      "object_id": "traffic_light_0134",
+      "ground_truth": "traffic light",
+      "model_output": "It's a building, specifically a multi-story residential or commercial structure with a facade that features a mix of brick and stone materials.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a traffic light, the other to a building."
+    },
+    {
+      "object_id": "traffic_light_0170",
+      "ground_truth": "traffic light",
+      "model_output": "The category is urban street signs.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic light, the other to urban street signs as a whole category."
+    },
+    {
+      "object_id": "traffic_light_0175",
+      "ground_truth": "traffic light",
+      "model_output": "Street lighting category.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to traffic control, the other to illumination."
+    },
+    {
+      "object_id": "traffic_sign_0204",
+      "ground_truth": "traffic sign",
+      "model_output": "Parking signpost.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both are referring to types of signs."
+    },
+    {
+      "object_id": "traffic_light_0053",
+      "ground_truth": "traffic light",
+      "model_output": "Category only, no more than 3 words.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic light, the other to a statement about word limits."
+    },
+    {
+      "object_id": "car_0772",
+      "ground_truth": "car",
+      "model_output": "Car category.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to the concept of a car."
+    },
+    {
+      "object_id": "traffic_sign_0160",
+      "ground_truth": "traffic sign",
+      "model_output": "Bicycles, Parked on the side of the street.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other to bicycles."
+    },
+    {
+      "object_id": "traffic_sign_0292",
+      "ground_truth": "traffic sign",
+      "model_output": "It's a small, rectangular sign mounted on a post.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a sign."
+    },
+    {
+      "object_id": "traffic_light_0259",
+      "ground_truth": "traffic light",
+      "model_output": "Parking category only.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic light, the other to a parking category."
+    },
+    {
+      "object_id": "traffic_sign_0311",
+      "ground_truth": "traffic sign",
+      "model_output": "Bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a sign and the other is a vehicle."
+    },
+    {
+      "object_id": "traffic_light_0137",
+      "ground_truth": "traffic light",
+      "model_output": "Parking signpost.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic light and the other to a parking signpost."
+    },
+    {
+      "object_id": "traffic_sign_0428",
+      "ground_truth": "traffic sign",
+      "model_output": "It is a bicycle, suitable for human-powered transportation.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other to a bicycle."
+    },
+    {
+      "object_id": "traffic_sign_0300",
+      "ground_truth": "traffic sign",
+      "model_output": "Category only.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a traffic sign, the other does not specify any object or concept."
+    },
+    {
+      "object_id": "traffic_sign_0347",
+      "ground_truth": "traffic sign",
+      "model_output": "Category: Street and park lamp posts.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other to lamp posts."
+    },
+    {
+      "object_id": "traffic_sign_0048",
+      "ground_truth": "traffic sign",
+      "model_output": "Parked vehicles.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a road sign, the other to automobiles."
+    },
+    {
+      "object_id": "traffic_light_0036",
+      "ground_truth": "traffic light",
+      "model_output": "Parked vehicles.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic light, the other to parked vehicles."
+    },
+    {
+      "object_id": "car_0239",
+      "ground_truth": "car",
+      "model_output": "The category is hatchback.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to types of vehicles."
+    },
+    {
+      "object_id": "traffic_sign_0169",
+      "ground_truth": "traffic sign",
+      "model_output": "It is a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a traffic sign, the other to a bicycle."
+    },
+    {
+      "object_id": "car_1673",
+      "ground_truth": "car",
+      "model_output": "The category is hatchback cars.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to cars."
+    },
+    {
+      "object_id": "traffic_sign_0220",
+      "ground_truth": "traffic sign",
+      "model_output": "Street furniture category.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other to a category of objects including various items, not just signs."
+    },
+    {
+      "object_id": "traffic_sign_0084",
+      "ground_truth": "traffic sign",
+      "model_output": "Street lamp post, residential building, parked car.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is about a traffic sign and the other describes various urban elements but not a traffic sign."
+    },
+    {
+      "object_id": "traffic_sign_0087",
+      "ground_truth": "traffic sign",
+      "model_output": "Urban transportation.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a sign, the other to a mode of transport."
+    },
+    {
+      "object_id": "car_0585",
+      "ground_truth": "car",
+      "model_output": "Its category is human-powered transportation.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The first refers to a vehicle, the second to human-powered transportation."
+    },
+    {
+      "object_id": "traffic_sign_0120",
+      "ground_truth": "traffic sign",
+      "model_output": "Bicycle category.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is about a traffic sign, the other is about a category of vehicle."
+    },
+    {
+      "object_id": "traffic_light_0203",
+      "ground_truth": "traffic light",
+      "model_output": "Bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic light and the other to a bicycle."
+    },
+    {
+      "object_id": "traffic_sign_0362",
+      "ground_truth": "traffic sign",
+      "model_output": "Yes, it is a category post.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other to a category post."
+    },
+    {
+      "object_id": "traffic_sign_0319",
+      "ground_truth": "traffic sign",
+      "model_output": "The category is street lighting, which is used to illuminate roads and pedestrian areas during nighttime.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other to street lighting."
+    },
+    {
+      "object_id": "traffic_sign_0215",
+      "ground_truth": "traffic sign",
+      "model_output": "Category only.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other does not refer to any specific object or concept."
+    },
+    {
+      "object_id": "traffic_sign_0299",
+      "ground_truth": "traffic sign",
+      "model_output": "The category is traffic signs.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both are referring to traffic signs."
+    },
+    {
+      "object_id": "traffic_sign_0282",
+      "ground_truth": "traffic sign",
+      "model_output": "Street sign.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a sign."
+    },
+    {
+      "object_id": "traffic_sign_0056",
+      "ground_truth": "traffic sign",
+      "model_output": "The category is street parking.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other to a parking concept."
+    },
+    {
+      "object_id": "traffic_sign_0126",
+      "ground_truth": "traffic sign",
+      "model_output": "Its category is street furniture.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to street features or objects."
+    },
+    {
+      "object_id": "traffic_light_0082",
+      "ground_truth": "traffic light",
+      "model_output": "Street lamp post.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic light and the other to a street lamp post."
+    },
+    {
+      "object_id": "traffic_light_0044",
+      "ground_truth": "traffic light",
+      "model_output": "Street lighting.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to traffic control lights, the other to general street illumination."
+    },
+    {
+      "object_id": "traffic_light_0014",
+      "ground_truth": "traffic light",
+      "model_output": "Category only.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a traffic light, the other does not refer to any specific object."
+    },
+    {
+      "object_id": "traffic_sign_0026",
+      "ground_truth": "traffic sign",
+      "model_output": "The category is: outdoor parks and recreational areas.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other to outdoor parks and recreational areas."
+    },
+    {
+      "object_id": "traffic_light_0241",
+      "ground_truth": "traffic light",
+      "model_output": "Parking meter.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "They refer to different objects, one to traffic control device, and other to parking payment device."
+    },
+    {
+      "object_id": "person_0145",
+      "ground_truth": "person",
+      "model_output": "It is a category-only image, typically used for outdoor or natural settings.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being, the other refers to a type of image."
+    },
+    {
+      "object_id": "traffic_sign_0338",
+      "ground_truth": "traffic sign",
+      "model_output": "\"Nature-related travel information.\"",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other to travel information."
+    },
+    {
+      "object_id": "car_0934",
+      "ground_truth": "car",
+      "model_output": "Bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "They refer to different types of transportation."
+    },
+    {
+      "object_id": "person_0351",
+      "ground_truth": "person",
+      "model_output": "The category is: urban street.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being, the other to a type of location."
+    },
+    {
+      "object_id": "person_0025",
+      "ground_truth": "person",
+      "model_output": "The category is parking signs.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being, the other to a type of sign."
+    },
+    {
+      "object_id": "person_0058",
+      "ground_truth": "person",
+      "model_output": "The object is a street sign, specifically a traffic sign indicating no parking from 6 to 15 hours on weekdays.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being, the other to a traffic sign."
+    },
+    {
+      "object_id": "person_0196",
+      "ground_truth": "person",
+      "model_output": "The category is 'Pedestrian safety'.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to humans or people."
+    },
+    {
+      "object_id": "person_0484",
+      "ground_truth": "person",
+      "model_output": "Category only.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human, the other to a classification or group."
+    },
+    {
+      "object_id": "person_0322",
+      "ground_truth": "person",
+      "model_output": "category only",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being, the other to a classification or group."
+    },
+    {
+      "object_id": "person_0268",
+      "ground_truth": "person",
+      "model_output": "category only.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human individual; the other refers to a classification or group."
+    },
+    {
+      "object_id": "person_0055",
+      "ground_truth": "person",
+      "model_output": "The category is furniture.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being and the other to inanimate objects."
+    },
+    {
+      "object_id": "person_0197",
+      "ground_truth": "person",
+      "model_output": "Category only.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being, the other to a classification or grouping."
+    },
+    {
+      "object_id": "person_0456",
+      "ground_truth": "person",
+      "model_output": "The category is transportation.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being, the other refers to a means of travel."
+    },
+    {
+      "object_id": "traffic_sign_0396",
+      "ground_truth": "traffic sign",
+      "model_output": "The category is urban transportation.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other refers to a category or mode of transportation."
+    },
+    {
+      "object_id": "traffic_light_0131",
+      "ground_truth": "traffic light",
+      "model_output": "It is a street lamp post.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a traffic light, the other is a lamp post."
+    },
+    {
+      "object_id": "person_0065",
+      "ground_truth": "person",
+      "model_output": "The category is parked cars.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a person and the other to parked cars."
+    },
+    {
+      "object_id": "person_0079",
+      "ground_truth": "person",
+      "model_output": "The category is 'Garden'.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being, the other to a garden category."
+    },
+    {
+      "object_id": "person_0535",
+      "ground_truth": "person",
+      "model_output": "The category is street signs, including stop signs, yield signs, and directional signs.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being, and the other refers to street signs."
+    },
+    {
+      "object_id": "person_0312",
+      "ground_truth": "person",
+      "model_output": "The category is 'Pedestrian crossings'.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The first refers to an individual human while the second refers to a type of street infrastructure."
+    },
+    {
+      "object_id": "person_0170",
+      "ground_truth": "person",
+      "model_output": "Category only.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being, the other to an abstract categorization."
+    },
+    {
+      "object_id": "person_0091",
+      "ground_truth": "person",
+      "model_output": "category only",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to an individual human and the other to a classification concept."
+    },
+    {
+      "object_id": "person_0532",
+      "ground_truth": "person",
+      "model_output": "The category is'street lighting'.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being, the other refers to artificial lighting."
+    },
+    {
+      "object_id": "person_0362",
+      "ground_truth": "person",
+      "model_output": "The category is 'Dogs and parks'.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human, the other to dogs and parks."
+    },
+    {
+      "object_id": "person_0387",
+      "ground_truth": "person",
+      "model_output": "The category is 'urban parking'.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being and the other refers to a type of parking."
+    },
+    {
+      "object_id": "person_0436",
+      "ground_truth": "person",
+      "model_output": "The category is 'traffic management'.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to an individual while another refers to a system or process."
+    },
+    {
+      "object_id": "car_1402",
+      "ground_truth": "car",
+      "model_output": "The category is compact cars, suitable for urban environments.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to cars."
+    },
+    {
+      "object_id": "person_0151",
+      "ground_truth": "person",
+      "model_output": "The category is 'parking signs'.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being and the other to inanimate objects (signs)."
+    },
+    {
+      "object_id": "person_0231",
+      "ground_truth": "person",
+      "model_output": "Yes, its category is 'traffic sign'.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a person, the other to a traffic sign."
+    },
+    {
+      "object_id": "bicycle_1318",
+      "ground_truth": "bicycle",
+      "model_output": "Parked vehicle.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a type of vehicle."
+    },
+    {
+      "object_id": "person_0092",
+      "ground_truth": "person",
+      "model_output": "category only",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being, the other refers to a class or division of things."
+    },
+    {
+      "object_id": "bicycle_1125",
+      "ground_truth": "bicycle",
+      "model_output": "It is a compact hatchback car.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle and the other to a car."
+    },
+    {
+      "object_id": "person_0439",
+      "ground_truth": "person",
+      "model_output": "Its category is 'Miscellaneous Objects'.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being, the other refers to an unspecified object term."
+    },
+    {
+      "object_id": "bicycle_1319",
+      "ground_truth": "bicycle",
+      "model_output": "Street lamps.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a mode of transport (bicycle), the other to a type of lighting (street lamp)."
+    },
+    {
+      "object_id": "car_0647",
+      "ground_truth": "car",
+      "model_output": "Its category is passenger cars.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "bicycle_1177",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycles.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0802",
+      "ground_truth": "bicycle",
+      "model_output": "The category is: Urban environments.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a vehicle, the other to a type of location."
+    },
+    {
+      "object_id": "traffic_light_0019",
+      "ground_truth": "traffic light",
+      "model_output": "The category is: human-powered vehicle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to traffic control devices while the other refers to types of vehicles."
+    },
+    {
+      "object_id": "person_0375",
+      "ground_truth": "person",
+      "model_output": "Category only.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a person and the other refers to a classification system."
+    },
+    {
+      "object_id": "bicycle_1282",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycles",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to bicycles."
+    },
+    {
+      "object_id": "bicycle_0729",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a bicycle, which is a common mode of transportation in urban areas for short distances. It is designed to be human-powered and typically used for commuting, exercise, or leisure activities.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_1044",
+      "ground_truth": "bicycle",
+      "model_output": "Its category is 'pedestrian crossing sign'.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle and the other refers to a pedestrian crossing sign."
+    },
+    {
+      "object_id": "bicycle_1326",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle parked on a street corner.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0131",
+      "ground_truth": "bicycle",
+      "model_output": "It is a bicycle, category: transportation.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0362",
+      "ground_truth": "bicycle",
+      "model_output": "The category is transportation, specifically for bicycles.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0779",
+      "ground_truth": "bicycle",
+      "model_output": "The category is transportation, specifically for bicycles.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0403",
+      "ground_truth": "bicycle",
+      "model_output": "The category is transportation, specifically for bicycles.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to bicycles."
+    },
+    {
+      "object_id": "bicycle_0207",
+      "ground_truth": "bicycle",
+      "model_output": "Mini, city, vehicle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle while the other refers to a small car."
+    },
+    {
+      "object_id": "car_1036",
+      "ground_truth": "car",
+      "model_output": "The category is modern cars.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to cars."
+    },
+    {
+      "object_id": "bicycle_1111",
+      "ground_truth": "bicycle",
+      "model_output": "The category is bicycles.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to bicycles."
+    },
+    {
+      "object_id": "bicycle_0847",
+      "ground_truth": "bicycle",
+      "model_output": "It is a white hatchback car.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle and the other refers to a car."
+    },
+    {
+      "object_id": "bicycle_0148",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycles.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to bicycles."
+    },
+    {
+      "object_id": "bicycle_0881",
+      "ground_truth": "bicycle",
+      "model_output": "The category is: Bicycles.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to bicycles."
+    },
+    {
+      "object_id": "bicycle_0720",
+      "ground_truth": "bicycle",
+      "model_output": "Catergory: Bicycles.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to bicycles."
+    },
+    {
+      "object_id": "bicycle_0163",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0298",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0969",
+      "ground_truth": "bicycle",
+      "model_output": "Category: Bicycles.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to bicycles."
+    },
+    {
+      "object_id": "bicycle_1006",
+      "ground_truth": "bicycle",
+      "model_output": "The object in the image is a parking sign, indicating parking availability for a specific area.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a bicycle, the other is a parking sign."
+    },
+    {
+      "object_id": "bicycle_0488",
+      "ground_truth": "bicycle",
+      "model_output": "It is a compact car, typically used for personal transportation in urban areas.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle, the other refers to a car."
+    },
+    {
+      "object_id": "bicycle_0468",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_1063",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_1171",
+      "ground_truth": "bicycle",
+      "model_output": "The car is a compact hatchback, suitable for urban driving.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle, the other to a car."
+    },
+    {
+      "object_id": "bicycle_0909",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a small, compact car with a hatchback design, typically used for urban commuting.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a bicycle and the other to a car."
+    },
+    {
+      "object_id": "bicycle_0751",
+      "ground_truth": "bicycle",
+      "model_output": "The object in the image is a compact car, typically used for daily commuting, transporting passengers, and providing a balance between comfort and efficiency.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a bicycle and the other is referring to a car."
+    },
+    {
+      "object_id": "bicycle_0025",
+      "ground_truth": "bicycle",
+      "model_output": "The category is sedan, indicating a type of vehicle commonly used for daily commutes and personal transport.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "While both are types of transport, one refers to a bicycle and the other to a car."
+    },
+    {
+      "object_id": "bicycle_0887",
+      "ground_truth": "bicycle",
+      "model_output": "It is a commercial vehicle, used for transporting goods.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle, the other to a commercial vehicle."
+    },
+    {
+      "object_id": "bicycle_0155",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle parked on sidewalk.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0733",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycles, motorcycles, and other vehicles fall into this category.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0188",
+      "ground_truth": "bicycle",
+      "model_output": "Its category is cars.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a bicycle and the other to cars."
+    },
+    {
+      "object_id": "person_0288",
+      "ground_truth": "person",
+      "model_output": "category only",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a person and the other to a concept or classification."
+    },
+    {
+      "object_id": "bicycle_0827",
+      "ground_truth": "bicycle",
+      "model_output": "Street sign.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a mode of transport, the other to a traffic control device."
+    },
+    {
+      "object_id": "bicycle_0987",
+      "ground_truth": "bicycle",
+      "model_output": "It is a white minivan with a boxy shape, typically used for family use or transporting multiple passengers and their belongings.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a bicycle and the other is referring to a minivan."
+    },
+    {
+      "object_id": "bicycle_0284",
+      "ground_truth": "bicycle",
+      "model_output": "Traffic sign category only.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle, the other to traffic signs."
+    },
+    {
+      "object_id": "bicycle_0301",
+      "ground_truth": "bicycle",
+      "model_output": "Cars.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "They refer to different types of vehicles."
+    },
+    {
+      "object_id": "car_1754",
+      "ground_truth": "car",
+      "model_output": "Bicycle parked on sidewalk.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, the other to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0476",
+      "ground_truth": "bicycle",
+      "model_output": "Street signpost.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a vehicle (bicycle) and the other to a road object (signpost)."
+    },
+    {
+      "object_id": "bicycle_1038",
+      "ground_truth": "bicycle",
+      "model_output": "Street lamp post.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a vehicle, the other to a type of lighting."
+    },
+    {
+      "object_id": "bicycle_0107",
+      "ground_truth": "bicycle",
+      "model_output": "The category is likely urban, as indicated by the city street, parked cars, and surrounding buildings.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle while the other to a location (urban city street)."
+    },
+    {
+      "object_id": "bicycle_0527",
+      "ground_truth": "bicycle",
+      "model_output": "It is a street signpost, indicating directions and information for pedestrians.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a mode of transportation while the other refers to a traffic device."
+    },
+    {
+      "object_id": "wall_0017",
+      "ground_truth": "wall",
+      "model_output": "The category is \"pedestrian crossing sign\".",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a wall and the other to a sign."
+    },
+    {
+      "object_id": "bicycle_0769",
+      "ground_truth": "bicycle",
+      "model_output": "Street, parked cars, bicycles.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to bicycles."
+    },
+    {
+      "object_id": "scooter_0001",
+      "ground_truth": "scooter",
+      "model_output": "Bicycles are a common mode of transportation, typically used for daily commutes or leisure rides.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a scooter, the other to a bicycle."
+    },
+    {
+      "object_id": "fence_0001",
+      "ground_truth": "fence",
+      "model_output": "Bicycle, Parking, Residential.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a fence while the other refers to different concepts including a bicycle and parking."
+    },
+    {
+      "object_id": "rider_0007",
+      "ground_truth": "rider",
+      "model_output": "The category is Bicycles.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a person (rider), the other to an object (bicycle)."
+    },
+    {
+      "object_id": "bicycle_0198",
+      "ground_truth": "bicycle",
+      "model_output": "Street signage.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a mode of transport, the other to a type of information display."
+    },
+    {
+      "object_id": "table_0003",
+      "ground_truth": "table",
+      "model_output": "Category only.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a piece of furniture, the other to a classification concept."
+    },
+    {
+      "object_id": "traffic_sign_0274",
+      "ground_truth": "traffic sign",
+      "model_output": "Street signpost.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to types of road signage."
+    },
+    {
+      "object_id": "umbrella_0001",
+      "ground_truth": "umbrella",
+      "model_output": "The category is 'traffic signs'.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to an umbrella, the other to traffic signs."
+    },
+    {
+      "object_id": "dog_0001",
+      "ground_truth": "dog",
+      "model_output": "The category is 'urban street lamp posts'.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to an animal, the other to street furniture."
+    },
+    {
+      "object_id": "cart_0001",
+      "ground_truth": "cart",
+      "model_output": "category",
+      "gpt_cls_result": "F",
+      "gpt_reason": "They refer to different concepts; one is a vehicle and the other is a classification."
+    },
+    {
+      "object_id": "traffic_sign_0043",
+      "ground_truth": "traffic sign",
+      "model_output": "The category is bicycles.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other to bicycles."
+    },
+    {
+      "object_id": "sign_0004",
+      "ground_truth": "sign",
+      "model_output": "The category is 'pedestrian crossing sign'.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a sign."
+    },
+    {
+      "object_id": "traffic_sign_0171",
+      "ground_truth": "traffic sign",
+      "model_output": "The category is public transportation vehicles.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other to public transportation vehicles."
+    },
+    {
+      "object_id": "bicycle_0576",
+      "ground_truth": "bicycle",
+      "model_output": "The category is bicycles.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to bicycles."
+    },
+    {
+      "object_id": "motorcycle_0003",
+      "ground_truth": "motorcycle",
+      "model_output": "Bicycle, transportation, exercise.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a motorcycle, the other to a bicycle."
+    },
+    {
+      "object_id": "wall_0015",
+      "ground_truth": "wall",
+      "model_output": "City street, pedestrian crossing.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a wall and the other to a city street."
+    },
+    {
+      "object_id": "bicycle_0105",
+      "ground_truth": "bicycle",
+      "model_output": "It is a small, compact car, typically used for urban driving and parking in tight spaces.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle and the other to a car."
+    },
+    {
+      "object_id": "tree_0986",
+      "ground_truth": "tree",
+      "model_output": "Urban Environmental Issues",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a plant, the other to an abstract concept."
+    },
+    {
+      "object_id": "bicycle_0321",
+      "ground_truth": "bicycle",
+      "model_output": "Parked car.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle, the other to a car."
+    },
+    {
+      "object_id": "person_0480",
+      "ground_truth": "person",
+      "model_output": "Category only, no more than 3 words.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to an individual, the other is referring to a classification or category."
+    },
+    {
+      "object_id": "bicycle_0147",
+      "ground_truth": "bicycle",
+      "model_output": "Street lighting category.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is about transportation (bicycle) and the other refers to public amenities (street lighting)."
+    },
+    {
+      "object_id": "traffic_sign_0121",
+      "ground_truth": "traffic sign",
+      "model_output": "It is a street sign.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a type of road sign."
+    },
+    {
+      "object_id": "bicycle_0497",
+      "ground_truth": "bicycle",
+      "model_output": "The category is likely to be \"motor vehicle\".",
+      "gpt_cls_result": "F",
+      "gpt_reason": "A bicycle isn't a motor vehicle."
+    }
+  ]
+}

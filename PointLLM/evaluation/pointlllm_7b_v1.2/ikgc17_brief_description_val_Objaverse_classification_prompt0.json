@@ -1,0 +1,1300 @@
+{
+  "prompt": "Please tell me its category only. (No more than 3 words)",
+  "results": [
+    {
+      "object_id": "tree_0534",
+      "ground_truth": "tree",
+      "model_output": "The object is a cluster of white, dome-shaped flowers arranged in an arc."
+    },
+    {
+      "object_id": "tree_0851",
+      "ground_truth": "tree",
+      "model_output": "This 3D object is a dense parachute designed to mimic a white cloud."
+    },
+    {
+      "object_id": "tree_0555",
+      "ground_truth": "tree",
+      "model_output": "This is a 3D model of a tree featuring a grey color scheme and abstract shapes."
+    },
+    {
+      "object_id": "tree_0918",
+      "ground_truth": "tree",
+      "model_output": "The 3D object model is a representation of a tree. It's a natural, lifelike model with intricate details designed to mimic a real tree. The model is monochromatic, only black and white are used. The use of this object can range from educational purposes, where it can help in teaching about botany and nature, to art uses, where it can be utilized in creating digital art or virtual environments."
+    },
+    {
+      "object_id": "tree_0986",
+      "ground_truth": "tree",
+      "model_output": "The 3D model displays a dense parcel of animated trees, shrouded in a captivating white color. The visualization is strikingly beautiful and offers an immersive look into a potential forest-themed digital creation. Its uses might range from video game environments to animation scenes, from nature-based virtual reality simulations to architectural visualizations that aim to replicate a natural environment."
+    },
+    {
+      "object_id": "tree_0281",
+      "ground_truth": "tree",
+      "model_output": "A dense cluster of white trees embodying a monochromatic aesthetic."
+    },
+    {
+      "object_id": "tree_0018",
+      "ground_truth": "tree",
+      "model_output": "The given 3D object model is a monochrome design of a tree. It portrays the intricate details of a bare, lifeless tree, devoid of any leaves or color. Its structure shows every individual branch, creating a realistic and lifelike representation of a tree. Though it is lifeless and lacks color, it symbolizes the basic structure and form of a tree, often used in graphic design, architectural modelling or even in video game environments for creating realistic outdoor scenes."
+    },
+    {
+      "object_id": "tree_1025",
+      "ground_truth": "tree",
+      "model_output": "The 3D object model is of a cluster of irregularly shaped, white colored rocks."
+    },
+    {
+      "object_id": "tree_0593",
+      "ground_truth": "tree",
+      "model_output": "It is a 3D model of a tree."
+    },
+    {
+      "object_id": "tree_0854",
+      "ground_truth": "tree",
+      "model_output": "The 3D object model represents a collection of white flowers."
+    },
+    {
+      "object_id": "tree_0705",
+      "ground_truth": "tree",
+      "model_output": "The object is a cluster of small, white, rock-like pieces."
+    },
+    {
+      "object_id": "tree_0328",
+      "ground_truth": "tree",
+      "model_output": "A collection of grey and white ornamental trees."
+    },
+    {
+      "object_id": "tree_0363",
+      "ground_truth": "tree",
+      "model_output": "It's a 3D model showcasing a dense parachute packed with white fluffy balls."
+    },
+    {
+      "object_id": "tree_1057",
+      "ground_truth": "tree",
+      "model_output": "This is a 3D model of a tree. It's quite simple and is completely white, depicting a barren, lifeless tree. Even its branches are leafless, adding to the overall dreary and lifeless appearance. Despite its simplicity, it's unmistakably a tree, with its classic form easily recognizable."
+    },
+    {
+      "object_id": "tree_0412",
+      "ground_truth": "tree",
+      "model_output": "The object is a 3D model featuring a cluster of small, dense trees."
+    },
+    {
+      "object_id": "tree_0979",
+      "ground_truth": "tree",
+      "model_output": "The 3D object model appears to depict a dense parachute designed to mimic the appearance of a white cloud."
+    },
+    {
+      "object_id": "tree_0723",
+      "ground_truth": "tree",
+      "model_output": "A 3D model of a classic Christmas tree, painted in a monochrome white."
+    },
+    {
+      "object_id": "tree_0056",
+      "ground_truth": "tree",
+      "model_output": "This 3D object model portrays a tree with a lifelike, highly detailed texture, presenting a realistic image of nature."
+    },
+    {
+      "object_id": "tree_0062",
+      "ground_truth": "tree",
+      "model_output": "These are trees with grey and white coloured leaves."
+    },
+    {
+      "object_id": "tree_0599",
+      "ground_truth": "tree",
+      "model_output": "The 3D model depicts a tree, showcasing its intricate details in a monochromatic, black and white color scheme."
+    },
+    {
+      "object_id": "tree_0515",
+      "ground_truth": "tree",
+      "model_output": "The object is a 3D model of a cluster of intricately designed white paper flowers."
+    },
+    {
+      "object_id": "tree_0229",
+      "ground_truth": "tree",
+      "model_output": "The 3D model represents a dense parachute designed to mimic a white cloud."
+    },
+    {
+      "object_id": "tree_0970",
+      "ground_truth": "tree",
+      "model_output": "The 3D object model represents an intertwined bush range showcasing a lifelike simulation of nature."
+    },
+    {
+      "object_id": "tree_0012",
+      "ground_truth": "tree",
+      "model_output": "3D object model of a dense parachute cluster."
+    },
+    {
+      "object_id": "tree_0885",
+      "ground_truth": "tree",
+      "model_output": "The 3D object model represents an intricately designed natural flower. It is artfully arranged in white and black, which showcases its detailed structure and complex patterns. This 3D model offers a captivating realism that brings the beauty of nature indoors, making it suitable for enhancing virtual reality experiences, video games, and digital art projects."
+    },
+    {
+      "object_id": "tree_0381",
+      "ground_truth": "tree",
+      "model_output": "A 3D model of a cartoon-styled tree with a white color scheme."
+    },
+    {
+      "object_id": "car_1752",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a shiny, metallic, silver-colored car."
+    },
+    {
+      "object_id": "car_1344",
+      "ground_truth": "car",
+      "model_output": "This 3D model represents an old and abandoned car with a cartoonish design."
+    },
+    {
+      "object_id": "car_0244",
+      "ground_truth": "car",
+      "model_output": "The 3D object model is a realistic depiction of a black bug."
+    },
+    {
+      "object_id": "car_1744",
+      "ground_truth": "car",
+      "model_output": "The 3D object is a model of a white toy car."
+    },
+    {
+      "object_id": "car_0163",
+      "ground_truth": "car",
+      "model_output": "The 3D object model represents a cartoon-styled black car."
+    },
+    {
+      "object_id": "car_1182",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a vintage BMW car."
+    },
+    {
+      "object_id": "car_1036",
+      "ground_truth": "car",
+      "model_output": "This is a three-dimensional model of a car toy. It is primarily black in color, resembling a cartoonish style with its simplistic design. The model embodies typical car attributes such as wheels, doors, and windows, yet done in a playful, non-realistic way fitting for a toy. This type of model is usually designed for children to play with or for collectors who enjoy unique and whimsical automobile models."
+    },
+    {
+      "object_id": "car_1409",
+      "ground_truth": "car",
+      "model_output": "The 3D model represents a whimsical, cartoon-like depiction of a car. It's a stylized, non-realistic rendition of a vehicle, with simplified features and exaggerated proportions that are characteristic of cartoon design. The car, being a symbol of transportation, is likely to be utilized in animation, video games, or other digital visual content that necessitates a lighthearted or childish representation. The model is three-dimensional, suggesting it has depth as well as height and width."
+    },
+    {
+      "object_id": "car_1032",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a small toy car."
+    },
+    {
+      "object_id": "car_0624",
+      "ground_truth": "car",
+      "model_output": "The 3D object model is a whimsical representation of a cartoon-styled white car. It bears the quintessential characteristics of a cartoon vehicle, including exaggerated proportions and simplified shapes. The model seems to be designed for animation purposes or for a children's game, as it lacks realistic details and embraces a playful, fantastical aesthetic."
+    },
+    {
+      "object_id": "car_0139",
+      "ground_truth": "car",
+      "model_output": "The 3D object is a model of a car body without wheels. It is painted in a color that resembles grey window panels."
+    },
+    {
+      "object_id": "car_0047",
+      "ground_truth": "car",
+      "model_output": "The 3D model represents a cartoon-like black car."
+    },
+    {
+      "object_id": "car_0877",
+      "ground_truth": "car",
+      "model_output": "It's a miniature model of a car."
+    },
+    {
+      "object_id": "car_1680",
+      "ground_truth": "car",
+      "model_output": "The object model is a three-dimensional representation of a car frame. It's a skeletal structure, often made from metal, that forms the basic framework of a car. It includes components such as the engine compartment, the passenger compartment, and the cargo compartment. This is an essential part of a car, as it provides the necessary support and structure for the vehicle to function properly."
+    },
+    {
+      "object_id": "car_0593",
+      "ground_truth": "car",
+      "model_output": "This is a model of a three-dimensional Mercedes Benz car painted in grey. It is designed with a prominent front grill and logo. The car's windows are tinted and dark, suggesting it may be designed for privacy. The model is highly detailed, reflecting the sleek, stylish nature of the real-life vehicle. The car's make and model are implied but not explicitly stated."
+    },
+    {
+      "object_id": "car_1578",
+      "ground_truth": "car",
+      "model_output": "The 3D object model depicts a white van that is visually striking with its broken glass panels. The van's windows and windshield appear to be shattered, adding an air of distress or drama to the overall appearance. Despite the ruined body, the van retains its functional wheels, implying that it is still operational. This may typically be seen in depictions of a roadside assistance vehicle, a news van, or a utility vehicle used for heavy-duty purposes that have experienced collisions."
+    },
+    {
+      "object_id": "car_0785",
+      "ground_truth": "car",
+      "model_output": "The object model represents a three-dimensional view of a damaged car. It showcases a vehicle that has been through an accident, with clear physical signs of distress and impact. The car's battered state indicates that it's been through a major event that resulted in significant damage. This model could be useful in various scenarios, including car accident investigations, virtual reality games, or even as a graphic in car repair manuals."
+    },
+    {
+      "object_id": "car_1474",
+      "ground_truth": "car",
+      "model_output": "The object is a 3D model of a toy car."
+    },
+    {
+      "object_id": "car_0619",
+      "ground_truth": "car",
+      "model_output": "This is a three-dimensional object model representing a wrecked car. The car is predominantly black and white, with clear physical damage and discoloration. The car's battered state is evidenced by its shattered glass, distorted body, and flat tires. This model provides a realistic portrayal of vehicle damage, which can be used in gaming, animation, or for educational purposes to demonstrate the consequences of car accidents."
+    },
+    {
+      "object_id": "car_0477",
+      "ground_truth": "car",
+      "model_output": "The 3D object model represents a stylized, cartoon-like representation of a damaged car. The car appears to have been in an accident, as damage is observed on its front right side, possibly the bonnet or fender. Despite the accident, the car's body maintains a sleek, matte black appearance. Its overall form may be distorted due to the damage, but it still typifies a car's general shape and structure. The intended use of this object could range from a prop in an animated film or video game to a visual aid in traffic safety awareness."
+    },
+    {
+      "object_id": "car_0019",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a BMW car that is coated in a glossy black paint. The model showcases the car's sleek design, sharp edges, and distinctive features, providing a realistic representation of a high-end luxury vehicle. It could be used in various digital platforms like games, virtual spaces, or digital animations. The brand 'BMW' suggests a high-end car model, typically associated with performance, luxury and style."
+    },
+    {
+      "object_id": "car_1508",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a BMW car."
+    },
+    {
+      "object_id": "car_1509",
+      "ground_truth": "car",
+      "model_output": "A 3D model of a cartoon-styled van that is completely white."
+    },
+    {
+      "object_id": "car_0083",
+      "ground_truth": "car",
+      "model_output": "The 3D object model depicts a toy car without wheels, smothered in a grey color."
+    },
+    {
+      "object_id": "car_0841",
+      "ground_truth": "car",
+      "model_output": "The 3D object model represents a miniature toy car that exhibits a sleek and smooth texture in a uniformly black color. Its design includes a transparent windscreen and windows, giving it a realistic appearance. The car's compact and small size suggests that it is meant to be a child's plaything. It might be used for both display purposes and for recreational play activities. Its appearance mirrors that of real cars, thus helping children to understand and stimulate their cognitive development."
+    },
+    {
+      "object_id": "car_1748",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a black, modern car with sleek lines, robust tires, and well-crafted details like the grill and headlights."
+    },
+    {
+      "object_id": "car_0807",
+      "ground_truth": "car",
+      "model_output": "The 3D object model is a car, visually representing a standard four-wheeled vehicle used for personal transportation."
+    },
+    {
+      "object_id": "car_0930",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a car in the middle of a painting process."
+    },
+    {
+      "object_id": "car_0589",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a unique cart, depicted in stark white. The design of the cart is notable for its four wheels, which are in contrasting colors of black and white. It adds an interesting visual aesthetic. The cart, presumably built for transporting goods, could potentially be used in various contexts from domestic chores to professional undertakings."
+    },
+    {
+      "object_id": "car_0610",
+      "ground_truth": "car",
+      "model_output": "The 3D object model is of a damaged car."
+    },
+    {
+      "object_id": "car_1001",
+      "ground_truth": "car",
+      "model_output": "The 3D object is a model of a cartoon-like black car."
+    },
+    {
+      "object_id": "car_1397",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a toy car."
+    },
+    {
+      "object_id": "car_0505",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a wrecked car."
+    },
+    {
+      "object_id": "car_0868",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a black, animated object with unique visual characteristics."
+    },
+    {
+      "object_id": "car_1104",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a car, fully detailed and colored in glossy black."
+    },
+    {
+      "object_id": "car_1418",
+      "ground_truth": "car",
+      "model_output": "The 3D object model is of a car. The car is not specifically detailed, but it is recognized as a four-wheeled vehicle commonly used for personal transportation."
+    },
+    {
+      "object_id": "car_0239",
+      "ground_truth": "car",
+      "model_output": "The 3D object is a cartoon-like, white figure that resembles a glass."
+    },
+    {
+      "object_id": "car_0231",
+      "ground_truth": "car",
+      "model_output": "The 3D object model represents a car, specifically focusing on the exterior body only."
+    },
+    {
+      "object_id": "car_1655",
+      "ground_truth": "car",
+      "model_output": "This 3D object model represents a vintage BMW car with a prominent grill."
+    },
+    {
+      "object_id": "car_1029",
+      "ground_truth": "car",
+      "model_output": "It's a 3D model of a car battery."
+    },
+    {
+      "object_id": "car_1158",
+      "ground_truth": "car",
+      "model_output": "This is a three-dimensional model of a car."
+    },
+    {
+      "object_id": "car_0577",
+      "ground_truth": "car",
+      "model_output": "This 3D model represents a stylized cartoon car with an all-black color scheme. The simplistic design includes large rounded elements that are typical of cartoon-like aesthetics. The all-black color gives it a sleek, modern feel, while the cartoon-style attributes suggest it might be a part of a children's animation or a fun, edgy video game."
+    },
+    {
+      "object_id": "car_0775",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a cartoon-like abandoned house."
+    },
+    {
+      "object_id": "car_0772",
+      "ground_truth": "car",
+      "model_output": "The 3D object model is of a black Chevrolet Camaro, an iconic car model known for its distinctive front grille and aerodynamic shape."
+    },
+    {
+      "object_id": "car_1099",
+      "ground_truth": "car",
+      "model_output": "The 3D object model is a car that is black and white in color."
+    },
+    {
+      "object_id": "car_0759",
+      "ground_truth": "car",
+      "model_output": "A transparent, durable, and shiny black car protective shield."
+    },
+    {
+      "object_id": "car_0955",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a small toy car that is primarily white in color."
+    },
+    {
+      "object_id": "car_0553",
+      "ground_truth": "car",
+      "model_output": "The object is a 3D model of a toy car."
+    },
+    {
+      "object_id": "car_1564",
+      "ground_truth": "car",
+      "model_output": "The 3D object model represents a burnt-out car shell."
+    },
+    {
+      "object_id": "car_1574",
+      "ground_truth": "car",
+      "model_output": "This 3D model is a black-colored toy car."
+    },
+    {
+      "object_id": "car_1050",
+      "ground_truth": "car",
+      "model_output": "This 3D model is of a simplistic, cartoon-like car in white color."
+    },
+    {
+      "object_id": "car_1288",
+      "ground_truth": "car",
+      "model_output": "The object is a toy modeled after a bus, primarily grey in color with black windows on the sides."
+    },
+    {
+      "object_id": "car_1754",
+      "ground_truth": "car",
+      "model_output": "The 3D model represents the ruins of a house."
+    },
+    {
+      "object_id": "car_0810",
+      "ground_truth": "car",
+      "model_output": "The 3D object model is a miniature toy car, styled as a racer with a predominantly white color scheme."
+    },
+    {
+      "object_id": "car_0862",
+      "ground_truth": "car",
+      "model_output": "The object is a 3D model of a car in a shiny silver color."
+    },
+    {
+      "object_id": "car_1761",
+      "ground_truth": "car",
+      "model_output": "The 3D model represents a broken-down, abandoned car."
+    },
+    {
+      "object_id": "car_1108",
+      "ground_truth": "car",
+      "model_output": "The 3D object model is a playful, cartoon-like depiction of a natural disaster."
+    },
+    {
+      "object_id": "car_1595",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a cartoonish representation of a BMW car."
+    },
+    {
+      "object_id": "car_0625",
+      "ground_truth": "car",
+      "model_output": "The 3D object model is a miniature, toy-like replica of a bus. It's made entirely from a glossy black material. The model highlights the typical features of a bus such as windows, a single door for boarding and alighting, and distinct wheels. Its design seems simple yet detailed enough to be a useful teaching tool for kids to understand basic vehicle structures or for hobbyists as a part of their miniature transportation systems."
+    },
+    {
+      "object_id": "car_0904",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a black car with prominent headlights."
+    },
+    {
+      "object_id": "car_0002",
+      "ground_truth": "car",
+      "model_output": "The 3D object model is a car frame, constructed with a notable black component."
+    },
+    {
+      "object_id": "car_0647",
+      "ground_truth": "car",
+      "model_output": "The 3D object is a model of a toy car."
+    },
+    {
+      "object_id": "car_1355",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a toy car with a cyberpunk aesthetic. The car has a clear, windshield-less design, revealing a detailed interior. The exterior is adorned with a hood scoop and large, futuristic wheels that are characteristic of a cyberpunk setting. While it's a toy, this object conveys the imagination and design ethos of a futuristic, high-tech car concept, commonly found in video games and sci-fi movies."
+    },
+    {
+      "object_id": "car_1357",
+      "ground_truth": "car",
+      "model_output": "Battered car is category."
+    },
+    {
+      "object_id": "car_1260",
+      "ground_truth": "car",
+      "model_output": "A three-dimensional model of a white abandoned house."
+    },
+    {
+      "object_id": "car_0365",
+      "ground_truth": "car",
+      "model_output": "The 3D object model showcases a meticulously detailed and crafted car, entirely built from paper. It represents an artistic and creative representation rather than a realistic model. Its design, although simple, is unique and showcases the potential of paper as a materials for constructing models. It can serve various purposes, such as a decorative item, a children's toy, or even an educational tool for teaching about car structure."
+    },
+    {
+      "object_id": "car_0449",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a black, miniature toy car."
+    },
+    {
+      "object_id": "car_0064",
+      "ground_truth": "car",
+      "model_output": "The 3D object model represents a simplistic, black toy car."
+    },
+    {
+      "object_id": "car_0223",
+      "ground_truth": "car",
+      "model_output": "The object is a 3D model of a toy car, made primarily from a green-colored paper-like material."
+    },
+    {
+      "object_id": "car_0934",
+      "ground_truth": "car",
+      "model_output": "The object in question is a 3D model of a sleek and modern automobile painted in a pristine white color. Its design suggests that it is a luxury vehicle typically used for personal transit. Its streamlined structure and detailed features hint at advanced technology and high-end performance. Although it is not possible to determine the precise make and model of the car without additional information, the overall appearance suggests a probable usage for daily commuting or travel."
+    },
+    {
+      "object_id": "car_0892",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a cartoon-styled Mercedes-Benz car."
+    },
+    {
+      "object_id": "car_1584",
+      "ground_truth": "car",
+      "model_output": "The 3D object model is a depiction of a vintage, cartoon-style BMW car."
+    },
+    {
+      "object_id": "car_1136",
+      "ground_truth": "car",
+      "model_output": "The object is a three-dimensional model of a car."
+    },
+    {
+      "object_id": "car_1142",
+      "ground_truth": "car",
+      "model_output": "This is a model of a sleek, black car."
+    },
+    {
+      "object_id": "car_1235",
+      "ground_truth": "car",
+      "model_output": "This 3D object model depicts a vintage BMW car."
+    },
+    {
+      "object_id": "car_0479",
+      "ground_truth": "car",
+      "model_output": "The 3D object model is of a simplistic, broken-down car."
+    },
+    {
+      "object_id": "car_0905",
+      "ground_truth": "car",
+      "model_output": "This 3D object model depicts a slick, grey car with white windows on the sides and robust black tires."
+    },
+    {
+      "object_id": "car_1402",
+      "ground_truth": "car",
+      "model_output": "This is a 3D object model of a toy car, designed with a simplistic and fun aesthetic."
+    },
+    {
+      "object_id": "car_0691",
+      "ground_truth": "car",
+      "model_output": "The 3D object model is a cartoon-like silver car."
+    },
+    {
+      "object_id": "car_0812",
+      "ground_truth": "car",
+      "model_output": "The 3D model is of a grey car with shattered glass."
+    },
+    {
+      "object_id": "car_0591",
+      "ground_truth": "car",
+      "model_output": "This is a 3D object model representing a car engine, painted in a shade of grey. It appears to be a crucial and detailed element of a car's mechanical system, with various interconnected and intricately designed parts suggesting its high-performance nature. The color suggests it could be a component of an old or used car, requiring maintenance or repair. It is a common object seen in various repair shops or garages across the world."
+    },
+    {
+      "object_id": "car_0776",
+      "ground_truth": "car",
+      "model_output": "The 3D model represents a car with broken glass."
+    },
+    {
+      "object_id": "car_0585",
+      "ground_truth": "car",
+      "model_output": "The 3D model depicts a black, smashed phone."
+    },
+    {
+      "object_id": "car_0390",
+      "ground_truth": "car",
+      "model_output": "The 3D object model represents a futuristic car."
+    },
+    {
+      "object_id": "car_0101",
+      "ground_truth": "car",
+      "model_output": "This 3D model represents a simplistic, rounded, grey-colored toy car."
+    },
+    {
+      "object_id": "car_1267",
+      "ground_truth": "car",
+      "model_output": "The 3D object model is of a realistic, metallic grey car."
+    },
+    {
+      "object_id": "car_1316",
+      "ground_truth": "car",
+      "model_output": "The object model represents a simplistic, white, four-wheeled car design, possibly a toy or an animated model."
+    },
+    {
+      "object_id": "car_1110",
+      "ground_truth": "car",
+      "model_output": "A luxurious, black private vehicle, often used for corporate or celebrity transport."
+    },
+    {
+      "object_id": "car_1430",
+      "ground_truth": "car",
+      "model_output": "The 3D object model represents a toy car that is predominantly dark grey in color. The car has clear windscreen and windows, suggesting that it could be a scaled-down model of an actual vehicle. Given its design, it is presumably meant for playing purposes, particularly for children. Its aesthetic design hints that it could also be used as a decorative piece."
+    },
+    {
+      "object_id": "car_0315",
+      "ground_truth": "car",
+      "model_output": "The 3D model is a depiction of a cartoon-like black car."
+    },
+    {
+      "object_id": "car_1673",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a luxury car."
+    },
+    {
+      "object_id": "car_0303",
+      "ground_truth": "car",
+      "model_output": "The 3D object model is a toy car with a mirror."
+    },
+    {
+      "object_id": "car_0840",
+      "ground_truth": "car",
+      "model_output": "The object is a three-dimensional model of a toy car, specifically designed to be a rectangular block in the shape of a car. Its design allows it to be easily recognizable as a car, despite the lack of intricate detailing. This toy car, primarily used for play, might serve as a fun and educational tool for kids to understand basic shape and forms."
+    },
+    {
+      "object_id": "car_1312",
+      "ground_truth": "car",
+      "model_output": "A 3D model of a large, white, cartoonish ship."
+    },
+    {
+      "object_id": "car_0490",
+      "ground_truth": "car",
+      "model_output": "The 3D object model represents a sleek, black automobile with a distinct, aerodynamic design. The vehicle sports three tires, suggesting it is designed for road movement. Its dark color and stylish structure imply a sense of luxury and sophistication. As a car, its fundamental function is transportation, however, depending on the specific model, it might also possess additional features like satellite radio capability, Bluetooth connectivity, or advanced safety systems."
+    },
+    {
+      "object_id": "car_0608",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a stylized, cartoon-like representation of an SUV in a glossy, jet-black color."
+    },
+    {
+      "object_id": "car_0895",
+      "ground_truth": "car",
+      "model_output": "This is a 3D model of a cartoonish grey car."
+    },
+    {
+      "object_id": "car_1127",
+      "ground_truth": "car",
+      "model_output": "The object is a 3D model of a small toy car."
+    },
+    {
+      "object_id": "car_0035",
+      "ground_truth": "car",
+      "model_output": "The 3D object model represents two dark grey vehicles, unidentifiable due to the poor lighting."
+    },
+    {
+      "object_id": "car_1467",
+      "ground_truth": "car",
+      "model_output": "The 3D object model is of a racing car."
+    },
+    {
+      "object_id": "car_1684",
+      "ground_truth": "car",
+      "model_output": "The 3D object is a toy car designed with a futuristic aesthetic, predominantly in black color."
+    },
+    {
+      "object_id": "car_0786",
+      "ground_truth": "car",
+      "model_output": "It's an old-fashioned car model."
+    },
+    {
+      "object_id": "car_0433",
+      "ground_truth": "car",
+      "model_output": "The object is a toy car."
+    },
+    {
+      "object_id": "traffic_light_0243",
+      "ground_truth": "traffic light",
+      "model_output": "It's a 3D object of a traditional lamp, made with grey and black components."
+    },
+    {
+      "object_id": "traffic_sign_0160",
+      "ground_truth": "traffic sign",
+      "model_output": "Sure, the 3D object model is categorized as 'Older Adults'."
+    },
+    {
+      "object_id": "traffic_sign_0274",
+      "ground_truth": "traffic sign",
+      "model_output": "A three-dimensional model representing a cartoonish, silver-colored sword."
+    },
+    {
+      "object_id": "traffic_sign_0026",
+      "ground_truth": "traffic sign",
+      "model_output": "A three-dimensional model of a cartoon-style spoon."
+    },
+    {
+      "object_id": "traffic_light_0175",
+      "ground_truth": "traffic light",
+      "model_output": "The 3D object model represents a tall, slender, grey-colored rod with a circular head."
+    },
+    {
+      "object_id": "traffic_light_0134",
+      "ground_truth": "traffic light",
+      "model_output": "The 3D model is of a tall, white, vertical rectangular structure with grey discontinuities or gaps at the top and bottom."
+    },
+    {
+      "object_id": "traffic_light_0170",
+      "ground_truth": "traffic light",
+      "model_output": "The 3D object is a model of a stylized, cartoonish snail. It has a primarily grey body, with a distinctive red line extending from its head to its tail, subtly highlighting the body's structure. The model captures the snail's slow-moving body language typical in real life. The use of this 3D model could range from educational tools to animation or game assets, or simply as a decorative piece for themed environments."
+    },
+    {
+      "object_id": "traffic_light_0137",
+      "ground_truth": "traffic light",
+      "model_output": "It's a category of 3D modeling, called'stylized models'"
+    },
+    {
+      "object_id": "traffic_sign_0204",
+      "ground_truth": "traffic sign",
+      "model_output": "This 3D model represents a dynamic, white-colored object with multiple interconnected pieces. Its design suggests complex geometry, and it may be a type of structure model or an abstract sculpture. The white color could indicate its capacity to represent a variety of concepts or objects in different contexts, and the interconnected parts may signify the relationships between different parts of a larger system or model."
+    },
+    {
+      "object_id": "traffic_light_0053",
+      "ground_truth": "traffic light",
+      "model_output": "It's a stick, a tool, or a simple structure, all modeled in 3D."
+    },
+    {
+      "object_id": "traffic_sign_0056",
+      "ground_truth": "traffic sign",
+      "model_output": "The 3D object model is an animated, whimsical illustration of a bird."
+    },
+    {
+      "object_id": "traffic_light_0131",
+      "ground_truth": "traffic light",
+      "model_output": "This is a 3D model of a bird in flight, characterized by its elongated, pointed beak."
+    },
+    {
+      "object_id": "traffic_sign_0292",
+      "ground_truth": "traffic sign",
+      "model_output": "This is a 3D model of a cartoon-style spoon, predominantly white in color."
+    },
+    {
+      "object_id": "traffic_light_0259",
+      "ground_truth": "traffic light",
+      "model_output": "This is a 3D object model of a cartoon-like pencil."
+    },
+    {
+      "object_id": "traffic_sign_0311",
+      "ground_truth": "traffic sign",
+      "model_output": "This is a 3D model of a military base."
+    },
+    {
+      "object_id": "traffic_sign_0169",
+      "ground_truth": "traffic sign",
+      "model_output": "The 3D object model is of a grey, sleek panel which is supported by a vertical rectangular base situated at a slant angle. This configuration gives the structure stability and an aesthetic appeal. The rectangular base allows for sturdy support while the angled panel could be from a signpost, advertisement hoard, or a informative display stand in public places. Its design suggests its use in providing direction, indicating a location, or sharing some relevant information."
+    },
+    {
+      "object_id": "traffic_sign_0428",
+      "ground_truth": "traffic sign",
+      "model_output": "The 3D object model is of a stylish, sleek mirror with a distinctive gray metallic frame."
+    },
+    {
+      "object_id": "traffic_sign_0300",
+      "ground_truth": "traffic sign",
+      "model_output": "This is a 3D model of an airplane viewed from the rear or tail end."
+    },
+    {
+      "object_id": "traffic_sign_0347",
+      "ground_truth": "traffic sign",
+      "model_output": "This 3D object model is of a set of paper straws, each bent at two positions forming a semi-circle shape."
+    },
+    {
+      "object_id": "traffic_sign_0048",
+      "ground_truth": "traffic sign",
+      "model_output": "This is a 3D model of a set of cartoonish tools, rendered in a brilliant white color. It includes various tools typically seen in a toolbox, such as a hammer, screwdriver, and wrench. The appearance is simplified and stylized, in keeping with a cartoon aesthetic. These 3D models can be used in animations, video games, digital art projects, or other applications where a fun, simplified representation of real-world objects is needed."
+    },
+    {
+      "object_id": "traffic_light_0036",
+      "ground_truth": "traffic light",
+      "model_output": "The 3D object model is a cartoonish representation of a blackboard duster."
+    },
+    {
+      "object_id": "traffic_sign_0121",
+      "ground_truth": "traffic sign",
+      "model_output": "The 3D object is a model of a pencil."
+    },
+    {
+      "object_id": "traffic_sign_0043",
+      "ground_truth": "traffic sign",
+      "model_output": "A 3D model of a white paper airplane."
+    },
+    {
+      "object_id": "traffic_sign_0282",
+      "ground_truth": "traffic sign",
+      "model_output": "The 3D model is a tool, specifically a spike. It's color is black and it has a pointed end."
+    },
+    {
+      "object_id": "traffic_sign_0220",
+      "ground_truth": "traffic sign",
+      "model_output": "This is a 3D object model of a simple, long, white comb with a black handle."
+    },
+    {
+      "object_id": "traffic_sign_0084",
+      "ground_truth": "traffic sign",
+      "model_output": "A long, black, stick-like object with a flag attached at the end."
+    },
+    {
+      "object_id": "traffic_sign_0087",
+      "ground_truth": "traffic sign",
+      "model_output": "This 3D model represents a bird with a long, pointed beak."
+    },
+    {
+      "object_id": "traffic_sign_0362",
+      "ground_truth": "traffic sign",
+      "model_output": "This is a 3D model of a cartoon-style sword. It is designed with a playful, non-realistic style, which makes it suitable for animations, video games, or children's book illustrations. The sword appears to be simple and light, suitable for a character like a knight or warrior. However, being a 3D model, it doesn't have a physical form and can't be used as a real sword."
+    },
+    {
+      "object_id": "traffic_sign_0120",
+      "ground_truth": "traffic sign",
+      "model_output": "This 3D object model represents a long, slim, white stick figure, portraying an animated or cartoonish style. The figure has several instances of sticks protruding from its body, adding to its unique form. This model can be used in various contexts such as a game character, an avatar, or a model for digital animations. Its color and structure allows for high visibility and distinct recognition."
+    },
+    {
+      "object_id": "traffic_light_0203",
+      "ground_truth": "traffic light",
+      "model_output": "The object is a 3D model of a pole-mounted kite, characterized by its black and white color scheme. The pole at the top and the handling string are black, while the kite itself is white, creating a contrast against the sky. The kite's design lends it a simple and traditional look, which can potentially make it more user-friendly for recreational activities."
+    },
+    {
+      "object_id": "traffic_sign_0319",
+      "ground_truth": "traffic sign",
+      "model_output": "Whiskers are a sensory organ of aquatic animals, helping them to detect movement in the water."
+    },
+    {
+      "object_id": "traffic_sign_0215",
+      "ground_truth": "traffic sign",
+      "model_output": "This is a 3D model of a cartoon-like arrow. It's a simple, clean design rendered in white, depicting a classic arrow pointing in various directions. Its appearance is playful and light, likely designed for use in animation or graphics aimed at a younger audience. Due to its design, it can serve many purposes like indicating directions, functions or movements in games, presentations, or graphics."
+    },
+    {
+      "object_id": "traffic_light_0019",
+      "ground_truth": "traffic light",
+      "model_output": "The 3D object model represents a tall, metallic stand-like structure, adorned with a black sphere at its top. It exhibits a simplistic design and is quite hefty in size. The object can be inferred as a piece of modern art or perhaps a decorative item in an industrial-styled environment. Though its functionality is not explicitly made known, based on its appearance it can be considered as a unique display or mounting stand."
+    },
+    {
+      "object_id": "traffic_sign_0299",
+      "ground_truth": "traffic sign",
+      "model_output": "This is a 3D model of a cartoonish, gray flag. The flag has alternating red and white stripes, which are stylized in a way typical of cartoons. It is made from a material that gives it a soft, wavy appearance, adding to its playful aesthetic. The flag could be used in various contexts, including video games, animations, or children's education software. Its simple and vibrant design would likely engage children's interest and enthusiasm."
+    },
+    {
+      "object_id": "traffic_sign_0171",
+      "ground_truth": "traffic sign",
+      "model_output": "It's an old-fashioned, metal, spoon-shaped object with a round, spherical ball attached to it."
+    },
+    {
+      "object_id": "traffic_light_0014",
+      "ground_truth": "traffic light",
+      "model_output": "This is a 3D model of a tall erect pole."
+    },
+    {
+      "object_id": "traffic_sign_0126",
+      "ground_truth": "traffic sign",
+      "model_output": "A dynamic 3D model of a weight attached to a metal frame using a sturdy chain. The weight is visible within the frame, which is firmly supported by the chain. This design suggests it could be used in strength training or workout routines, possibly in a gym or home fitness environment. The appearance and construction quality indicate it's built for long-lasting use and heavy weight handling."
+    },
+    {
+      "object_id": "traffic_light_0082",
+      "ground_truth": "traffic light",
+      "model_output": "The object is a category of medical equipment that uses light to treat injuries."
+    },
+    {
+      "object_id": "traffic_light_0044",
+      "ground_truth": "traffic light",
+      "model_output": "This is a 3D model of a cartoon-style object that resembles a microphone. It is completely white, giving it a minimalistic and clean appearance. The object seems simple and fun, and it might be used in a digital platform like video games, online concerts, or animated movies. Its design seems to cater more towards the younger audience due to its cartoonish nature."
+    },
+    {
+      "object_id": "traffic_sign_0338",
+      "ground_truth": "traffic sign",
+      "model_output": "The 3D object model is a white, whale-like figure, resembling a flag. It is distinguished by its long, slender tail and multiple splintered sections that extend along its body, giving it an intriguing visual appearance."
+    },
+    {
+      "object_id": "traffic_sign_0396",
+      "ground_truth": "traffic sign",
+      "model_output": "This 3D object model is a cartoon-like depiction of a ground. It's simple, black, and white, creating a monochrome visual effect. Although it's basic and lacks intricate details, it does present an interpretation of a ground, which could be used in animated videos, game scenes, or children's book illustrations."
+    },
+    {
+      "object_id": "traffic_light_0241",
+      "ground_truth": "traffic light",
+      "model_output": "The object model depicts a simple, cylindrical pole."
+    },
+    {
+      "object_id": "person_0145",
+      "ground_truth": "person",
+      "model_output": "The 3D object model depicts a rare, black, animated skeleton."
+    },
+    {
+      "object_id": "person_0058",
+      "ground_truth": "person",
+      "model_output": "Clothing item with white, rectangular shape"
+    },
+    {
+      "object_id": "person_0351",
+      "ground_truth": "person",
+      "model_output": "A 3D model of a cartoon-style figure made to resemble a rare type of ornament."
+    },
+    {
+      "object_id": "person_0288",
+      "ground_truth": "person",
+      "model_output": "The object is a 3D model of a uniquely designed white and black rectangular prism with the addition of triangular elements."
+    },
+    {
+      "object_id": "person_0025",
+      "ground_truth": "person",
+      "model_output": "This is a 3D object model of a white-winged dove. The model captures the serene and peaceful nature of a dove, with its white wings spread out gently. The dove sits on a thin, long, and curved stick, which appears to be its natural habitat. The stick provides a realistic touch to the model. This model could be used for ornithological studies, animation, or as a unique piece of home decor."
+    },
+    {
+      "object_id": "person_0055",
+      "ground_truth": "person",
+      "model_output": "This is a 3D model of a white airship, a type of airship or blimp, tethered to a grounding cable with a hook."
+    },
+    {
+      "object_id": "person_0196",
+      "ground_truth": "person",
+      "model_output": "This is a 3D model of a stylized, cartoon-like ladder. The model is minimalist in design and predominantly black, giving it a monochromatic look. It consists of rungs that are flat and notched, typically seen in ladders. Despite its simplicity, it indicates a universal symbol for ascending or descending. It might be used in animations or game designs."
+    },
+    {
+      "object_id": "person_0484",
+      "ground_truth": "person",
+      "model_output": "The 3D object model is of a human mannequin, designed in a neutral grey color. It appears to be meticulously crafted, showcasing distinct human body structures and proportions, thereby serving as an excellent tool for anatomical study. This mannequin can be used in educational settings, such as medical or anatomy classes, to provide a realistic understanding of the human body structure. However, the caption does not indicate any specific details about its usage."
+    },
+    {
+      "object_id": "person_0322",
+      "ground_truth": "person",
+      "model_output": "A dynamic, white-colored, multidirectional object that resembles a hair model is displayed. The object is adorned with minute detailing that shows the various strands and natural variations present in human hair. This model can be used in digital animations, simulations, or for educational purposes to explain hair structures. Despite being simplicity itself, this object carries a high degree of realism due to meticulous design."
+    },
+    {
+      "object_id": "person_0268",
+      "ground_truth": "person",
+      "model_output": "This is a 3D model of a bird with a distinctly long, sharp beak."
+    },
+    {
+      "object_id": "person_0480",
+      "ground_truth": "person",
+      "model_output": "Military plane model in white color."
+    },
+    {
+      "object_id": "person_0197",
+      "ground_truth": "person",
+      "model_output": "The 3D model is a representation of a sailing ship, most likely a vintage-style sailing ship or a yacht."
+    },
+    {
+      "object_id": "person_0456",
+      "ground_truth": "person",
+      "model_output": "This is a 3D model of a black and white cat."
+    },
+    {
+      "object_id": "person_0535",
+      "ground_truth": "person",
+      "model_output": "The 3D object model portrays a white, cartoon-like rectangle figure. The simplistic design gives it a playful and friendly appearance. It can be used as an avatar for online profiles or in game design, or as a teaching aid for 3D geometry."
+    },
+    {
+      "object_id": "person_0065",
+      "ground_truth": "person",
+      "model_output": "The 3D object model depicts a 'burning man' executed in a cartoonish style. The figure's face and body are enveloped in flames, giving it an appearance consistent with the theme of 'burning'. Despite its surrealistic subject matter, the model is crafted with an uncanny level of detail, suggesting a human form. Although the model is on fire, the figure remains stoic and is not depicted as screaming or in any other distressed state. This object could be used in animations or video games with a focus on fantasy or surrealism."
+    },
+    {
+      "object_id": "person_0079",
+      "ground_truth": "person",
+      "model_output": "It's an abstract 3D model that resembles a bench."
+    },
+    {
+      "object_id": "person_0387",
+      "ground_truth": "person",
+      "model_output": "The 3D model depicts a white, old-fashioned sailing ship with two masts and a small boat alongside."
+    },
+    {
+      "object_id": "person_0231",
+      "ground_truth": "person",
+      "model_output": "The 3D object model is a cartoon-like representation of a bird."
+    },
+    {
+      "object_id": "person_0312",
+      "ground_truth": "person",
+      "model_output": "A 3D model of a cartoon character designed to resemble a rare type of wood."
+    },
+    {
+      "object_id": "person_0170",
+      "ground_truth": "person",
+      "model_output": "The 3D model represents a figure that appears to be a mermaid, specifically designed with distinct features that closely resemble the tail end of a fish. The design incorporates fluid shapes and soft lines to depict a creature of mythical origin, with the fish-like tail signifying the aquatic nature often associated with mermaids. The model could be used as a decorative piece, part of a collection, or as a representation in various media forms like animation or video games."
+    },
+    {
+      "object_id": "person_0091",
+      "ground_truth": "person",
+      "model_output": "The object is a 3D model of a black, rectangular kite."
+    },
+    {
+      "object_id": "person_0532",
+      "ground_truth": "person",
+      "model_output": "This 3D object model illustrates an assembly of metal pieces in a worker's hand."
+    },
+    {
+      "object_id": "person_0362",
+      "ground_truth": "person",
+      "model_output": "This 3D model represents a white segment of a sphere, showcasing a clean, smooth, and symmetrical design. The object is colored uniformly in a bright white shade, with no additional markings or notches. This appearance suggests its use in various 3D graphics applications, specifically in geometric design, visualization, or as a part of complex simulations due to its simplicity and lack of additional features."
+    },
+    {
+      "object_id": "person_0436",
+      "ground_truth": "person",
+      "model_output": "A 3D model representing a cartoon-style, white scorpion."
+    },
+    {
+      "object_id": "person_0375",
+      "ground_truth": "person",
+      "model_output": "The 3D object model represents a set of wires with a crisscross pattern."
+    },
+    {
+      "object_id": "person_0092",
+      "ground_truth": "person",
+      "model_output": "The 3D object is a minimalist representation of a woven object, visually resembling a flat, circular figure 8. It lacks intricate detail or embellishment, maintaining a simple and neat aesthetic. Its form is suggestive of woven fibers or threads, and it could potentially be used in a variety of applications, such as in fashion, interior design, or even as part of a virtual reality environment."
+    },
+    {
+      "object_id": "person_0151",
+      "ground_truth": "person",
+      "model_output": "A 3D model representing a landscape post-disaster."
+    },
+    {
+      "object_id": "person_0439",
+      "ground_truth": "person",
+      "model_output": "It's a 3D object model of a rectangular metal bar with small triangular barbs or teeth along its edges."
+    },
+    {
+      "object_id": "bicycle_1318",
+      "ground_truth": "bicycle",
+      "model_output": "This is a 3D object model of a cartoon-like bicycle figure. The model is not complex or detailed, emphasizing simplicity and abstraction. The bicycle is upright and appears ready to ride. Though it's not functional or usable in its current form, it serves as a visual model or a symbolic representation, potentially in animation, games, or children's content."
+    },
+    {
+      "object_id": "bicycle_0527",
+      "ground_truth": "bicycle",
+      "model_output": "This is a three-dimensional model of a dog."
+    },
+    {
+      "object_id": "bicycle_1125",
+      "ground_truth": "bicycle",
+      "model_output": "A three-dimensional model of a cartoon-style object that resembles a rare bird."
+    },
+    {
+      "object_id": "bicycle_0321",
+      "ground_truth": "bicycle",
+      "model_output": "A 3D model of a cute cartoon-like silver ornament."
+    },
+    {
+      "object_id": "bicycle_1319",
+      "ground_truth": "bicycle",
+      "model_output": "This is a 3D model of a cartoon character."
+    },
+    {
+      "object_id": "bicycle_1177",
+      "ground_truth": "bicycle",
+      "model_output": "This is a 3D object model showcasing a complex structure of interconnected wires, possibly representing a network or system of some kind. The wires are intricately interlaced, suggesting a multi-layered or hierarchical configuration. The model doesn't give any direct indication of its function or usage, but it could be relevant in numerous fields like mechanics, architecture, or even sociology, depending on the interpretation of its structure."
+    },
+    {
+      "object_id": "bicycle_1282",
+      "ground_truth": "bicycle",
+      "model_output": "This 3D model depicts an object category that is not specific, it can be any object that falls into an ambiguous category that does not have a distinctive name or is not identifiable."
+    },
+    {
+      "object_id": "bicycle_0802",
+      "ground_truth": "bicycle",
+      "model_output": "This is a 3D model of a classic microwave design."
+    },
+    {
+      "object_id": "bicycle_1044",
+      "ground_truth": "bicycle",
+      "model_output": "The 3D object model presents a complex structure with various elements connected, possibly representing a piece of machinery or an architectural model. It is adorned in a uniform grey colour which indicates it is unfinished or partially completed. It can be used for education, entertainment, or design purpose but lacks clarity without further information."
+    },
+    {
+      "object_id": "bicycle_0720",
+      "ground_truth": "bicycle",
+      "model_output": "The 3D object model is a cartoon figure of a white bird with a distinct long, bushy tail and paws having three fingers."
+    },
+    {
+      "object_id": "bicycle_0847",
+      "ground_truth": "bicycle",
+      "model_output": "This is a 3D model of a toy bike made from metal."
+    },
+    {
+      "object_id": "bicycle_0729",
+      "ground_truth": "bicycle",
+      "model_output": "It's a 3D model of a cartoon-like item with a black and white color scheme."
+    },
+    {
+      "object_id": "bicycle_0105",
+      "ground_truth": "bicycle",
+      "model_output": "The 3D object model depicts an animated black motorcycle with a sleek design. Its standout features include white-colored headlights that offer superior road visibility. The motorcycle's dynamic black body enhances its overall edgy appeal, while the seating structure suggests it's made for comfort, making it fitting for both recreational and commuting purposes."
+    },
+    {
+      "object_id": "bicycle_1326",
+      "ground_truth": "bicycle",
+      "model_output": "Black, white, and grey bicycle parts."
+    },
+    {
+      "object_id": "bicycle_0131",
+      "ground_truth": "bicycle",
+      "model_output": "The 3D object model is a depiction of a natural geological formation called a cave. It showcases the intricate details of the cave's formation, including the irregular shaped rock structures that compose its walls and the ground. The model effectively portrays the unique textural characteristics of limestone and sandstone, the materials commonly used to form caves. This can be used in geological and spelological studies or in 3D graphics for videogames and animations."
+    },
+    {
+      "object_id": "bicycle_0362",
+      "ground_truth": "bicycle",
+      "model_output": "This 3D model depicts an animated, simplistic representation of a military jet."
+    },
+    {
+      "object_id": "bicycle_0779",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle."
+    },
+    {
+      "object_id": "bicycle_0403",
+      "ground_truth": "bicycle",
+      "model_output": "The object model depicts a complex, multidirectional, black-colored structure akin to a spider web."
+    },
+    {
+      "object_id": "bicycle_0207",
+      "ground_truth": "bicycle",
+      "model_output": "This 3D object model is of a white cartoon-style bicycle."
+    },
+    {
+      "object_id": "bicycle_0147",
+      "ground_truth": "bicycle",
+      "model_output": "This is a 3D object model representing a cartoon character. It exhibits a clean and smooth surface, with a uniform grey color indicating its material. The cartoon character seems simple yet charismatic, making it suitable for various applications such as animation, game design, graphic design and other media requiring cartoon assets. Its kid-friendly, non-realistic design adds a playful touch to its environment."
+    },
+    {
+      "object_id": "bicycle_1111",
+      "ground_truth": "bicycle",
+      "model_output": "3D model of a man on a bike"
+    },
+    {
+      "object_id": "bicycle_0497",
+      "ground_truth": "bicycle",
+      "model_output": "The 3D model presents a damaged and fragmented object. Its visual properties suggest it may be a result of adverse conditions or intentional destruction. However, the object's original form and functionality are still discernable."
+    },
+    {
+      "object_id": "bicycle_0148",
+      "ground_truth": "bicycle",
+      "model_output": "This 3D model represents a classic, grey-colored bike in a static pose with its wheels stationary."
+    },
+    {
+      "object_id": "bicycle_0881",
+      "ground_truth": "bicycle",
+      "model_output": "This is a 3D model of a black motorbike."
+    },
+    {
+      "object_id": "bicycle_0576",
+      "ground_truth": "bicycle",
+      "model_output": "This is a 3D model of a skateboard, rendered in a cartoon style. The skateboard predominantly features two colors - black and white. The board, having a curved structure, is designed for smooth sliding motions, a quintessential feature of skateboards. It could be used in various digital contexts like animations, games, or digital art, by both amateurs and professionals."
+    },
+    {
+      "object_id": "bicycle_0163",
+      "ground_truth": "bicycle",
+      "model_output": "This is an animated 3D model that resembles a white cloud."
+    },
+    {
+      "object_id": "bicycle_0298",
+      "ground_truth": "bicycle",
+      "model_output": "This is a 3D model of a cartoon-styled silver tower."
+    },
+    {
+      "object_id": "bicycle_0969",
+      "ground_truth": "bicycle",
+      "model_output": "The 3D object is a toy model of a classic cycle, complete with a rider. It is designed with precise details, featuring the essential characteristics of a traditional cycle, including pedals, a seat, handlebars, and wheels. Although it is a toy, it showcases a strong realistic design that can provide a good training for kids' hands-on learning about vehicles or develop their imaginative play skills."
+    },
+    {
+      "object_id": "bicycle_1006",
+      "ground_truth": "bicycle",
+      "model_output": "This is a three-dimensional model of a cartoon-style mountain climber."
+    },
+    {
+      "object_id": "bicycle_0488",
+      "ground_truth": "bicycle",
+      "model_output": "This is a 3D model of a toy bicycle made of paper."
+    },
+    {
+      "object_id": "bicycle_0468",
+      "ground_truth": "bicycle",
+      "model_output": "This is a 3D model of a rare, black cartoon fish that is shaped like a rare species. It is depicted with a large tail and eyes, giving it a playful and fun appearance. This object can potentially be used in animated movies, video games or any digital platform that utilizes graphics. The fish's design indicates it may appeal to children due to its cartoon-like representation."
+    },
+    {
+      "object_id": "bicycle_1063",
+      "ground_truth": "bicycle",
+      "model_output": "The 3D object model is a cartoon-inspired, white-colored toy bicycle."
+    },
+    {
+      "object_id": "bicycle_1171",
+      "ground_truth": "bicycle",
+      "model_output": "It's a three-dimensional model of a cartoon-style motorcycle."
+    },
+    {
+      "object_id": "bicycle_0909",
+      "ground_truth": "bicycle",
+      "model_output": "A 3D model of a cartoon-styled white bicycle."
+    },
+    {
+      "object_id": "bicycle_0751",
+      "ground_truth": "bicycle",
+      "model_output": "A group of men in white shirts are playing cards."
+    },
+    {
+      "object_id": "bicycle_0025",
+      "ground_truth": "bicycle",
+      "model_output": "The 3D object model is of a black motorbike."
+    },
+    {
+      "object_id": "bicycle_0887",
+      "ground_truth": "bicycle",
+      "model_output": "This is a 3D model of a toy bicycle."
+    },
+    {
+      "object_id": "bicycle_0155",
+      "ground_truth": "bicycle",
+      "model_output": "A picturesque natural scenery depicted in 3D."
+    },
+    {
+      "object_id": "bicycle_0733",
+      "ground_truth": "bicycle",
+      "model_output": "The 3D model represents a cartoon-like white figure reminiscent of a ghost."
+    },
+    {
+      "object_id": "bicycle_0188",
+      "ground_truth": "bicycle",
+      "model_output": "It's an animated 3D model representing an object that's black and white in color. The model may be used in a digital context, such as in video games or digital art pieces."
+    },
+    {
+      "object_id": "bicycle_0301",
+      "ground_truth": "bicycle",
+      "model_output": "It's a 3D model of a cartoon-style horse."
+    },
+    {
+      "object_id": "bicycle_0827",
+      "ground_truth": "bicycle",
+      "model_output": "The 3D object model depicts an animal with a lot of hair."
+    },
+    {
+      "object_id": "bicycle_0987",
+      "ground_truth": "bicycle",
+      "model_output": "A 3D model of a mythological creature resembling a horse-like monster."
+    },
+    {
+      "object_id": "bicycle_0284",
+      "ground_truth": "bicycle",
+      "model_output": "The 3D object model is of a collection of cartoonish, white rocks."
+    },
+    {
+      "object_id": "bicycle_0769",
+      "ground_truth": "bicycle",
+      "model_output": "This is a 3D model of a white paper toy."
+    },
+    {
+      "object_id": "bicycle_0198",
+      "ground_truth": "bicycle",
+      "model_output": "The 3D object model represents a black, rectangular frame, bearing a resemblance to a picture frame. It contains a white, rectangular object within it, though the exact nature of that object is not clear from the description."
+    },
+    {
+      "object_id": "bicycle_0476",
+      "ground_truth": "bicycle",
+      "model_output": "A 3D object model of a human being, meticulously designed with great attention to detail, highlighting the unique characteristics of an average human body."
+    },
+    {
+      "object_id": "bicycle_1038",
+      "ground_truth": "bicycle",
+      "model_output": "The 3D object model is an anthropomorphized rectangle figure resembling a man. It is dressed in a white shirt and dark pants."
+    },
+    {
+      "object_id": "bicycle_0107",
+      "ground_truth": "bicycle",
+      "model_output": "This is a 3D model of a single wheel, displayed in black and white. It is a simple design, the color contrast enhancing its visual appeal. Despite its apparent simplicity, it serves as a fundamental building block in various applications, like animated films or video games, or can be used as a training data set for computer learning in vision and graphics."
+    },
+    {
+      "object_id": "scooter_0001",
+      "ground_truth": "scooter",
+      "model_output": "This 3D object model is a black-colored item that stands out because of its distinctive white stairs."
+    },
+    {
+      "object_id": "wall_0017",
+      "ground_truth": "wall",
+      "model_output": "The 3D object model represents a'ruined house' in white color."
+    },
+    {
+      "object_id": "wall_0015",
+      "ground_truth": "wall",
+      "model_output": "The 3D object model portrays a white, rectangular surface characterized by a series of black and grey vertical lines. This could mimic a board with a zebra-striped pattern. Its usage can be diverse but it is likely to be used for design or decorative purposes. It could potentially be part of a fashionable handbag or clutch, a statement piece for interior design or a texture-rich video game asset."
+    },
+    {
+      "object_id": "sign_0004",
+      "ground_truth": "sign",
+      "model_output": "The 3D object model is a representation of a sheet of paper in a cartoon style."
+    },
+    {
+      "object_id": "fence_0001",
+      "ground_truth": "fence",
+      "model_output": "The 3D object model is a depiction of a cartoonish, white, rectangular figure."
+    },
+    {
+      "object_id": "rider_0007",
+      "ground_truth": "rider",
+      "model_output": "The 3D object model represents a human male figure dressed in a formal suit. The model appears to be of average build and is meticulously designed, showcasing a professional, business-like appearance. The human figure is wearing a dark blue suit, a light blue shirt, and a dark tie, suggesting a formal, work-related attire. This model could be used in a number of scenarios such as in video games, animations, digital art, or simulations, representing a businessman, an executive, or a professional in a corporate setting."
+    },
+    {
+      "object_id": "motorcycle_0003",
+      "ground_truth": "motorcycle",
+      "model_output": "The 3D object model represents a realistic, dark-colored fish alongside a mask."
+    },
+    {
+      "object_id": "table_0003",
+      "ground_truth": "table",
+      "model_output": "This is a 3D model of an old-fashioned, simplistic fan made entirely from white paper. Despite being artistic in nature, it maintains functionality, representing a common object used for cooling and ventilation purposes. Its handheld nature implies portability and ease of use in different environments, ranging from personal to professional settings."
+    },
+    {
+      "object_id": "umbrella_0001",
+      "ground_truth": "umbrella",
+      "model_output": "This is a 3D model of a cartoon figure. It is completely white in color."
+    },
+    {
+      "object_id": "cart_0001",
+      "ground_truth": "cart",
+      "model_output": "This 3D object model is a category of a beach scenery."
+    },
+    {
+      "object_id": "dog_0001",
+      "ground_truth": "dog",
+      "model_output": "This 3D object model represents a set of lines or wires converging on to a specific point."
+    }
+  ]
+}

@@ -1,0 +1,1826 @@
+{
+  "inference_prompt": "This is an object of ",
+  "prompt": "Analyze two sentences and determine if they're referring to the same general object or concept, focusing on the type of object, not attributes such as color, size, or shape. Respond with 'T' if they refer to the same thing and 'F' if not. Also, provide a brief rationale (no more than 20 words) for your judgment.\nExample:\nInput: 1. Spiral staircase that goes from a ground floor. 2. This is a 3D model of wooden stairs in light brown\nOutput: T#Both refer to a staircase.\n\nNow, analyze the following:\nInput: 1. {ground_truth} 2. {model_output}\nOutput: ",
+  "accuracy": "33.20%",
+  "total_predictions": 259,
+  "correct_predictions": 86,
+  "invalid_responses": 0,
+  "prompt_tokens": 41505,
+  "completion_tokens": 3763,
+  "GPT_cost": 1.4709299999999998,
+  "results": [
+    {
+      "object_id": "tree_0363",
+      "ground_truth": "tree",
+      "model_output": "The object is a street sign pole.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a tree and the other refers to a pole."
+    },
+    {
+      "object_id": "tree_0018",
+      "ground_truth": "tree",
+      "model_output": "This is an object of urban transportation, commonly used for commuting short distances.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The first refers to a tree while the second refers to a mode of transportation."
+    },
+    {
+      "object_id": "tree_0854",
+      "ground_truth": "tree",
+      "model_output": "This is an object of the 19th century, characterized by its tall, slender structure and elongated leaves. It is a type of residential or urban tree commonly used for landscaping and environmental benefits.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a tree."
+    },
+    {
+      "object_id": "tree_0555",
+      "ground_truth": "tree",
+      "model_output": "This is an object of transportation, used for riding on roads and paths.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a tree and the other is referring to a vehicle or mode of transport."
+    },
+    {
+      "object_id": "tree_0979",
+      "ground_truth": "tree",
+      "model_output": "This is a small, rectangular trash bin located at the corner of a street. It has a simple, metal design and is attached to the wall. The bin is likely used for disposing of household waste and is common in urban settings for maintaining cleanliness.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is about a tree and the other is about a trash bin."
+    },
+    {
+      "object_id": "tree_0723",
+      "ground_truth": "tree",
+      "model_output": "The object is a white van with a roof rack.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a tree and the other to a van."
+    },
+    {
+      "object_id": "tree_0056",
+      "ground_truth": "tree",
+      "model_output": "This is an object of a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a tree, the other to a bicycle."
+    },
+    {
+      "object_id": "tree_0986",
+      "ground_truth": "tree",
+      "model_output": "This is an object of urban infrastructure, used to manage and regulate traffic flow in a city.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a natural object (a tree) and the other refers to a traffic regulating device."
+    },
+    {
+      "object_id": "tree_0599",
+      "ground_truth": "tree",
+      "model_output": "The object is a streetlight pole.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a natural object (tree), the other a man-made structure (streetlight pole)."
+    },
+    {
+      "object_id": "tree_0062",
+      "ground_truth": "tree",
+      "model_output": "This is an object of 1960s vintage, characterized by its elongated shape, large windows, and compact, box-like design. It is commonly used for travel and camping, providing a mobile living space for individuals or families on the go.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The first refers to a tree, and the second refers to a vintage vehicle or trailer."
+    },
+    {
+      "object_id": "tree_0229",
+      "ground_truth": "tree",
+      "model_output": "This is an object of a bicycle parked on the sidewalk.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One sentence refers to a tree, the other refers to a bicycle."
+    },
+    {
+      "object_id": "tree_0328",
+      "ground_truth": "tree",
+      "model_output": "This is an object of the urban furniture set, which includes a table, bench, and trash bin.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a tree and the other refers to urban furniture."
+    },
+    {
+      "object_id": "tree_0970",
+      "ground_truth": "tree",
+      "model_output": "This is an object of",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The second sentence doesn't specify what object it's referring to."
+    },
+    {
+      "object_id": "tree_0851",
+      "ground_truth": "tree",
+      "model_output": "This is an object of",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The second sentence is incomplete and does not specify any object or concept."
+    },
+    {
+      "object_id": "car_1752",
+      "ground_truth": "car",
+      "model_output": "The object is a white Citro\u00ebn Jumper van, a compact van used for transporting goods or people, commonly for deliveries, small passenger transport, or utility purposes.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to types of vehicles."
+    },
+    {
+      "object_id": "car_1344",
+      "ground_truth": "car",
+      "model_output": "A white Volkswagen Transporter van, commonly used for commercial purposes such as transporting goods and services.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a vehicle."
+    },
+    {
+      "object_id": "car_0244",
+      "ground_truth": "car",
+      "model_output": "This is an object of",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The second sentence doesn't specify any particular object."
+    },
+    {
+      "object_id": "tree_0515",
+      "ground_truth": "tree",
+      "model_output": "This is an object of urban street furniture, specifically a metal trash receptacle. It has a rectangular shape with a flat top and sides and is designed for waste disposal. The receptacle is mounted on the sidewalk and has a lever handle for easy trash disposal.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a natural object (tree) and the other refers to an artificial object (trash receptacle)."
+    },
+    {
+      "object_id": "car_1182",
+      "ground_truth": "car",
+      "model_output": "This is an object of personal transportation used for commuting and traveling.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a means of personal transportation."
+    },
+    {
+      "object_id": "car_1036",
+      "ground_truth": "car",
+      "model_output": "The object in the image is a bicycle, which is commonly used for transportation and recreational purposes.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car and the other refers to a bicycle."
+    },
+    {
+      "object_id": "car_1409",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car while the other refers to a bicycle."
+    },
+    {
+      "object_id": "tree_0281",
+      "ground_truth": "tree",
+      "model_output": "The object is a bicycle, typically used for transportation and recreation.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a \"tree\" while the other refers to a \"bicycle\"."
+    },
+    {
+      "object_id": "car_0624",
+      "ground_truth": "car",
+      "model_output": "This is an object of  a sedan.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a type of car."
+    },
+    {
+      "object_id": "car_0139",
+      "ground_truth": "car",
+      "model_output": "The object is a Volkswagen car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0163",
+      "ground_truth": "car",
+      "model_output": "The object is a compact, white hatchback car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0047",
+      "ground_truth": "car",
+      "model_output": "This is an object of personal transportation, commonly used for commuting to work, running errands, or traveling to social events. It is designed for practicality and efficiency, allowing individuals to travel comfortably and efficiently through various terrains.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0877",
+      "ground_truth": "car",
+      "model_output": "This is an object of a compact car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1680",
+      "ground_truth": "car",
+      "model_output": "This is an object of the 21st century, used for daily transportation.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both sentences refer to a mode of transportation, which can be a car."
+    },
+    {
+      "object_id": "car_0593",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle parking rack made of metal. It is designed to hold several bicycles at once and is typically found in urban areas for convenient bike parking.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, the other to a bicycle parking rack."
+    },
+    {
+      "object_id": "car_1578",
+      "ground_truth": "car",
+      "model_output": "This object is a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "They are referring to different types of vehicles."
+    },
+    {
+      "object_id": "car_0785",
+      "ground_truth": "car",
+      "model_output": "This is an object of transportation. It is a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car while the other refers to a bicycle."
+    },
+    {
+      "object_id": "tree_1057",
+      "ground_truth": "tree",
+      "model_output": "The object is a parking meter.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a natural object (tree) and the other is a man-made object (parking meter)."
+    },
+    {
+      "object_id": "tree_0412",
+      "ground_truth": "tree",
+      "model_output": "This is an object of",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The second sentence is incomplete and does not specify a clear object."
+    },
+    {
+      "object_id": "car_0019",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a car and the other to a bicycle."
+    },
+    {
+      "object_id": "car_0477",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a car and the other is a bicycle."
+    },
+    {
+      "object_id": "car_1509",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle, viewed from an angle that shows its structure and components. The bicycle features a frame, wheels, handlebars, a seat, and pedals, designed for human-powered transportation.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car and the other to a bicycle."
+    },
+    {
+      "object_id": "car_1508",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle, which is commonly used as a means of transportation.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "They refer to different types of transportation: a car and a bicycle."
+    },
+    {
+      "object_id": "car_0841",
+      "ground_truth": "car",
+      "model_output": "This is an object of 0000.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "There's insufficient information to determine if the second sentence refers to a car."
+    },
+    {
+      "object_id": "car_1748",
+      "ground_truth": "car",
+      "model_output": "The object is a compact car, commonly used for urban commuting.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0807",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle, typically used for personal transportation and recreational activities.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car while the other refers to a bicycle."
+    },
+    {
+      "object_id": "car_0083",
+      "ground_truth": "car",
+      "model_output": "The object is a white compact car, typically used for daily commuting or short-distance travel.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "tree_0381",
+      "ground_truth": "tree",
+      "model_output": "This is an object of personal transportation, typically used for commuting or recreational rides in urban or suburban areas.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a tree, the other to a transport device."
+    },
+    {
+      "object_id": "car_1001",
+      "ground_truth": "car",
+      "model_output": "The object is a compact hatchback car, known for its efficient space utilization and practical design, making it suitable for urban environments and city driving.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1397",
+      "ground_truth": "car",
+      "model_output": "The object is a silver Volkswagen T-Roc SUV.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0610",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, the other to a bicycle."
+    },
+    {
+      "object_id": "car_0505",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle, commonly used for transportation and recreational purposes.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car and the other refers to a bicycle."
+    },
+    {
+      "object_id": "car_0589",
+      "ground_truth": "car",
+      "model_output": "This is an object of 3D modeling, commonly used for personal or family transportation.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1418",
+      "ground_truth": "car",
+      "model_output": "The object of the 3D point cloud is a parked car, specifically a white station wagon, identified by its boxy design, sloping rear, and long hood. It is a typical car for daily commuting and family use, offering a balance of comfort and functionality.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1104",
+      "ground_truth": "car",
+      "model_output": "This is an object of a car parked on the side of a street. It is a compact hatchback with a streamlined design, typical of urban vehicles. The car appears to be in good condition and is likely used for daily commuting or short-distance travel.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0231",
+      "ground_truth": "car",
+      "model_output": "The object in the green circle is a compact car, specifically a hatchback model. It has a small body size and a rear hatch for easy access to the cargo area. This type of car is commonly used for urban commuting due to its maneuverability and fuel efficiency.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0239",
+      "ground_truth": "car",
+      "model_output": "This is an object of",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The second sentence does not specify what object it refers to."
+    },
+    {
+      "object_id": "car_1029",
+      "ground_truth": "car",
+      "model_output": "This is an object of  ASSIST007",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, the other is unspecified."
+    },
+    {
+      "object_id": "car_1655",
+      "ground_truth": "car",
+      "model_output": "This is a white van labeled 'APELONA'.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a car, while the other is referring to a van."
+    },
+    {
+      "object_id": "car_0577",
+      "ground_truth": "car",
+      "model_output": "This is an object of urban transportation, used for deliveries and small-scale logistics.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a vehicle used for transportation."
+    },
+    {
+      "object_id": "car_0775",
+      "ground_truth": "car",
+      "model_output": "This is an object of personal transportation, designed for daily commuting and short trips.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a mode of personal transportation."
+    },
+    {
+      "object_id": "car_0772",
+      "ground_truth": "car",
+      "model_output": "This is a compact SUV vehicle, suitable for urban commuting and light off-road use.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a type of vehicle."
+    },
+    {
+      "object_id": "car_1099",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a car while the other is referring to a bicycle."
+    },
+    {
+      "object_id": "car_0759",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle parked on the street, leaning against a pole.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a car and the other is a bicycle."
+    },
+    {
+      "object_id": "car_1158",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car and the other to a bicycle."
+    },
+    {
+      "object_id": "car_0955",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, the other to a bicycle."
+    },
+    {
+      "object_id": "car_0868",
+      "ground_truth": "car",
+      "model_output": "The object in the image is a car parked on the side of a street. It appears to be a compact, four-door vehicle with a hatchback design, commonly used for daily commuting and personal transportation.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1564",
+      "ground_truth": "car",
+      "model_output": "This is an object of",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The second sentence doesn't specify the type of object."
+    },
+    {
+      "object_id": "tree_0885",
+      "ground_truth": "tree",
+      "model_output": "This is a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a tree and the other to a bicycle."
+    },
+    {
+      "object_id": "car_1288",
+      "ground_truth": "car",
+      "model_output": "The object is a compact car, specifically a sedan, characterized by its four doors, two side mirrors, and a typical car body shape designed for personal transportation.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "tree_0705",
+      "ground_truth": "tree",
+      "model_output": "The object in question appears to be a street sign, specifically a traffic sign indicating no parking from 6 to 15 hours on weekdays.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a tree, the other to a street sign."
+    },
+    {
+      "object_id": "car_1754",
+      "ground_truth": "car",
+      "model_output": "The object is a Volkswagen, a compact car known for its practicality and fuel efficiency.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0810",
+      "ground_truth": "car",
+      "model_output": "The object of the 3D point cloud is a bicycle wheel, typically found on bicycles, and is used for transportation. It has a circular frame with spokes connecting the center hub to the rim, designed to provide support and mobility for the bike.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, the other to a bicycle wheel."
+    },
+    {
+      "object_id": "car_1574",
+      "ground_truth": "car",
+      "model_output": "This is an object of 5.5 meters in height and 1.3 meters in width.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car and the other to an unspecified object with dimensions."
+    },
+    {
+      "object_id": "car_1761",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car and the other to a bicycle."
+    },
+    {
+      "object_id": "car_1050",
+      "ground_truth": "car",
+      "model_output": "The object of the 3D point cloud is a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, the other refers to a bicycle."
+    },
+    {
+      "object_id": "car_1032",
+      "ground_truth": "car",
+      "model_output": "This is an object of  ASSIST",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a vehicle, the other to assistance or help."
+    },
+    {
+      "object_id": "car_0904",
+      "ground_truth": "car",
+      "model_output": "The object is a compact car parked on the side of the street. It appears to be a modern sedan with a hatchback design, featuring a sleek body, a compact size, and a visible rear license plate.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0002",
+      "ground_truth": "car",
+      "model_output": "This is an object of",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The second sentence is incomplete and doesn't specify any object."
+    },
+    {
+      "object_id": "car_0647",
+      "ground_truth": "car",
+      "model_output": "This is an object of daily commuting, used for personal transportation in urban areas.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a vehicle for personal transportation."
+    },
+    {
+      "object_id": "car_1355",
+      "ground_truth": "car",
+      "model_output": "This is an object of  ASSIST",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a vehicle, the other to an aid or support."
+    },
+    {
+      "object_id": "car_1357",
+      "ground_truth": "car",
+      "model_output": "This object is a bicycle, characterized by two wheels, a frame, handlebars, and a seat. It is designed for human-powered transportation and is commonly used for commuting, recreation, and exercise.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, the other to a bicycle."
+    },
+    {
+      "object_id": "car_1595",
+      "ground_truth": "car",
+      "model_output": "This is an object of 2007, known for its  sporty design and  compact size, making it suitable for urban environments.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a vehicle or car."
+    },
+    {
+      "object_id": "car_0365",
+      "ground_truth": "car",
+      "model_output": "This is an object of a white hatchback car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0449",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, the other to a bicycle."
+    },
+    {
+      "object_id": "car_1474",
+      "ground_truth": "car",
+      "model_output": "This is an object of personal transportation.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a form of personal transportation."
+    },
+    {
+      "object_id": "car_0064",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a car and the other is a bicycle."
+    },
+    {
+      "object_id": "car_0934",
+      "ground_truth": "car",
+      "model_output": "The object of the 3D model is a compact car, which appears to be a hatchback or station wagon based on its rear design. It has a relatively low profile and appears to be parked on the side of a street. The car\u2019s design suggests it is intended for urban use, offering practicality and efficiency for daily commuting and family transportation.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0892",
+      "ground_truth": "car",
+      "model_output": "This object is a sedan, characterized by its four doors, two-tone body, and a hatchback rear design. It is typically used for personal transportation and often has a sporty or luxury variant.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a type of car."
+    },
+    {
+      "object_id": "car_1584",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, the other to a bicycle."
+    },
+    {
+      "object_id": "car_1260",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car and the second to a bicycle."
+    },
+    {
+      "object_id": "car_1142",
+      "ground_truth": "car",
+      "model_output": "A compact car, specifically a hatchback model known for its maneuverability and fuel efficiency.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1235",
+      "ground_truth": "car",
+      "model_output": "This is an object of 3D point cloud, typically used for urban or traffic analysis.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, the other to a method of analysis."
+    },
+    {
+      "object_id": "car_0625",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle, which is typically used for transportation and recreation. It features two wheels, a frame, a seat, and handlebars, designed for human-powered propulsion.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car and the other to a bicycle."
+    },
+    {
+      "object_id": "car_0905",
+      "ground_truth": "car",
+      "model_output": "This is an object of personal transportation, specifically a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, the other to a bicycle."
+    },
+    {
+      "object_id": "tree_0593",
+      "ground_truth": "tree",
+      "model_output": "This is an object of the 19th century, characterized by its intricate, lacy design and the presence of numerous small windows and balconies. It is typically used for residential or mixed-use buildings.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a natural object (tree), the other to a type of building."
+    },
+    {
+      "object_id": "car_0479",
+      "ground_truth": "car",
+      "model_output": "This object is a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a car, the other to a bicycle."
+    },
+    {
+      "object_id": "car_1402",
+      "ground_truth": "car",
+      "model_output": "This is an object of  type.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The second sentence is incomplete and does not specify the object type."
+    },
+    {
+      "object_id": "car_0591",
+      "ground_truth": "car",
+      "model_output": "This is an object of",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The second sentence does not specify what object it is referring to."
+    },
+    {
+      "object_id": "car_0812",
+      "ground_truth": "car",
+      "model_output": "The object in question is a bicycle. It appears to be a standard road bicycle with thin tires, a lightweight frame, and equipped with handlebars and a seat. Its design is typical of bicycles used for urban commuting or recreational riding.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a car, the other a bicycle."
+    },
+    {
+      "object_id": "car_0223",
+      "ground_truth": "car",
+      "model_output": "This is a compact SUV, characterized by its boxy design, elevated ground clearance, and four-wheel drive system, which is commonly used for its versatility and all-terrain capability.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a type of automobile."
+    },
+    {
+      "object_id": "car_0390",
+      "ground_truth": "car",
+      "model_output": "This is an object of 4D point cloud, which captures the spatial structure and appearance of a vehicle. It is typically used for automated parking systems and collision avoidance.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a vehicle or car."
+    },
+    {
+      "object_id": "car_0101",
+      "ground_truth": "car",
+      "model_output": "This is a compact car, characterized by its small size and typical features such as four doors, a compact body, and a relatively short wheelbase.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1267",
+      "ground_truth": "car",
+      "model_output": "The object is a compact car parked on a city street, characterized by its small size, four doors, and a typical sedan shape.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1316",
+      "ground_truth": "car",
+      "model_output": "This is an object of  ASSIST",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a vehicle, the other to assistance or help."
+    },
+    {
+      "object_id": "car_1110",
+      "ground_truth": "car",
+      "model_output": "The object of the 3D model is a car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1430",
+      "ground_truth": "car",
+      "model_output": "The object of the image is a compact hatchback car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0315",
+      "ground_truth": "car",
+      "model_output": "This is an object of  ASSIST000.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "There is not enough information to confirm if ASSIST000 refers to a car."
+    },
+    {
+      "object_id": "car_1673",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle, designed for personal transportation.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, the other to a bicycle."
+    },
+    {
+      "object_id": "car_0303",
+      "ground_truth": "car",
+      "model_output": "This is an object of",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The second sentence does not specify what object it refers to."
+    },
+    {
+      "object_id": "car_0840",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car and the other to a bicycle."
+    },
+    {
+      "object_id": "car_1312",
+      "ground_truth": "car",
+      "model_output": "The object is a car, specifically a hatchback. It has a compact design with a short rear overhang and a tailgate that opens upwards for cargo access. The car is typically used for urban commuting and has a following in city driving due to its maneuverability and fuel efficiency.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0490",
+      "ground_truth": "car",
+      "model_output": "This is a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a car, the other to a bicycle."
+    },
+    {
+      "object_id": "car_0776",
+      "ground_truth": "car",
+      "model_output": "This is an object of personal transportation, typically used for commuting and daily travel.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a vehicle used for transportation."
+    },
+    {
+      "object_id": "car_0895",
+      "ground_truth": "car",
+      "model_output": "This is an object of 9th century Sassanid Persian art. It is a silver dish with a central hub and a ring of evenly spaced spokes radiating from the hub to the rim. The dish is likely used for transporting food or drink and is a significant example of Persian metalwork.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The first sentence refers to a vehicle while the second refers to a historical art object."
+    },
+    {
+      "object_id": "car_0585",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle, which is commonly used for personal transportation and recreation. It features two wheels, a frame, handlebars, and a seat.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car while the other refers to a bicycle."
+    },
+    {
+      "object_id": "car_0035",
+      "ground_truth": "car",
+      "model_output": "This is an object of an automobile, specifically a compact car. It appears to be a standard four-door sedan with a roof rack and a visible license plate.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_1467",
+      "ground_truth": "car",
+      "model_output": "This is an object of",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The second sentence is incomplete and does not refer to any specific object or concept."
+    },
+    {
+      "object_id": "car_1108",
+      "ground_truth": "car",
+      "model_output": "The object is a parked car, specifically a Mercedes-Benz sedan.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "car_0608",
+      "ground_truth": "car",
+      "model_output": "This is an object of",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The second sentence does not specify an object."
+    },
+    {
+      "object_id": "car_1684",
+      "ground_truth": "car",
+      "model_output": "This is an object of personal transportation, commonly used for daily commuting or leisure riding.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a vehicle for personal transportation."
+    },
+    {
+      "object_id": "car_0786",
+      "ground_truth": "car",
+      "model_output": "This is an object of 507, a hatchback car.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "traffic_light_0243",
+      "ground_truth": "traffic light",
+      "model_output": "This is a white minivan parked on the street.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic light, the other to a vehicle."
+    },
+    {
+      "object_id": "traffic_sign_0160",
+      "ground_truth": "traffic sign",
+      "model_output": "The object is a bicycle parked on a sidewalk.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other to a bicycle."
+    },
+    {
+      "object_id": "traffic_sign_0274",
+      "ground_truth": "traffic sign",
+      "model_output": "The object is a street sign, specifically a traffic sign indicating no parking from 6 to 15 hours on weekdays.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a traffic sign."
+    },
+    {
+      "object_id": "traffic_sign_0026",
+      "ground_truth": "traffic sign",
+      "model_output": "An object of a bicycle parked on the side of a street.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other refers to a bicycle."
+    },
+    {
+      "object_id": "car_0691",
+      "ground_truth": "car",
+      "model_output": "The object is a white van with a side window covered with shrfortunatelyfortunatelys. It appears to have a cargo space behind the window.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a type of vehicle."
+    },
+    {
+      "object_id": "traffic_light_0170",
+      "ground_truth": "traffic light",
+      "model_output": "This is an object of personal transportation.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic light, the other to a mode of personal transportation."
+    },
+    {
+      "object_id": "car_1127",
+      "ground_truth": "car",
+      "model_output": "This is an object of 3D point cloud modeling.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, the other to a type of 3D modeling."
+    },
+    {
+      "object_id": "traffic_light_0137",
+      "ground_truth": "traffic light",
+      "model_output": "This is an object of metal.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic light and the other refers to a generic metal object."
+    },
+    {
+      "object_id": "traffic_sign_0204",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of urban transportation, designed to carry multiple passengers along designated routes. It is often used for commuting, running errands, or leisure rides within cities and towns.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign and the other to a vehicle, possibly a bus."
+    },
+    {
+      "object_id": "traffic_light_0053",
+      "ground_truth": "traffic light",
+      "model_output": "This is an object of daily transportation, commonly used for commuting or recreational purposes.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The first sentence refers to a traffic light, the second one refers to some form of vehicle."
+    },
+    {
+      "object_id": "traffic_sign_0056",
+      "ground_truth": "traffic sign",
+      "model_output": "A parked car, specifically a black SUV, with modern design features and a prominent rear spoiler.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a traffic sign and the other to a car."
+    },
+    {
+      "object_id": "tree_0012",
+      "ground_truth": "tree",
+      "model_output": "This is a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a tree, the other to a bicycle."
+    },
+    {
+      "object_id": "traffic_light_0259",
+      "ground_truth": "traffic light",
+      "model_output": "The object is a parking meter.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic light, while the other refers to a parking meter."
+    },
+    {
+      "object_id": "traffic_sign_0311",
+      "ground_truth": "traffic sign",
+      "model_output": "This object is a compact, white hatchback car.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other refers to a car."
+    },
+    {
+      "object_id": "traffic_sign_0292",
+      "ground_truth": "traffic sign",
+      "model_output": "This is a bicycle parking rack attached to a pole on the sidewalk.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other to a bicycle parking rack."
+    },
+    {
+      "object_id": "traffic_sign_0169",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of  ASS",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a traffic sign and other to an undefined object."
+    },
+    {
+      "object_id": "traffic_sign_0300",
+      "ground_truth": "traffic sign",
+      "model_output": "The object is a street lamp post.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a sign, the other is a lamp post."
+    },
+    {
+      "object_id": "traffic_sign_0347",
+      "ground_truth": "traffic sign",
+      "model_output": "This is a pedestrian crossing sign, which indicates a designated area where pedestrians can cross safely.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a type of traffic sign."
+    },
+    {
+      "object_id": "traffic_sign_0428",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of a pedestrian crossing sign. It is designed to indicate safe areas for people to walk across the road or street.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to traffic signs."
+    },
+    {
+      "object_id": "car_0553",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle wheel.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, the other to a bicycle wheel."
+    },
+    {
+      "object_id": "traffic_sign_0121",
+      "ground_truth": "traffic sign",
+      "model_output": "This is a compact car, often used for daily commuting or short trips due to its small size and maneuverability.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other to a car."
+    },
+    {
+      "object_id": "traffic_sign_0043",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other to a bicycle."
+    },
+    {
+      "object_id": "traffic_sign_0282",
+      "ground_truth": "traffic sign",
+      "model_output": "The object of the 3D point cloud model is a road sign, specifically a pedestrian crossing sign, indicating where pedestrians can cross safely.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a road sign."
+    },
+    {
+      "object_id": "traffic_light_0036",
+      "ground_truth": "traffic light",
+      "model_output": "This is an object of a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "They refer to different objects: a traffic light and a bicycle."
+    },
+    {
+      "object_id": "traffic_sign_0084",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of personal transportation used for commuting and daily travel.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other to a mode of transportation."
+    },
+    {
+      "object_id": "traffic_sign_0220",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of urban transportation infrastructure, likely used for commuting or leisure rides in the city.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other to some form of transport infrastructure."
+    },
+    {
+      "object_id": "traffic_sign_0048",
+      "ground_truth": "traffic sign",
+      "model_output": "An object of a bicycle is a crucial component of the bike, designed to support and propel the vehicle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is about a traffic sign while the other refers to a bicycle part."
+    },
+    {
+      "object_id": "traffic_sign_0120",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of urban infrastructure, specifically a parking sign indicating parking availability for residents and visitors.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a type of sign."
+    },
+    {
+      "object_id": "traffic_light_0203",
+      "ground_truth": "traffic light",
+      "model_output": "This is an object of personal transportation. It is a bicycle, which is commonly used for commuting, recreation, or exercise.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic light and the other to a bicycle."
+    },
+    {
+      "object_id": "traffic_sign_0319",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other a bicycle."
+    },
+    {
+      "object_id": "traffic_sign_0215",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of a bicycle parked on a sidewalk.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other to a bicycle."
+    },
+    {
+      "object_id": "car_0619",
+      "ground_truth": "car",
+      "model_output": "The object is a bicycle parking rack.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car while the other refers to a bicycle parking rack."
+    },
+    {
+      "object_id": "traffic_light_0019",
+      "ground_truth": "traffic light",
+      "model_output": "The object is a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic light, the other refers to a bicycle."
+    },
+    {
+      "object_id": "traffic_sign_0299",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of urban infrastructure, specifically a traffic sign indicating no parking from 6 to 15 hours on weekdays.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a traffic sign."
+    },
+    {
+      "object_id": "traffic_light_0014",
+      "ground_truth": "traffic light",
+      "model_output": "This is a portable, wheeled trailer, commonly used for transporting goods, equipment, or supplies in various settings such as home improvement projects, outdoor events, or as a utility trailer for businesses.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a traffic light, the other to a trailer."
+    },
+    {
+      "object_id": "traffic_sign_0087",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of street signage, typically found along city roads to inform drivers and pedestrians of traffic rules and directions.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to traffic/street signs."
+    },
+    {
+      "object_id": "traffic_sign_0171",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other to a bicycle."
+    },
+    {
+      "object_id": "car_0433",
+      "ground_truth": "car",
+      "model_output": "The object is a sedan, a type of passenger car with a four-door configuration. It appears to be parked on a street, indicating its use for personal transportation. The design suggests it is designed for comfort and efficiency, suitable for daily commuting and long-distance travel.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "traffic_sign_0338",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of urban infrastructure, typically used for transporting people or goods.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other refers to transportation infrastructure."
+    },
+    {
+      "object_id": "traffic_sign_0396",
+      "ground_truth": "traffic sign",
+      "model_output": "This is an object of urban infrastructure, specifically a traffic sign post.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a traffic sign or components of it."
+    },
+    {
+      "object_id": "traffic_light_0044",
+      "ground_truth": "traffic light",
+      "model_output": "This is a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic light, the other refers to a bicycle."
+    },
+    {
+      "object_id": "person_0145",
+      "ground_truth": "person",
+      "model_output": "This is an object of urban street lighting, designed to provide illumination to the surrounding area during nighttime.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being and the other to a street light."
+    },
+    {
+      "object_id": "person_0058",
+      "ground_truth": "person",
+      "model_output": "This is an object of street lighting, typically used to illuminate streets and sidewalks during dark hours to ensure safety and visibility for pedestrians and drivers.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being, and the other to street lighting."
+    },
+    {
+      "object_id": "traffic_light_0241",
+      "ground_truth": "traffic light",
+      "model_output": "This is a white Volkswagen van parked on the side of a street.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is about a traffic light, the other is about a van."
+    },
+    {
+      "object_id": "person_0288",
+      "ground_truth": "person",
+      "model_output": "This is an object of street signage, specifically a traffic sign indicating no parking from 6 to 15 hours on weekdays.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a person, the other to a traffic sign."
+    },
+    {
+      "object_id": "person_0025",
+      "ground_truth": "person",
+      "model_output": "This is an object of street parking.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a human being, the other to a parking concept."
+    },
+    {
+      "object_id": "traffic_light_0131",
+      "ground_truth": "traffic light",
+      "model_output": "This is an object of utility, typically used to store goods and materials securely for safe transit over roads and highways.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic light, the other to a container or storage unit."
+    },
+    {
+      "object_id": "person_0351",
+      "ground_truth": "person",
+      "model_output": "This is an object of personal transportation.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being, the other refers to a transportation device."
+    },
+    {
+      "object_id": "tree_0918",
+      "ground_truth": "tree",
+      "model_output": "This is an object of 3D point cloud, which is a digital model of a physical object. It represents the spatial structure of the object, including its size, shape, and position in relation to its surroundings.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a tree, the other is a 3D model of any physical object."
+    },
+    {
+      "object_id": "person_0484",
+      "ground_truth": "person",
+      "model_output": "This is an object of parking signage, typically used to indicate parking availability or restrictions along roads or in parking lots.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a person and the other to parking signage."
+    },
+    {
+      "object_id": "traffic_light_0082",
+      "ground_truth": "traffic light",
+      "model_output": "The object is a parking meter for bicycles, used to regulate the time that bicycles can be parked in a designated area.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic light, the other refers to a parking meter for bicycles."
+    },
+    {
+      "object_id": "person_0480",
+      "ground_truth": "person",
+      "model_output": "This is an object of utility, likely used for deliveries or transportation purposes. It is a small, compact vehicle with a cargo area, commonly used for carrying goods or equipment.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being, the other to a vehicle."
+    },
+    {
+      "object_id": "tree_0534",
+      "ground_truth": "tree",
+      "model_output": "This is an object of urban furniture, designed to provide seating for people in public spaces.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a natural object (tree) and the other is referring to man-made furniture."
+    },
+    {
+      "object_id": "car_0930",
+      "ground_truth": "car",
+      "model_output": "This is an object of a  motorcycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a car, the other to a motorcycle."
+    },
+    {
+      "object_id": "person_0456",
+      "ground_truth": "person",
+      "model_output": "This is an object of personal transportation.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a human being, the other to a vehicle."
+    },
+    {
+      "object_id": "person_0065",
+      "ground_truth": "person",
+      "model_output": "This is an object of environmental infrastructure, providing essential services for the city's residents and businesses.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being and the other to city infrastructure."
+    },
+    {
+      "object_id": "person_0079",
+      "ground_truth": "person",
+      "model_output": "This is a bicycle rack mounted on the sidewalk beside a building.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being, the other to a bicycle rack."
+    },
+    {
+      "object_id": "person_0535",
+      "ground_truth": "person",
+      "model_output": "This is an object of a bicycle, specifically a street bike, featuring a frame, wheels, and a seat.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a person, the other to a bicycle."
+    },
+    {
+      "object_id": "person_0231",
+      "ground_truth": "person",
+      "model_output": "This is a bicycle parked next to a lamp post on a street.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a human being, the other to a bicycle."
+    },
+    {
+      "object_id": "person_0387",
+      "ground_truth": "person",
+      "model_output": "This is an object of personal transportation, commonly used for commuting in urban areas.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being and the other to a mode of transportation."
+    },
+    {
+      "object_id": "person_0312",
+      "ground_truth": "person",
+      "model_output": "This is an object of personal transportation.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being, the other to a vehicle or transportation device."
+    },
+    {
+      "object_id": "person_0170",
+      "ground_truth": "person",
+      "model_output": "The object is a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a person and the other to a bicycle."
+    },
+    {
+      "object_id": "person_0532",
+      "ground_truth": "person",
+      "model_output": "This is an object of utility, typically used for outdoor lighting in urban areas to ensure visibility and safety for pedestrians at night.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being, the other to a streetlight."
+    },
+    {
+      "object_id": "person_0362",
+      "ground_truth": "person",
+      "model_output": "The object is a bicycle, which is commonly used for transportation and recreation. It typically consists of a frame, two wheels, a seat, handlebars, and pedals.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a human being, the other to a bicycle."
+    },
+    {
+      "object_id": "person_0197",
+      "ground_truth": "person",
+      "model_output": "The object is a parking meter, typically used for regulating the duration of time vehicles can park in designated areas. It is usually found at the side of roads where parking is controlled and features a display screen, buttons for payment, and a coin slot.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being, the other refers to a parking meter."
+    },
+    {
+      "object_id": "person_0375",
+      "ground_truth": "person",
+      "model_output": "This is an object of street infrastructure, specifically a traffic sign indicating no parking from 6 to 15 hours on weekdays.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being and the other to a traffic sign."
+    },
+    {
+      "object_id": "person_0092",
+      "ground_truth": "person",
+      "model_output": "This is a street sign post.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being, the other to an inanimate object."
+    },
+    {
+      "object_id": "person_0151",
+      "ground_truth": "person",
+      "model_output": "This is an object of",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The second sentence doesn't specify what object it's referring to."
+    },
+    {
+      "object_id": "person_0439",
+      "ground_truth": "person",
+      "model_output": "This is an object of public transportation, specifically a street sign indicating a bus route.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being while the other refers to a transportation sign."
+    },
+    {
+      "object_id": "bicycle_1318",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of a bicycle, commonly used for transportation and leisure.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "traffic_light_0134",
+      "ground_truth": "traffic light",
+      "model_output": "This is an object of personal transportation.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic light, the other to personal transportation."
+    },
+    {
+      "object_id": "bicycle_0527",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of a bicycle.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0321",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a small, portable, wheeled trailer.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is a bicycle, while the other is a trailer."
+    },
+    {
+      "object_id": "person_0436",
+      "ground_truth": "person",
+      "model_output": "This is an object of street lighting, used to illuminate the street at night.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being and the other refers to a streetlight."
+    },
+    {
+      "object_id": "bicycle_1177",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a bicycle parking rack, designed to hold multiple bicycles securely. It features multiple vertical bars and a base for stabilization.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a bicycle, while the other is about a bicycle rack."
+    },
+    {
+      "object_id": "bicycle_1282",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The second sentence does not specify the type of object."
+    },
+    {
+      "object_id": "bicycle_0802",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a silver compact hatchback car, commonly used for daily commuting and short trips.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle and the other to a car."
+    },
+    {
+      "object_id": "bicycle_1044",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of urban infrastructure, specifically a traffic sign indicating no parking from Monday to Saturday between 6 AM and 5 PM.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle and the other to traffic sign."
+    },
+    {
+      "object_id": "bicycle_1319",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a compact, four-door hatchback car.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle, the other to a car."
+    },
+    {
+      "object_id": "bicycle_0847",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a compact car.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle and the other to a car."
+    },
+    {
+      "object_id": "bicycle_0720",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of a bicycle.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0729",
+      "ground_truth": "bicycle",
+      "model_output": "This is a compact car, specifically a hatchback model.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a bicycle and the other to a compact car."
+    },
+    {
+      "object_id": "bicycle_0105",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of transportation, commonly used for commuting and traveling short distances.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a mode of transportation."
+    },
+    {
+      "object_id": "bicycle_1326",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of personal transportation, commonly used for commuting and traveling within urban areas.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0362",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of a bicycle.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0779",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a white station wagon car, which is a type of vehicle that combines the features of a sedan with those of a cargo van, making it suitable for transporting large loads. It has a boxy shape and a sloping rear end, indicating its design for both passenger comfort and cargo space.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a bicycle and the other a car."
+    },
+    {
+      "object_id": "bicycle_0403",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of 4D modeling, characterized by a compact body, a short hood, and a sloping rear window that connects to the trunk. It is designed for urban commuting and provides efficient space utilization.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The first is referring to a bicycle, the second to a model of a compact car."
+    },
+    {
+      "object_id": "bicycle_0207",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a compact SUV vehicle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle and the other refers to a vehicle."
+    },
+    {
+      "object_id": "bicycle_0147",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of personal transportation, commonly used for commuting to work, running errands, or traveling to social events.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a mode of personal transportation."
+    },
+    {
+      "object_id": "bicycle_1111",
+      "ground_truth": "bicycle",
+      "model_output": "This is a bicycle.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "car_1744",
+      "ground_truth": "car",
+      "model_output": "The object in the image is a small, compact car model, possibly a hatchback or a minicar, designed for urban driving.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car."
+    },
+    {
+      "object_id": "bicycle_0497",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a compact car with a sleek, modern design. It has a hatchback body style, which typically offers good space for storage. The car appears to be in good condition and is likely used for daily commuting or short trips.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle and the other to a car."
+    },
+    {
+      "object_id": "bicycle_0881",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of a bicycle, a two-wheeled human-powered vehicle used for transportation and recreational purposes. It typically consists of a frame, two wheels connected by a chain drive, and handlebars for steering and braking.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0131",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a small, compact car, typically used for urban commuting. It has a boxy shape with a short hood, a short rear deck, and is designed for easy parking and maneuverability in city environments.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle, the other to a car."
+    },
+    {
+      "object_id": "bicycle_0148",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of",
+      "gpt_cls_result": "F",
+      "gpt_reason": "Second sentence does not specify an object."
+    },
+    {
+      "object_id": "car_0862",
+      "ground_truth": "car",
+      "model_output": "This is an object of the car, specifically the rear wheel with the tire mounted on it.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a car or parts of it."
+    },
+    {
+      "object_id": "bicycle_0163",
+      "ground_truth": "bicycle",
+      "model_output": "This is a road signpost mounted on a pole.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle and the other to a signpost."
+    },
+    {
+      "object_id": "bicycle_1006",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of a bicycle, characterized by its two wheels, a frame, handlebars, a seat, and pedals.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0969",
+      "ground_truth": "bicycle",
+      "model_output": "This is a motorcycle parked on the side of a street.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle and the other to a motorcycle."
+    },
+    {
+      "object_id": "bicycle_0488",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of a bicycle parked on a sidewalk, surrounded by other bicycles and a green circle highlighted for analysis.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_1125",
+      "ground_truth": "bicycle",
+      "model_output": "This is a compact hatchback car.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle, the other to a car."
+    },
+    {
+      "object_id": "bicycle_1171",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a bicycle.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0909",
+      "ground_truth": "bicycle",
+      "model_output": "The object in the 3D point cloud is a car, specifically a hatchback model. It appears to be parked along the side of a street. The car has a compact design with a short rear overhang and a tailgate that opens upwards for cargo access. This type of car is commonly used for urban environments due to its maneuverability and ease of parking.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle and the other to a car."
+    },
+    {
+      "object_id": "bicycle_0751",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of personal transportation, commonly used for commuting and short trips.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a mode of personal transportation."
+    },
+    {
+      "object_id": "bicycle_0025",
+      "ground_truth": "bicycle",
+      "model_output": "This is a bicycle.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0887",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of personal transportation.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a means of personal transportation."
+    },
+    {
+      "object_id": "traffic_sign_0126",
+      "ground_truth": "traffic sign",
+      "model_output": "The object in the image is a van, specifically a white van. It is parked on the street and has a side cargo door and a rear door. The van is likely used for transporting goods or equipment.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign, the other to a van."
+    },
+    {
+      "object_id": "bicycle_0733",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of a bicycle.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0188",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of daily transportation, commonly used for commuting and traveling short distances.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a mode of transportation."
+    },
+    {
+      "object_id": "bicycle_0301",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of a car, specifically a sedan.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a bicycle and the other to a car."
+    },
+    {
+      "object_id": "bicycle_0827",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a parking meter.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle and the other to a parking meter."
+    },
+    {
+      "object_id": "bicycle_0987",
+      "ground_truth": "bicycle",
+      "model_output": "The object in the image is a bicycle.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0284",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a bicycle.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0769",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of personal transportation, designed for daily commuting or short-distance travel.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a means of transportation."
+    },
+    {
+      "object_id": "bicycle_0468",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of personal transportation.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a mode of transportation."
+    },
+    {
+      "object_id": "bicycle_0198",
+      "ground_truth": "bicycle",
+      "model_output": "The object of the 3D point cloud is a bicycle, which appears to be parked on the street.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both are referring to a bicycle."
+    },
+    {
+      "object_id": "bicycle_1038",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of a bicycle.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "bicycle_0476",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The second sentence is incomplete and doesn't specify the object."
+    },
+    {
+      "object_id": "bicycle_0107",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a parked compact car with a green and white exterior, featuring a hatchback design.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle and the other to a car."
+    },
+    {
+      "object_id": "person_0055",
+      "ground_truth": "person",
+      "model_output": "This is an object of street furniture, likely used for lighting or signage.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a human being and the other refers to a piece of street furniture."
+    },
+    {
+      "object_id": "wall_0017",
+      "ground_truth": "wall",
+      "model_output": "This is an object of urban transportation. It is a bicycle rack, used to store bicycles in a city setting.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a wall, the other to a bicycle rack."
+    },
+    {
+      "object_id": "bicycle_1063",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a white compact car, likely a hatchback, with a modern design. It appears to be parked on the side of a street.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a bicycle and the other to a car."
+    },
+    {
+      "object_id": "scooter_0001",
+      "ground_truth": "scooter",
+      "model_output": "This is an object of personal transportation.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a mode of personal transportation."
+    },
+    {
+      "object_id": "bicycle_0155",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a bicycle parked on the sidewalk with its kickstand down, indicating it is stationary.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "wall_0015",
+      "ground_truth": "wall",
+      "model_output": "The object is a van.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a wall and the other refers to a van."
+    },
+    {
+      "object_id": "person_0322",
+      "ground_truth": "person",
+      "model_output": "This is an object of utility, typically used for transporting goods or equipment. It is a white Volkswagen van.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One is referring to a human being and the other to a van."
+    },
+    {
+      "object_id": "person_0268",
+      "ground_truth": "person",
+      "model_output": "This is an object of street furniture, specifically a traffic sign indicating no parking from 6 to 15 hours on weekdays.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a person while the other refers to a traffic sign."
+    },
+    {
+      "object_id": "cart_0001",
+      "ground_truth": "cart",
+      "model_output": "This is an object of urban infrastructure, typically used for deliveries or transporting goods. It is a van, which is parked on the side of a street.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a vehicle for transporting goods."
+    },
+    {
+      "object_id": "dog_0001",
+      "ground_truth": "dog",
+      "model_output": "This is an object of personal transportation, typically used for commuting, running errands, or traveling for leisure purposes.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a pet animal and the other to a mode of transportation."
+    },
+    {
+      "object_id": "table_0003",
+      "ground_truth": "table",
+      "model_output": "This is an object of 3D point cloud, typically used for urban planning, traffic management, or environmental analysis.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a piece of furniture; the other refers to a 3D modeling tech."
+    },
+    {
+      "object_id": "bicycle_0576",
+      "ground_truth": "bicycle",
+      "model_output": "A bicycle, which is a two-wheeled vehicle used primarily for transportation and exercise.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "tree_1025",
+      "ground_truth": "tree",
+      "model_output": "The object is a parked car, likely a hatchback, given its compact and practical design. It is positioned parallel to the sidewalk, with its front facing the street. The car's rear hatch door opens upwards, offering additional storage space. This type of car is commonly used for daily commuting and urban transportation due to its maneuverability and fuel efficiency.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One sentence refers to a tree, the other to a car."
+    },
+    {
+      "object_id": "motorcycle_0003",
+      "ground_truth": "motorcycle",
+      "model_output": "The object is a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a motorcycle while the other refers to a bicycle."
+    },
+    {
+      "object_id": "fence_0001",
+      "ground_truth": "fence",
+      "model_output": "A bicycle parked on the side of a street, surrounded by trees and a brick fence.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a fence."
+    },
+    {
+      "object_id": "rider_0007",
+      "ground_truth": "rider",
+      "model_output": "This is an object of a pedestrian crossing sign.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a person riding, the other to a street sign."
+    },
+    {
+      "object_id": "person_0196",
+      "ground_truth": "person",
+      "model_output": "The object is a street sign indicating a parking zone for disabled drivers.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a person, the other refers to a street sign."
+    },
+    {
+      "object_id": "umbrella_0001",
+      "ground_truth": "umbrella",
+      "model_output": "A bicycle is an object of transportation, typically used for daily commuting in urban areas.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to an umbrella, the other to a bicycle."
+    },
+    {
+      "object_id": "traffic_sign_0362",
+      "ground_truth": "traffic sign",
+      "model_output": "The object is a bicycle parking rack, typically used to store bicycles and keep them safe from theft. It is composed of metal bars or poles and is designed to accommodate multiple bicycles at once.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic sign and the other to a bicycle rack."
+    },
+    {
+      "object_id": "sign_0004",
+      "ground_truth": "sign",
+      "model_output": "This is an object of street signage, specifically a traffic sign indicating no parking from 6 to 15 hours on weekdays.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a sign."
+    },
+    {
+      "object_id": "bicycle_0298",
+      "ground_truth": "bicycle",
+      "model_output": "This is an object of personal transportation, commonly used for commuting short distances and designed for easy maneuverability in city environments.",
+      "gpt_cls_result": "T",
+      "gpt_reason": "Both refer to a bicycle."
+    },
+    {
+      "object_id": "traffic_light_0175",
+      "ground_truth": "traffic light",
+      "model_output": "This is an object of interest for urban planning, as it shows the distribution of parking spaces in a city environment.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a traffic light and the other to parking spaces."
+    },
+    {
+      "object_id": "person_0091",
+      "ground_truth": "person",
+      "model_output": "This is an object of personal transportation, used for commuting to work, running errands, or traveling for leisure.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "The first sentence refers to a human being while the second refers to a mode of transportation."
+    },
+    {
+      "object_id": "car_1136",
+      "ground_truth": "car",
+      "model_output": "This is an object of a bicycle.",
+      "gpt_cls_result": "F",
+      "gpt_reason": "One refers to a car, the other to a bicycle."
+    }
+  ]
+}

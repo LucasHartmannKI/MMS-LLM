@@ -1,0 +1,1300 @@
+{
+  "prompt": "Please tell me its category only. (No more than 3 words)",
+  "results": [
+    {
+      "object_id": "tree_0534",
+      "ground_truth": "tree",
+      "model_output": "The category of the object is 'urban road infrastructure'."
+    },
+    {
+      "object_id": "tree_0851",
+      "ground_truth": "tree",
+      "model_output": "The object is a bicycle parked on the sidewalk, surrounded by other parked bicycles and a green circle marking its position in the 3D point cloud."
+    },
+    {
+      "object_id": "tree_0555",
+      "ground_truth": "tree",
+      "model_output": "The category is 'Painting'."
+    },
+    {
+      "object_id": "tree_0918",
+      "ground_truth": "tree",
+      "model_output": "The category of the object is 'parking meter'."
+    },
+    {
+      "object_id": "tree_0986",
+      "ground_truth": "tree",
+      "model_output": "The category is 'urban park'."
+    },
+    {
+      "object_id": "tree_0281",
+      "ground_truth": "tree",
+      "model_output": "The category is 'urban street furniture'."
+    },
+    {
+      "object_id": "tree_0018",
+      "ground_truth": "tree",
+      "model_output": "It is a street lamp post."
+    },
+    {
+      "object_id": "tree_1025",
+      "ground_truth": "tree",
+      "model_output": "The 3D model represents a tree."
+    },
+    {
+      "object_id": "tree_0593",
+      "ground_truth": "tree",
+      "model_output": "The category is 'urban environmental quality'."
+    },
+    {
+      "object_id": "tree_0854",
+      "ground_truth": "tree",
+      "model_output": "The category of the object is 'urban transportation'."
+    },
+    {
+      "object_id": "tree_0705",
+      "ground_truth": "tree",
+      "model_output": "The category is 'urban residential'."
+    },
+    {
+      "object_id": "tree_0328",
+      "ground_truth": "tree",
+      "model_output": "The category is urban trees."
+    },
+    {
+      "object_id": "tree_0363",
+      "ground_truth": "tree",
+      "model_output": "The category is 'Gardening'."
+    },
+    {
+      "object_id": "tree_1057",
+      "ground_truth": "tree",
+      "model_output": "The object is a bicycle parked along the side of a street."
+    },
+    {
+      "object_id": "tree_0412",
+      "ground_truth": "tree",
+      "model_output": "The category is 'pedestrian street signage'."
+    },
+    {
+      "object_id": "tree_0979",
+      "ground_truth": "tree",
+      "model_output": "The category is 'outdoor seating'."
+    },
+    {
+      "object_id": "tree_0723",
+      "ground_truth": "tree",
+      "model_output": "Bicycle parked on sidewalk, near street."
+    },
+    {
+      "object_id": "tree_0056",
+      "ground_truth": "tree",
+      "model_output": "Parked car."
+    },
+    {
+      "object_id": "tree_0062",
+      "ground_truth": "tree",
+      "model_output": "The category is street lamps."
+    },
+    {
+      "object_id": "tree_0599",
+      "ground_truth": "tree",
+      "model_output": "Bicycle, parked, urban."
+    },
+    {
+      "object_id": "tree_0515",
+      "ground_truth": "tree",
+      "model_output": "Parked cars."
+    },
+    {
+      "object_id": "tree_0229",
+      "ground_truth": "tree",
+      "model_output": "The category is'money'"
+    },
+    {
+      "object_id": "tree_0970",
+      "ground_truth": "tree",
+      "model_output": "The category is parking."
+    },
+    {
+      "object_id": "tree_0012",
+      "ground_truth": "tree",
+      "model_output": "The category is 'urban tree'."
+    },
+    {
+      "object_id": "tree_0885",
+      "ground_truth": "tree",
+      "model_output": "The category of the 3D model is 'urban street signage'."
+    },
+    {
+      "object_id": "tree_0381",
+      "ground_truth": "tree",
+      "model_output": "The object is a bicycle parked on a sidewalk."
+    },
+    {
+      "object_id": "car_1752",
+      "ground_truth": "car",
+      "model_output": "The category is for personal vehicles, specifically a sedan."
+    },
+    {
+      "object_id": "car_1344",
+      "ground_truth": "car",
+      "model_output": "Its a compact hatchback."
+    },
+    {
+      "object_id": "car_0244",
+      "ground_truth": "car",
+      "model_output": "It's a black motorcycle parked on the sidewalk."
+    },
+    {
+      "object_id": "car_1744",
+      "ground_truth": "car",
+      "model_output": "The category is passenger cars."
+    },
+    {
+      "object_id": "car_0163",
+      "ground_truth": "car",
+      "model_output": "The category is small, compact cars."
+    },
+    {
+      "object_id": "car_1182",
+      "ground_truth": "car",
+      "model_output": "The object in question is a commercial van. It is designed for transporting goods and services, commonly used for delivery services, taxi services, or as a mobile office."
+    },
+    {
+      "object_id": "car_1036",
+      "ground_truth": "car",
+      "model_output": "Sedans, the newest category of cars."
+    },
+    {
+      "object_id": "car_1409",
+      "ground_truth": "car",
+      "model_output": "The category is compact cars."
+    },
+    {
+      "object_id": "car_1032",
+      "ground_truth": "car",
+      "model_output": "The category is for urban and suburban environments."
+    },
+    {
+      "object_id": "car_0624",
+      "ground_truth": "car",
+      "model_output": "The category is SUVs."
+    },
+    {
+      "object_id": "car_0139",
+      "ground_truth": "car",
+      "model_output": "The object is a sedan car, a passenger vehicle with a four-door configuration, commonly used for daily commuting and personal transportation."
+    },
+    {
+      "object_id": "car_0047",
+      "ground_truth": "car",
+      "model_output": "It is a yellow compact car, parked on a cobblestone street."
+    },
+    {
+      "object_id": "car_0877",
+      "ground_truth": "car",
+      "model_output": "The category is hatchback cars."
+    },
+    {
+      "object_id": "car_1680",
+      "ground_truth": "car",
+      "model_output": "Its category is only hatchback."
+    },
+    {
+      "object_id": "car_0593",
+      "ground_truth": "car",
+      "model_output": "The category is sedan."
+    },
+    {
+      "object_id": "car_1578",
+      "ground_truth": "car",
+      "model_output": "The vehicle is a small, compact car, possibly a hatchback or a minicar, designed for urban use."
+    },
+    {
+      "object_id": "car_0785",
+      "ground_truth": "car",
+      "model_output": "The object is a compact car, which is typically used for personal transportation due to its small size and ease of maneuverability."
+    },
+    {
+      "object_id": "car_1474",
+      "ground_truth": "car",
+      "model_output": "It is a sedan car, which is a common type of passenger vehicle used for daily commuting and personal transportation."
+    },
+    {
+      "object_id": "car_0619",
+      "ground_truth": "car",
+      "model_output": "The category is for compact cars."
+    },
+    {
+      "object_id": "car_0477",
+      "ground_truth": "car",
+      "model_output": "The category is white sedan."
+    },
+    {
+      "object_id": "car_0019",
+      "ground_truth": "car",
+      "model_output": "The object is a compact car, typically used for urban transportation due to its small size and maneuverability."
+    },
+    {
+      "object_id": "car_1508",
+      "ground_truth": "car",
+      "model_output": "The object is a sedan."
+    },
+    {
+      "object_id": "car_1509",
+      "ground_truth": "car",
+      "model_output": "The category is automotive."
+    },
+    {
+      "object_id": "car_0083",
+      "ground_truth": "car",
+      "model_output": "It is a compact car, likely used for daily commuting or short trips, based on its small size and design."
+    },
+    {
+      "object_id": "car_0841",
+      "ground_truth": "car",
+      "model_output": "It is a sedan car."
+    },
+    {
+      "object_id": "car_1748",
+      "ground_truth": "car",
+      "model_output": "The car is a compact hatchback, suitable for urban environments."
+    },
+    {
+      "object_id": "car_0807",
+      "ground_truth": "car",
+      "model_output": "It is a sedan car, suitable for personal or family transportation."
+    },
+    {
+      "object_id": "car_0930",
+      "ground_truth": "car",
+      "model_output": "The object is a compact car, specifically a Volkswagen, parked on a residential street."
+    },
+    {
+      "object_id": "car_0589",
+      "ground_truth": "car",
+      "model_output": "The category is only 'Sporting events'."
+    },
+    {
+      "object_id": "car_0610",
+      "ground_truth": "car",
+      "model_output": "The category is compact cars."
+    },
+    {
+      "object_id": "car_1001",
+      "ground_truth": "car",
+      "model_output": "Bicycle parking rack."
+    },
+    {
+      "object_id": "car_1397",
+      "ground_truth": "car",
+      "model_output": "The car is a compact hatchback, suitable for urban driving and parking in tight spaces."
+    },
+    {
+      "object_id": "car_0505",
+      "ground_truth": "car",
+      "model_output": "The category is small cars."
+    },
+    {
+      "object_id": "car_0868",
+      "ground_truth": "car",
+      "model_output": "The category is 'Recreational Vehicles' (RVs)."
+    },
+    {
+      "object_id": "car_1104",
+      "ground_truth": "car",
+      "model_output": "The category is hatchback cars."
+    },
+    {
+      "object_id": "car_1418",
+      "ground_truth": "car",
+      "model_output": "The category is compact cars."
+    },
+    {
+      "object_id": "car_0239",
+      "ground_truth": "car",
+      "model_output": "Compact hatchback."
+    },
+    {
+      "object_id": "car_0231",
+      "ground_truth": "car",
+      "model_output": "The object in the image is a compact car, likely a hatchback, identified by its small size and rear hatch door."
+    },
+    {
+      "object_id": "car_1655",
+      "ground_truth": "car",
+      "model_output": "It is a compact car with a hatchback design, commonly used for daily commuting and running errands."
+    },
+    {
+      "object_id": "car_1029",
+      "ground_truth": "car",
+      "model_output": "The category is 'car parking'."
+    },
+    {
+      "object_id": "car_1158",
+      "ground_truth": "car",
+      "model_output": "The category is compact cars."
+    },
+    {
+      "object_id": "car_0577",
+      "ground_truth": "car",
+      "model_output": "The object is a car wheel, specifically a front wheel of a vehicle."
+    },
+    {
+      "object_id": "car_0775",
+      "ground_truth": "car",
+      "model_output": "The object is a compact car, commonly used for personal or family transportation."
+    },
+    {
+      "object_id": "car_0772",
+      "ground_truth": "car",
+      "model_output": "Yes, it is a category only, suitable for commercial delivery vehicles."
+    },
+    {
+      "object_id": "car_1099",
+      "ground_truth": "car",
+      "model_output": "The car is a hatchback, typically used for daily commuting or short trips due to its compact size and rear hatch for easy access to cargo."
+    },
+    {
+      "object_id": "car_0759",
+      "ground_truth": "car",
+      "model_output": "The category is 'Vans and SUVs'."
+    },
+    {
+      "object_id": "car_0955",
+      "ground_truth": "car",
+      "model_output": "It is a compact car, suitable for urban commuting and daily use."
+    },
+    {
+      "object_id": "car_0553",
+      "ground_truth": "car",
+      "model_output": "The category is compact cars."
+    },
+    {
+      "object_id": "car_1564",
+      "ground_truth": "car",
+      "model_output": "The category is commercial vehicles, specifically delivery trucks."
+    },
+    {
+      "object_id": "car_1574",
+      "ground_truth": "car",
+      "model_output": "The category is hatchback."
+    },
+    {
+      "object_id": "car_1050",
+      "ground_truth": "car",
+      "model_output": "The category is: commercial vehicle."
+    },
+    {
+      "object_id": "car_1288",
+      "ground_truth": "car",
+      "model_output": "The object is a compact SUV."
+    },
+    {
+      "object_id": "car_1754",
+      "ground_truth": "car",
+      "model_output": "The object is a white van, likely used for transporting people or goods."
+    },
+    {
+      "object_id": "car_0810",
+      "ground_truth": "car",
+      "model_output": "The 3D point cloud object is a car parked along the side of a street."
+    },
+    {
+      "object_id": "car_0862",
+      "ground_truth": "car",
+      "model_output": "The category is compact cars."
+    },
+    {
+      "object_id": "car_1761",
+      "ground_truth": "car",
+      "model_output": "The category is 'Vans and SUVs'."
+    },
+    {
+      "object_id": "car_1108",
+      "ground_truth": "car",
+      "model_output": "The category is compact cars."
+    },
+    {
+      "object_id": "car_1595",
+      "ground_truth": "car",
+      "model_output": "The category of the object is compact cars."
+    },
+    {
+      "object_id": "car_0625",
+      "ground_truth": "car",
+      "model_output": "Compact SUV"
+    },
+    {
+      "object_id": "car_0904",
+      "ground_truth": "car",
+      "model_output": "The category is compact cars."
+    },
+    {
+      "object_id": "car_0002",
+      "ground_truth": "car",
+      "model_output": "The category is cars and vehicles."
+    },
+    {
+      "object_id": "car_0647",
+      "ground_truth": "car",
+      "model_output": "The word 'Sanacorp' does not belong to any specific category. It is a brand name or a corporate identifier."
+    },
+    {
+      "object_id": "car_1355",
+      "ground_truth": "car",
+      "model_output": "The category is only cars."
+    },
+    {
+      "object_id": "car_1357",
+      "ground_truth": "car",
+      "model_output": "The category of the car is only sedans."
+    },
+    {
+      "object_id": "car_1260",
+      "ground_truth": "car",
+      "model_output": "The category is 'Sanitation and Waste Management'."
+    },
+    {
+      "object_id": "car_0365",
+      "ground_truth": "car",
+      "model_output": "It's a small, compact car with a hatchback design, typically used for urban driving due to its efficiency in space utilization and maneuverability."
+    },
+    {
+      "object_id": "car_0449",
+      "ground_truth": "car",
+      "model_output": "The car is a hatchback, which is a type of vehicle that combines the functionality of a sedan with additional cargo space provided by its rear hatch."
+    },
+    {
+      "object_id": "car_0064",
+      "ground_truth": "car",
+      "model_output": "The category is compact cars."
+    },
+    {
+      "object_id": "car_0223",
+      "ground_truth": "car",
+      "model_output": "The category is compact cars."
+    },
+    {
+      "object_id": "car_0934",
+      "ground_truth": "car",
+      "model_output": "The category is Compact SUVs."
+    },
+    {
+      "object_id": "car_0892",
+      "ground_truth": "car",
+      "model_output": "The category is: motorcycle."
+    },
+    {
+      "object_id": "car_1584",
+      "ground_truth": "car",
+      "model_output": "The category is vehicles."
+    },
+    {
+      "object_id": "car_1136",
+      "ground_truth": "car",
+      "model_output": "The object is a sedan, which is a type of passenger vehicle characterized by its four doors, a separate trunk, and larger interior space compared to smaller cars. Sedans are commonly used for their versatility and comfort, making them a popular choice for daily transportation."
+    },
+    {
+      "object_id": "car_1142",
+      "ground_truth": "car",
+      "model_output": "The category is likely hatchbacks or small SUVs."
+    },
+    {
+      "object_id": "car_1235",
+      "ground_truth": "car",
+      "model_output": "The category is SUVs."
+    },
+    {
+      "object_id": "car_0479",
+      "ground_truth": "car",
+      "model_output": "Bicycles."
+    },
+    {
+      "object_id": "car_0905",
+      "ground_truth": "car",
+      "model_output": "It is a compact car, likely used for daily commuting or short-distance travel."
+    },
+    {
+      "object_id": "car_1402",
+      "ground_truth": "car",
+      "model_output": "The 3D point cloud object is a compact hatchback car."
+    },
+    {
+      "object_id": "car_0691",
+      "ground_truth": "car",
+      "model_output": "Its category is as a passenger car, commonly used for personal transportation."
+    },
+    {
+      "object_id": "car_0812",
+      "ground_truth": "car",
+      "model_output": "Bicycle."
+    },
+    {
+      "object_id": "car_0591",
+      "ground_truth": "car",
+      "model_output": "The category is compact cars."
+    },
+    {
+      "object_id": "car_0776",
+      "ground_truth": "car",
+      "model_output": "The category is street and parking."
+    },
+    {
+      "object_id": "car_0585",
+      "ground_truth": "car",
+      "model_output": "The category is compact cars."
+    },
+    {
+      "object_id": "car_0390",
+      "ground_truth": "car",
+      "model_output": "The category is \"Motor vehicle, commercial delivery truck, specific type designed for logistics and transportation tasks\"."
+    },
+    {
+      "object_id": "car_0101",
+      "ground_truth": "car",
+      "model_output": "The category is automotive."
+    },
+    {
+      "object_id": "car_1267",
+      "ground_truth": "car",
+      "model_output": "The car is a black-colored vehicle parked in a designated parking area."
+    },
+    {
+      "object_id": "car_1316",
+      "ground_truth": "car",
+      "model_output": "Compact car."
+    },
+    {
+      "object_id": "car_1110",
+      "ground_truth": "car",
+      "model_output": "The category is small cars."
+    },
+    {
+      "object_id": "car_1430",
+      "ground_truth": "car",
+      "model_output": "The category is compact cars."
+    },
+    {
+      "object_id": "car_0315",
+      "ground_truth": "car",
+      "model_output": "Compact car, suitable for urban environments."
+    },
+    {
+      "object_id": "car_1673",
+      "ground_truth": "car",
+      "model_output": "The category is small cars."
+    },
+    {
+      "object_id": "car_0303",
+      "ground_truth": "car",
+      "model_output": "It is a sedan car."
+    },
+    {
+      "object_id": "car_0840",
+      "ground_truth": "car",
+      "model_output": "The category is urban commuting."
+    },
+    {
+      "object_id": "car_1312",
+      "ground_truth": "car",
+      "model_output": "Bicycle."
+    },
+    {
+      "object_id": "car_0490",
+      "ground_truth": "car",
+      "model_output": "The category is 'Rear Bumper'."
+    },
+    {
+      "object_id": "car_0608",
+      "ground_truth": "car",
+      "model_output": "The category is cars, specifically compact hatchbacks."
+    },
+    {
+      "object_id": "car_0895",
+      "ground_truth": "car",
+      "model_output": "The 3D point cloud object is a compact SUV, characterized by a boxy shape with elevated ground clearance and four doors. It is designed for urban commuting and family use, offering a balance of practicality and off-road capability."
+    },
+    {
+      "object_id": "car_1127",
+      "ground_truth": "car",
+      "model_output": "The category is 'light-colored vehicles'."
+    },
+    {
+      "object_id": "car_0035",
+      "ground_truth": "car",
+      "model_output": "The category is hatchback cars."
+    },
+    {
+      "object_id": "car_1467",
+      "ground_truth": "car",
+      "model_output": "The object is a commercial vehicle, specifically a van used for delivery purposes."
+    },
+    {
+      "object_id": "car_1684",
+      "ground_truth": "car",
+      "model_output": "Compact hatchback car, suitable for urban driving."
+    },
+    {
+      "object_id": "car_0786",
+      "ground_truth": "car",
+      "model_output": "The category is vehicles, specifically a sedan car."
+    },
+    {
+      "object_id": "car_0433",
+      "ground_truth": "car",
+      "model_output": "The category is 'compact cars'."
+    },
+    {
+      "object_id": "traffic_light_0243",
+      "ground_truth": "traffic light",
+      "model_output": "Street signpost."
+    },
+    {
+      "object_id": "traffic_sign_0160",
+      "ground_truth": "traffic sign",
+      "model_output": "Bicycle parking."
+    },
+    {
+      "object_id": "traffic_sign_0274",
+      "ground_truth": "traffic sign",
+      "model_output": "Street signpost, category only."
+    },
+    {
+      "object_id": "traffic_sign_0026",
+      "ground_truth": "traffic sign",
+      "model_output": "Street lamp post."
+    },
+    {
+      "object_id": "traffic_light_0175",
+      "ground_truth": "traffic light",
+      "model_output": "Traffic sign."
+    },
+    {
+      "object_id": "traffic_light_0134",
+      "ground_truth": "traffic light",
+      "model_output": "It is a street signpost."
+    },
+    {
+      "object_id": "traffic_light_0170",
+      "ground_truth": "traffic light",
+      "model_output": "It is a street signpost."
+    },
+    {
+      "object_id": "traffic_light_0137",
+      "ground_truth": "traffic light",
+      "model_output": "The category is Traffic Signs and other road information."
+    },
+    {
+      "object_id": "traffic_sign_0204",
+      "ground_truth": "traffic sign",
+      "model_output": "Parking Sign."
+    },
+    {
+      "object_id": "traffic_light_0053",
+      "ground_truth": "traffic light",
+      "model_output": "Parked cars."
+    },
+    {
+      "object_id": "traffic_sign_0056",
+      "ground_truth": "traffic sign",
+      "model_output": "Street lamp post."
+    },
+    {
+      "object_id": "traffic_light_0131",
+      "ground_truth": "traffic light",
+      "model_output": "Street lights, traffic signs, and parked vehicles are all visible in the image, indicating it is a public road area."
+    },
+    {
+      "object_id": "traffic_sign_0292",
+      "ground_truth": "traffic sign",
+      "model_output": "Bicycles are parked in a designated parking area on the right side of the street, near the curb."
+    },
+    {
+      "object_id": "traffic_light_0259",
+      "ground_truth": "traffic light",
+      "model_output": "Urban traffic sign."
+    },
+    {
+      "object_id": "traffic_sign_0311",
+      "ground_truth": "traffic sign",
+      "model_output": "Street signpost."
+    },
+    {
+      "object_id": "traffic_sign_0169",
+      "ground_truth": "traffic sign",
+      "model_output": "The category is street lamps."
+    },
+    {
+      "object_id": "traffic_sign_0428",
+      "ground_truth": "traffic sign",
+      "model_output": "The category is traffic signs."
+    },
+    {
+      "object_id": "traffic_sign_0300",
+      "ground_truth": "traffic sign",
+      "model_output": "It is a traffic sign indicating no parking from 6 to 15 hours on weekdays."
+    },
+    {
+      "object_id": "traffic_sign_0347",
+      "ground_truth": "traffic sign",
+      "model_output": "The category is 'traffic sign'."
+    },
+    {
+      "object_id": "traffic_sign_0048",
+      "ground_truth": "traffic sign",
+      "model_output": "It is a street signpost, which provides navigation and regulatory information for pedestrians and drivers."
+    },
+    {
+      "object_id": "traffic_light_0036",
+      "ground_truth": "traffic light",
+      "model_output": "Traffic signpost."
+    },
+    {
+      "object_id": "traffic_sign_0121",
+      "ground_truth": "traffic sign",
+      "model_output": "Street signpost."
+    },
+    {
+      "object_id": "traffic_sign_0043",
+      "ground_truth": "traffic sign",
+      "model_output": "The object is a street sign, typically used for traffic regulations or directions."
+    },
+    {
+      "object_id": "traffic_sign_0282",
+      "ground_truth": "traffic sign",
+      "model_output": "The category is street lighting."
+    },
+    {
+      "object_id": "traffic_sign_0220",
+      "ground_truth": "traffic sign",
+      "model_output": "The category is parking signage."
+    },
+    {
+      "object_id": "traffic_sign_0084",
+      "ground_truth": "traffic sign",
+      "model_output": "Urban street lighting."
+    },
+    {
+      "object_id": "traffic_sign_0087",
+      "ground_truth": "traffic sign",
+      "model_output": "Street signpost."
+    },
+    {
+      "object_id": "traffic_sign_0362",
+      "ground_truth": "traffic sign",
+      "model_output": "Parking."
+    },
+    {
+      "object_id": "traffic_sign_0120",
+      "ground_truth": "traffic sign",
+      "model_output": "The category is transportation."
+    },
+    {
+      "object_id": "traffic_light_0203",
+      "ground_truth": "traffic light",
+      "model_output": "Street Lighting, Traffic Signs, and Parking Regulations."
+    },
+    {
+      "object_id": "traffic_sign_0319",
+      "ground_truth": "traffic sign",
+      "model_output": "Street lamp post."
+    },
+    {
+      "object_id": "traffic_sign_0215",
+      "ground_truth": "traffic sign",
+      "model_output": "Traffic sign category only."
+    },
+    {
+      "object_id": "traffic_light_0019",
+      "ground_truth": "traffic light",
+      "model_output": "Street signpost, directional information, and navigational assistance for pedestrians and drivers."
+    },
+    {
+      "object_id": "traffic_sign_0299",
+      "ground_truth": "traffic sign",
+      "model_output": "Street signpost."
+    },
+    {
+      "object_id": "traffic_sign_0171",
+      "ground_truth": "traffic sign",
+      "model_output": "Bicycles are a category of transportation."
+    },
+    {
+      "object_id": "traffic_light_0014",
+      "ground_truth": "traffic light",
+      "model_output": "Street signpost."
+    },
+    {
+      "object_id": "traffic_sign_0126",
+      "ground_truth": "traffic sign",
+      "model_output": "Parked vehicles."
+    },
+    {
+      "object_id": "traffic_light_0082",
+      "ground_truth": "traffic light",
+      "model_output": "Traffic sign indicating no parking from 6 to 15 hours on weekdays."
+    },
+    {
+      "object_id": "traffic_light_0044",
+      "ground_truth": "traffic light",
+      "model_output": "Street signs and information, typically found along urban roads."
+    },
+    {
+      "object_id": "traffic_sign_0338",
+      "ground_truth": "traffic sign",
+      "model_output": "Its category is street lighting."
+    },
+    {
+      "object_id": "traffic_sign_0396",
+      "ground_truth": "traffic sign",
+      "model_output": "It is a street signpost."
+    },
+    {
+      "object_id": "traffic_light_0241",
+      "ground_truth": "traffic light",
+      "model_output": "Street lamp post."
+    },
+    {
+      "object_id": "person_0145",
+      "ground_truth": "person",
+      "model_output": "The object is a motorcycle, which is typically used for personal transportation and is characterized by its two wheels, handlebars, and a seat."
+    },
+    {
+      "object_id": "person_0058",
+      "ground_truth": "person",
+      "model_output": "The category of the 3D point cloud object is human-made, specifically for street lighting."
+    },
+    {
+      "object_id": "person_0351",
+      "ground_truth": "person",
+      "model_output": "The category is likely 'urban transportation', as the van is used for delivering goods or services within a city environment."
+    },
+    {
+      "object_id": "person_0288",
+      "ground_truth": "person",
+      "model_output": "It is a human-powered vehicle used for personal transportation."
+    },
+    {
+      "object_id": "person_0025",
+      "ground_truth": "person",
+      "model_output": "The category is 'home improvement'."
+    },
+    {
+      "object_id": "person_0055",
+      "ground_truth": "person",
+      "model_output": "The category is 'Humor'."
+    },
+    {
+      "object_id": "person_0196",
+      "ground_truth": "person",
+      "model_output": "The category is likely 'dance,' as it is a common activity associated with the art of ballet."
+    },
+    {
+      "object_id": "person_0484",
+      "ground_truth": "person",
+      "model_output": "The category is likely 'urban residential'."
+    },
+    {
+      "object_id": "person_0322",
+      "ground_truth": "person",
+      "model_output": "The category is: outdoor seating."
+    },
+    {
+      "object_id": "person_0268",
+      "ground_truth": "person",
+      "model_output": "It is a non-fiction category."
+    },
+    {
+      "object_id": "person_0480",
+      "ground_truth": "person",
+      "model_output": "The category is street signs."
+    },
+    {
+      "object_id": "person_0197",
+      "ground_truth": "person",
+      "model_output": "It is a street sign, specifically a traffic sign indicating no parking from 6 to 15 hours on weekdays."
+    },
+    {
+      "object_id": "person_0456",
+      "ground_truth": "person",
+      "model_output": "The category is likely \"Fiction\" or \"Adventure,\" given the presence of a dragon and a magic ring."
+    },
+    {
+      "object_id": "person_0535",
+      "ground_truth": "person",
+      "model_output": "The category is \"transportation\"."
+    },
+    {
+      "object_id": "person_0065",
+      "ground_truth": "person",
+      "model_output": "It is a street lamp post."
+    },
+    {
+      "object_id": "person_0079",
+      "ground_truth": "person",
+      "model_output": "The category is 'Water-based transportation'."
+    },
+    {
+      "object_id": "person_0387",
+      "ground_truth": "person",
+      "model_output": "It is a metal cart, likely used for transporting items from one place to another."
+    },
+    {
+      "object_id": "person_0231",
+      "ground_truth": "person",
+      "model_output": "The category is 'Gardening'."
+    },
+    {
+      "object_id": "person_0312",
+      "ground_truth": "person",
+      "model_output": "The category is 'Gardening'."
+    },
+    {
+      "object_id": "person_0170",
+      "ground_truth": "person",
+      "model_output": "It is a category M, which means it is for motorcycles."
+    },
+    {
+      "object_id": "person_0091",
+      "ground_truth": "person",
+      "model_output": "Street."
+    },
+    {
+      "object_id": "person_0532",
+      "ground_truth": "person",
+      "model_output": "The category of the 3D point cloud object is 'pedestrian'."
+    },
+    {
+      "object_id": "person_0362",
+      "ground_truth": "person",
+      "model_output": "The category is \"Humor\"."
+    },
+    {
+      "object_id": "person_0436",
+      "ground_truth": "person",
+      "model_output": "The category is likely 'human-powered transportation'."
+    },
+    {
+      "object_id": "person_0375",
+      "ground_truth": "person",
+      "model_output": "The category is 'Painter's tools and materials'."
+    },
+    {
+      "object_id": "person_0092",
+      "ground_truth": "person",
+      "model_output": "The category of the 3D point cloud object is human-made, as it is a parking sign indicating parking by humans."
+    },
+    {
+      "object_id": "person_0151",
+      "ground_truth": "person",
+      "model_output": "The category of the object is 'personal transportation'."
+    },
+    {
+      "object_id": "person_0439",
+      "ground_truth": "person",
+      "model_output": "The category of the object is 'federal programs', which includes various initiatives such as the Supplemental Nutrition Assistance Program (SNAP), the Affordable Care Act (ACA), and other health-related programs."
+    },
+    {
+      "object_id": "bicycle_1318",
+      "ground_truth": "bicycle",
+      "model_output": "The bicycle is a street bike, characterized by its sleek frame, drop handlebars, and thin tires. It is designed for urban commuting and is known for its agility and speed."
+    },
+    {
+      "object_id": "bicycle_0527",
+      "ground_truth": "bicycle",
+      "model_output": "The bicycle is a parking category 1 bicycle."
+    },
+    {
+      "object_id": "bicycle_1125",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle."
+    },
+    {
+      "object_id": "bicycle_0321",
+      "ground_truth": "bicycle",
+      "model_output": "The category is bicycles."
+    },
+    {
+      "object_id": "bicycle_1319",
+      "ground_truth": "bicycle",
+      "model_output": "The category is bicycles."
+    },
+    {
+      "object_id": "bicycle_1177",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle, parked, motorcycle."
+    },
+    {
+      "object_id": "bicycle_1282",
+      "ground_truth": "bicycle",
+      "model_output": "The category is bicycles."
+    },
+    {
+      "object_id": "bicycle_0802",
+      "ground_truth": "bicycle",
+      "model_output": "The category of the bicycle is \"urban commuter bike\"."
+    },
+    {
+      "object_id": "bicycle_1044",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle, category only."
+    },
+    {
+      "object_id": "bicycle_0720",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a bicycle parking post."
+    },
+    {
+      "object_id": "bicycle_0847",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a bicycle."
+    },
+    {
+      "object_id": "bicycle_0729",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle."
+    },
+    {
+      "object_id": "bicycle_0105",
+      "ground_truth": "bicycle",
+      "model_output": "The bicycle is a category of personal transportation."
+    },
+    {
+      "object_id": "bicycle_1326",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycles are a category of two-wheeled vehicles designed for human-powered transportation."
+    },
+    {
+      "object_id": "bicycle_0131",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycles are a category of vehicles, used primarily for personal transportation in urban areas."
+    },
+    {
+      "object_id": "bicycle_0362",
+      "ground_truth": "bicycle",
+      "model_output": "The category is motorcycle."
+    },
+    {
+      "object_id": "bicycle_0779",
+      "ground_truth": "bicycle",
+      "model_output": "The bicycle is a two-wheeled human-powered vehicle, typically used for transportation and leisure riding."
+    },
+    {
+      "object_id": "bicycle_0403",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle, parked on street corner, category only."
+    },
+    {
+      "object_id": "bicycle_0207",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a bicycle parked on the sidewalk."
+    },
+    {
+      "object_id": "bicycle_0147",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a bicycle parking rack."
+    },
+    {
+      "object_id": "bicycle_1111",
+      "ground_truth": "bicycle",
+      "model_output": "The category is bicycles."
+    },
+    {
+      "object_id": "bicycle_0497",
+      "ground_truth": "bicycle",
+      "model_output": "The category is bicycles."
+    },
+    {
+      "object_id": "bicycle_0148",
+      "ground_truth": "bicycle",
+      "model_output": "It is a bicycle."
+    },
+    {
+      "object_id": "bicycle_0881",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle parking is its category."
+    },
+    {
+      "object_id": "bicycle_0576",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a bicycle, which is a common mode of transportation and recreational activity."
+    },
+    {
+      "object_id": "bicycle_0163",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle parking post."
+    },
+    {
+      "object_id": "bicycle_0298",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle."
+    },
+    {
+      "object_id": "bicycle_0969",
+      "ground_truth": "bicycle",
+      "model_output": "It is a bicycle, specifically a street bike, used for urban commuting."
+    },
+    {
+      "object_id": "bicycle_1006",
+      "ground_truth": "bicycle",
+      "model_output": "It is a bicycle, typically used for transportation and recreational purposes."
+    },
+    {
+      "object_id": "bicycle_0488",
+      "ground_truth": "bicycle",
+      "model_output": "The 3D point cloud object is a parked bicycle, likely indicating it is a vehicle."
+    },
+    {
+      "object_id": "bicycle_0468",
+      "ground_truth": "bicycle",
+      "model_output": "Cycling is a bicycle category."
+    },
+    {
+      "object_id": "bicycle_1063",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle, motorcycle, car."
+    },
+    {
+      "object_id": "bicycle_1171",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycles are a category of human-powered, pedal-driven, two-wheeled vehicles."
+    },
+    {
+      "object_id": "bicycle_0909",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle."
+    },
+    {
+      "object_id": "bicycle_0751",
+      "ground_truth": "bicycle",
+      "model_output": "The category is 'bicycles'."
+    },
+    {
+      "object_id": "bicycle_0025",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle is a category of human-powered transportation."
+    },
+    {
+      "object_id": "bicycle_0887",
+      "ground_truth": "bicycle",
+      "model_output": "The category is 'pedal-powered vehicle'."
+    },
+    {
+      "object_id": "bicycle_0155",
+      "ground_truth": "bicycle",
+      "model_output": "The bicycle is in the category of transportation."
+    },
+    {
+      "object_id": "bicycle_0733",
+      "ground_truth": "bicycle",
+      "model_output": "The object is a bicycle, a two-wheeled vehicle used for transportation."
+    },
+    {
+      "object_id": "bicycle_0188",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle."
+    },
+    {
+      "object_id": "bicycle_0301",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycles are a category of human-powered vehicles, typically used for transportation and recreational purposes."
+    },
+    {
+      "object_id": "bicycle_0827",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle."
+    },
+    {
+      "object_id": "bicycle_0987",
+      "ground_truth": "bicycle",
+      "model_output": "The bicycle is a classic caravan or motorhome, often used for travel and living on the road."
+    },
+    {
+      "object_id": "bicycle_0284",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle, motorcycle, and car category."
+    },
+    {
+      "object_id": "bicycle_0769",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycle, parked on a sidewalk."
+    },
+    {
+      "object_id": "bicycle_0198",
+      "ground_truth": "bicycle",
+      "model_output": "The category of the bicycle is road bicycle."
+    },
+    {
+      "object_id": "bicycle_0476",
+      "ground_truth": "bicycle",
+      "model_output": "Bicycles are a category of human-powered vehicles, typically designed for manual propulsion by the pedals."
+    },
+    {
+      "object_id": "bicycle_1038",
+      "ground_truth": "bicycle",
+      "model_output": "The category is bicycles."
+    },
+    {
+      "object_id": "bicycle_0107",
+      "ground_truth": "bicycle",
+      "model_output": "The category of the object is Bicycles."
+    },
+    {
+      "object_id": "scooter_0001",
+      "ground_truth": "scooter",
+      "model_output": "Bicycles are a category of personal transportation."
+    },
+    {
+      "object_id": "wall_0017",
+      "ground_truth": "wall",
+      "model_output": "The object is a white van, likely used for transportation or delivery purposes."
+    },
+    {
+      "object_id": "wall_0015",
+      "ground_truth": "wall",
+      "model_output": "Yes, it's a street lamp post, part of the urban infrastructure to provide illumination to the surrounding area during nighttime."
+    },
+    {
+      "object_id": "sign_0004",
+      "ground_truth": "sign",
+      "model_output": "Bicycles belong to the non-motorized, human-powered transportation category."
+    },
+    {
+      "object_id": "fence_0001",
+      "ground_truth": "fence",
+      "model_output": "It's a bicycle."
+    },
+    {
+      "object_id": "rider_0007",
+      "ground_truth": "rider",
+      "model_output": "The category is street wear, typically used for urban clothing designed for daily commuting and city living."
+    },
+    {
+      "object_id": "motorcycle_0003",
+      "ground_truth": "motorcycle",
+      "model_output": "Bicycle."
+    },
+    {
+      "object_id": "table_0003",
+      "ground_truth": "table",
+      "model_output": "The category of the bicycle is 'urban transportation'."
+    },
+    {
+      "object_id": "umbrella_0001",
+      "ground_truth": "umbrella",
+      "model_output": "The category of the object is traffic signs."
+    },
+    {
+      "object_id": "cart_0001",
+      "ground_truth": "cart",
+      "model_output": "The object in the image is a bicycle, which is commonly used for transportation in urban areas. It has a frame, two wheels, a seat, and handlebars, allowing for easy maneuverability and use for daily commutes or leisure rides."
+    },
+    {
+      "object_id": "dog_0001",
+      "ground_truth": "dog",
+      "model_output": "Parking meter."
+    }
+  ]
+}

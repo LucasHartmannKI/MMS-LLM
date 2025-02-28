@@ -1,0 +1,11 @@
+{
+    "sharding_strategy": "FULL_SHARD",
+    "cpu_offload": true,
+    "mixed_precision": true,
+    "auto_wrap_policy": "auto_wrap_policy",
+    "device_mapping": {
+      "0": "cuda:0",
+      "1": "cuda:1"
+    }
+  }
+  
