@@ -88,7 +88,7 @@ We test our codes under the following environment:
 To start: 
 1. Clone this repository.
 ```bash
-git clone git@github.com:OpenRobotLab/PointLLM.git
+git clone https://github.com/TingdeLiu/MMS-LLM.git
 cd PointLLM
 ```
 2. Install packages
