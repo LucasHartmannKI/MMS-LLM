@@ -201,7 +201,7 @@ python pointllm/eval/eval_objaverse.py --model_name model/MMSLLM_7B_v1 --task_ty
       "object_id": "",
       "ground_truth": "", 
       "model_output": "",
-      "label_name": "" # only for classification on modelnet40
+      "label_name": "" 
   ]
 }
 ```
