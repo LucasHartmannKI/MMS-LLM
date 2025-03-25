@@ -41,9 +41,6 @@ capabilities of the fine-tuned LLM, we employed an evaluation method based on GP
 - [💬 Dialogue Examples](#-dialogue-examples)
 - [🔍 Overview](#-overview)
 - [📦 Training and Evaluation](#-training-and-evaluation)
-- [📝 TODO List](#-todo-list)
-- [🔗 Citation](#-citation)
-- [📄 License](#-license)
 - [📚 Related Work](#-related-work)
 - [👏 Acknowledgements](#-acknowledgements)
 
@@ -51,8 +48,6 @@ capabilities of the fine-tuned LLM, we employed an evaluation method based on GP
 ## 💬 Dialogue Examples
 | Dialogue 1 | 
 | <img width="100%" src="assets/dialogue.png"> |  
-
-
 
 ## 🔍 Overview
 
@@ -68,12 +63,12 @@ Please refer to our paper for more results.
 <p align="center">
   <img src="assets/results.png" align="center" width="100%">
 </p>
-<b>Table presents the performance of our model, MMS-LLM 7B v1, compared to PointLLM 7B v1.2
+Table presents the performance of our model, MMS-LLM 7B v1, compared to PointLLM 7B v1.2
 and the control group Reference 7B v1 on the ikgc17 test dataset. As shown in the table,
 our model, MMS-LLM 7B v1, demonstrates excellent performance in handling LiDAR
 point cloud data, outperforming PointLLM 7B v1.2 in both classification and captioning
 tasks. This indicates that our targeted fine-tuning of the projector and LLM significantly
-improved the model’s performance on LiDAR point cloud tasks.</b>
+improved the model’s performance on LiDAR point cloud tasks.
 
 #### Qualitative Comparisons with baselines.
 Please refer to our paper for more results.
@@ -190,10 +185,10 @@ cd PointLLM
 export PYTHONPATH=$PWD
 
 # Open Vocabulary Classification on ikgc17
-python pointllm/eval/eval_objaverse.py --model_name RunsenXu/PointLLM_7B_v1.2 --task_type classification --prompt_index 0 # or --prompt_index 1
+python pointllm/eval/eval_objaverse.py --model_name model/MMSLLM_7B_v1 --task_type classification --prompt_index 0 # or --prompt_index 1
 
 # Object captioning on ikgc17
-python pointllm/eval/eval_objaverse.py --model_name RunsenXu/PointLLM_7B_v1.2 --task_type captioning --prompt_index 2
+python pointllm/eval/eval_objaverse.py --model_name model/MMSLLM_7B_v1 --task_type captioning --prompt_index 2
 
 ```
 3. Please check the default command-line arguments of these two scripts. You can specify different prompts, data paths, and other parameters. 
@@ -244,10 +239,7 @@ Some of the metrics are explained as follows:
 "completion_tokens": The total number of tokens of the completion results from ChatGPT/GPT-4.
 "GPT_cost": The API cost of the whole evaluation process, in US Dollars 💵.
 ```
-5. <b>Open-Step Evaluation.</b> You can also start evaluation immediately after inferencing by passing the `--start_eval` flag and specifying the `--gpt_type`. For example:
-```bash
-python pointllm/eval/eval_objaverse.py --model_name RunsenXu/PointLLM_7B_v1.2 --task_type classification --prompt_index 0 --start_eval --gpt_type gpt-4-0613
-```
+
 
 
 
