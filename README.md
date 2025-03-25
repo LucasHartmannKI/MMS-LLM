@@ -28,7 +28,8 @@
 <div style="text-align: center;">
     <img src="assets/dialogue.jpg" alt="Dialogue_Teaser" width=100% >
 </div>
-We introduce <b>MMS-LLM, a multi-modal large language model capable of understanding LiDAR point clouds of objects.</b> It perceives object types, geometric structures, and appearance without concerns for ambiguous depth, occlusion, or viewpoint dependency. <b>We collect a novel dataset comprising 660K simple and 70K complex point-text instruction pairs</b> to enable a two-stage training strategy. To rigorously evaluate our model's perceptual abilities and its generalization capabilities, <b>we used two benchmarks: Generative 3D Object Classification and 3D Object Captioning, assessed through different evaluation methods.</b>
+We introduce <b>MMS-LLM, a multi-modal large language model capable of understanding LiDAR point clouds of objects.</b> It perceives object types, geometric structures, and appearance without concerns for ambiguous depth, occlusion, or viewpoint dependency. This study aims to improve PointLLM’s ability to process LiDAR point clouds without relying on color information. We used typical laser scanning information (Intensity) to replace the missing color details in LiDAR point clouds. We designed a framework to automatically extract point cloud instances and generate text instructions. Using this framework, we created a new dataset with 4.1K LiDAR point cloud instances, 4.1K simple point-to-text instruction pairs, and 3.6K complex instruction pairs. Through this dataset, we fine-tuned the LLM. To rigorously evaluate the perceptual and generalization
+capabilities of the fine-tuned LLM, we employed an evaluation method based on GPT-4/ChatGPT. Experimental results demonstrate that our trained MMS-LLM 7B v1 outperforms the existing PointLLM 7B v1.2 in handling LiDAR point cloud data.
 
 ## 🔥 News
 
@@ -49,7 +50,7 @@ We introduce <b>MMS-LLM, a multi-modal large language model capable of understan
 
 ## 💬 Dialogue Examples
 | Dialogue 1 | 
-| <img width="100%" src="assets/example1.jpg"> |  
+| <img width="100%" src="assets/dialogue.png"> |  
 
 
 
@@ -57,9 +58,9 @@ We introduce <b>MMS-LLM, a multi-modal large language model capable of understan
 
 ### Model
 <p align="center">
-  <img src="assets/mllm.jpg" align="center" width="100%">
+  <img src="assets/mllm.png" align="center" width="100%">
 </p>
-The point encoder extracts features from the input point cloud and projects them to the latent space of the LLM backbone. The LLM backbone processes sequences of point tokens and text tokens, and generates the predicted tokens as the output.
+To enhance PointLLM’s capability and extend it to handle complex LiDAR point clouds,we designed a new framework MMS-LLM, as illustrated in Fig.  This framework consists of two main parts: the point cloud preprocessing module and PointLLM module.The preprocessing module includes Ground Subtraction and Clustering steps. With this framework, we enable the MLLM to understand complex scene-level point clouds and generate accurate and meaningful textual descriptions. The point encoder extracts features from the input point cloud and projects them to the latent space of the LLM backbone. The LLM backbone processes sequences of point tokens and text tokens, and generates the predicted tokens as the output.
 
 ### Experiment Results
 #### Quantitative Comparisons with baselines.
@@ -67,12 +68,17 @@ Please refer to our paper for more results.
 <p align="center">
   <img src="assets/results.png" align="center" width="100%">
 </p>
-<b>!!!Note: Traditional metrics such as BLEU-1, ROUGE-L, and METEOR tend to favor shorter responses and may not effectively capture semantic accuracy. For a detailed discussion on this, please refer to our paper. We suggest the community not solely rely on these metrics for evaluation.</b>
+<b>Table presents the performance of our model, MMS-LLM 7B v1, compared to PointLLM 7B v1.2
+and the control group Reference 7B v1 on the ikgc17 test dataset. As shown in the table,
+our model, MMS-LLM 7B v1, demonstrates excellent performance in handling LiDAR
+point cloud data, outperforming PointLLM 7B v1.2 in both classification and captioning
+tasks. This indicates that our targeted fine-tuning of the projector and LLM significantly
+improved the model’s performance on LiDAR point cloud tasks.</b>
 
 #### Qualitative Comparisons with baselines.
 Please refer to our paper for more results.
 <p align="center">
-  <img src="assets/example1.jpg" align="center" width="100%">
+  <img src="assets/example1.png" align="center" width="100%">
 </p>
 
 ## 📦 Training and Evaluation
@@ -93,9 +99,9 @@ cd PointLLM
 ```
 2. Install packages
 ```bash
-conda create -n pointllm python=3.10 -y
-conda activate pointllm
-pip install --upgrade pip  # enable PEP 660 support
+conda create -n mmsllm python=3.10 -y
+conda activate mmsllm
+pip install --upgrade pip  
 pip install -e .
 
 # * for training
@@ -104,39 +110,56 @@ pip install flash-attn
 ```
 
 ### Data Preparation
-#### Objaverse Training Data
-1. Download the two compressed files of 660K Objaverse colored point clouds [here](https://huggingface.co/datasets/RunsenXu/PointLLM/tree/main). They require about 77GB of storage space.
-2. Run the following command to merge the two files into one and uncompress it. This will produce a folder named `8192_npy` containing 660K point cloud files named `{Objaverse_ID}_8192.npy`. Each file is a numpy array with dimensions (8192, 6), where the first three dimensions are `xyz` and the last three dimensions are `rgb` in [0, 1] range.
+#### Training Data generieren
+1. Semantic segmentation.
 ```bash
-cat Objaverse_660K_8192_npy_split_a* > Objaverse_660K_8192_npy.tar.gz
-tar -xvf Objaverse_660K_8192_npy.tar.gz
+cd create_dataset/pointcloud
+python semantic.py
 ```
-3. In `PointLLM` folder, create a folder `data` and create a soft link to the uncompressed file in the directory.
+2. Instance segmentation.
 ```bash
-cd PointLLM
-mkdir data
-ln -s /path/to/8192_npy data/objaverse_data
+cd create_dataset/pointcloud
+python instance.py
 ```
-
+3. Image with Cap3D.
+```bash
+cd create_dataset/instruction
+python project.py
+```
+4. Image with point clouds project.
+```bash
+cd create_dataset/instruction
+python get_image-full.py
+```
+5. Caption transform.
+```bash
+cd create_dataset/instruction
+python transform.py
+```
+6. complex instruction generate.
+```bash
+cd create_dataset/instruction
+python complex_instruction_generate.py
+```
 #### Instruction-Following Data
 1. In `PointLLM/data` folder, create a directory named `anno_data`.
-2. Our instruction-following data, including both the simple-description and complex instructions, can be downloaded [here](https://huggingface.co/datasets/RunsenXu/PointLLM). If you have difficulty downloading the data (e.g. network issue), please email the authors.
-- The simple-description data has 660K samples and the complex instructions have 70K samples.
-- Both training data are based on the Objaverse dataset.
-- The complex instructions are generated with GPT-4.
+2. Our instruction-following data, including both the simple-description and complex instructions.
+- The simple-description data has 4K samples and the complex instructions have 3.6K samples.
+- Both training data are based on the ikgc17 dataset.
+- The complex instructions are generated with InternVL.
 3. Put the data files in the `anno_data` directory. The directory should look like this:
 ```bash
 PointLLM/data/anno_data
-├── PointLLM_brief_description_660K_filtered.json
-├── PointLLM_brief_description_660K.json
-└── PointLLM_complex_instruction_70K.json
+├── ikgc17_brief_description_filter.json
+├── ikgc17_brief_description.json
+└── ikgc17_complex_instruction.json
 ```
-4. Note, the `PointLLM_brief_description_660K_filtered.json` is filtered from `PointLLM_brief_description_660K.json` by removing the 3000 objects we reserved as the validation set. If you want to reproduce the results in our paper, you should use the `PointLLM_brief_description_660K_filtered.json` for training. The `PointLLM_complex_instruction_70K.json` contains objects from the training set.
-5. If you want to generate the complex instructions by yourself, please refer to our paper for other details. The system prompt is at `pointllm/data/data_generation/system_prompt_gpt4_0613.txt`.
+4. Note, the `ikgc17_brief_description_filter.json` is filtered from `ikgc17_brief_description.json` by removing the 262 objects we reserved as the validation set. If you want to reproduce the results in our paper, you should use the `ikgc17_brief_description_filter.json` for training. The `ikgc17_complex_instruction.json` contains objects from the training set.
+
 
 #### Evaluation Data
-1. Download the referencing GT `PointLLM_brief_description_val_200_GT.json` we use for the benchmarks on Objaverse dataset [here](https://huggingface.co/datasets/RunsenXu/PointLLM/blob/main/PointLLM_brief_description_val_200_GT.json), and put it in `PointLLM/data/anno_data`. We also provide the 3000 object ids we filter during training [here](https://huggingface.co/datasets/RunsenXu/PointLLM/blob/main/val_object_ids_3000.txt) and their corresponding referencing GT [here](https://huggingface.co/datasets/RunsenXu/PointLLM/blob/main/PointLLM_brief_description_val_3000_GT.json), which can be used to evaluate on all the 3000 objects.
-2. Create a directory named `modelnet40_data` in `PointLLM/data`. Download the test split of ModelNet40 point clouds `modelnet40_test_8192pts_fps.dat` [here](https://huggingface.co/datasets/RunsenXu/PointLLM/blob/main/modelnet40_test_8192pts_fps.dat) and put it in `PointLLM/data/modelnet40_data`.
+1. Download the referencing GT `ikgc17_brief_description_val.json` we use for the benchmarks on ikgc17 dataset, and put it in `PointLLM/data/anno_data`. We also provide the 262 object ids we filter during training, which can be used to evaluate on all the 262 objects.
+
 
 ### Training
 #### Download the Initial LLM and Point Encoder Weights
@@ -149,61 +172,14 @@ PointLLM_7B_v1.1_init](https://huggingface.co/RunsenXu/PointLLM_7B_v1.1_init/tre
 1. For stage-1 training, simply run:
 ```bash
 cd PointLLM
-scripts/PointLLM_train_stage1.sh
+scripts/IKGPointLLM_train_stage1.sh
 ```
 2. After stage-1 training, start stage-2 training:
 ```bash
-scripts/PointLLM_train_stage2.sh
+scripts/IKGPointLLM_train_stage2.sh
 ```
 
-#### PointLLM-v1.1 and PointLLM-v1.2
-Usually, you do not have to care about the following contents. They are only for reproducing the results in our v1 paper (PointLLM-v1.1). If you want to compare with our models or use our models for downstream tasks, please use PointLLM-v1.2 (refer to our v2 paper), which has better performance.
-<details>
-  <summary>The following steps are for reproducing PointLLM-v1.1 (click to expand)</summary>
-  
-1. PointLLM v1.1 and v1.2 use slightly different pre-trained point encoders and projectors. If you want to reproduce PointLLM v1.1, edit the `config.json` file in the directory of initial LLM and point encoder weights, for example, `vim checkpoints/PointLLM_7B_v1.1_init/config.json`.
-  
-2. Change the key `"point_backbone_config_name"` to specify another point encoder config:
-    ```bash
-    # change from
-    "point_backbone_config_name": "PointTransformer_8192point_2layer" # v1.2
-    # to
-    "point_backbone_config_name": "PointTransformer_base_8192point", # v1.1
-    ```
 
-3. Edit the checkpoint path of the point encoder in `scripts/train_stage1.sh`:
-    ```bash
-    # change from
-    point_backbone_ckpt=$model_name_or_path/point_bert_v1.2.pt # v1.2
-    # to
-    point_backbone_ckpt=$model_name_or_path/point_bert_v1.1.pt # v1.1
-    ```
-</details>
-
-### Chatting
-1. The trained model checkpoints are available [here](https://huggingface.co/RunsenXu) (including different versions of PointLLM). 
-2. Run the following command to launch a chatbot using the `torch.float32` data type for chatting about 3D models of Objaverse. The model checkpoints will be downloaded automatically. You can also manually download the model checkpoints and specify their paths. Here is an example:
-```bash
-cd PointLLM
-PYTHONPATH=$PWD python pointllm/eval/PointLLM_chat.py --model_name RunsenXu/PointLLM_7B_v1.2 --data_name data/objaverse_data --torch_dtype float32
-```
-3. You can also easily modify the codes for using point clouds other than those from Objaverse, as long as the point clouds input to the model have dimensions (N, 6), where the first three dimensions are `xyz` and the last three dimensions are `rgb` (in [0, 1] range). You may sample the point clouds to have 8192 points, as our model is trained on such point clouds.
-4. The following table shows GPU requirements for different models and data types. We recommend using `torch.bfloat16` if applicable, which is used in the experiments in our paper.
-   
-    |  Model   | Data Type | GPU Memory |
-    |:--------:|:---------:|:----------:|
-    | PointLLM-7B  | torch.float16 |    14GB    |
-    | PointLLM-7B  | torch.float32 |    28GB    |
-    | PointLLM-13B | torch.float16 |    26GB    |
-    | PointLLM-13B | torch.float32 |    52GB    |
-
-### Gradio Demo
-1. We provide the codes for our online Gradio demo. You can run the following commands to launch the demo locally for chatting and visualization.
-```bash
-cd PointLLM
-PYTHONPATH=$PWD python pointllm/eval/chat_gradio.py --model_name RunsenXu/PointLLM_7B_v1.2 --data_name data/objaverse_data
-```
-2. Kind remind: if you want to release the demo in public, please refer to https://www.gradio.app/guides/sharing-your-app#security-and-file-access.
 
 ### Evaluation
 #### Inferencing
@@ -213,14 +189,12 @@ PYTHONPATH=$PWD python pointllm/eval/chat_gradio.py --model_name RunsenXu/PointL
 cd PointLLM
 export PYTHONPATH=$PWD
 
-# Open Vocabulary Classification on Objaverse
+# Open Vocabulary Classification on ikgc17
 python pointllm/eval/eval_objaverse.py --model_name RunsenXu/PointLLM_7B_v1.2 --task_type classification --prompt_index 0 # or --prompt_index 1
 
-# Object captioning on Objaverse
+# Object captioning on ikgc17
 python pointllm/eval/eval_objaverse.py --model_name RunsenXu/PointLLM_7B_v1.2 --task_type captioning --prompt_index 2
 
-# Close-set Zero-shot Classification on ModelNet40
-python pointllm/eval/eval_modelnet_cls.py --model_name RunsenXu/PointLLM_7B_v1.2 --prompt_index 0 # or --prompt_index 1
 ```
 3. Please check the default command-line arguments of these two scripts. You can specify different prompts, data paths, and other parameters. 
 4. After inferencing, the results will be saved in `{model_name}/evaluation` as a dict with the following format:
@@ -233,7 +207,6 @@ python pointllm/eval/eval_modelnet_cls.py --model_name RunsenXu/PointLLM_7B_v1.2
       "ground_truth": "", 
       "model_output": "",
       "label_name": "" # only for classification on modelnet40
-    }
   ]
 }
 ```
@@ -276,47 +249,24 @@ Some of the metrics are explained as follows:
 python pointllm/eval/eval_objaverse.py --model_name RunsenXu/PointLLM_7B_v1.2 --task_type classification --prompt_index 0 --start_eval --gpt_type gpt-4-0613
 ```
 
-#### Traditional Metric Evaluation
-1. For the object captioning task, run the following command to evaluate model outputs with traditional metrics including BLEU, ROUGE, METEOR, Sentence-BERT, and SimCSE.
-```bash
-python pointllm/eval/traditional_evaluator.py --results_path /path/to/model_captioning_output
-```
-2. Note that we recommend not using BLEU, ROUGE, and METEOR for evaluation as they favor short captions and fall short of capturing semantic accuracy and diversity.
 
-## 📝 TODO List
-- [x] Add inferencing codes with checkpoints.
-- [x] Release instruction-following data.
-- [x] Add training codes.
-- [x] Add evaluation codes.
-- [x] Add gradio demo codes.
-- [ ] Release PointLLM-V2 with a better model and data.
 
-Community contributions are welcome!👇 If you need any support, please feel free to open an issue or contact us.
-- [ ] Support Phi-2 LLM to make PointLLM more accessible to the community.
-- [ ] Support Chinese LLMs like InternLM.
 
 ## 🔗 Citation
 
 If you find our work and this codebase helpful, please consider starring this repo 🌟 and cite:
 
 ```bibtex
-@inproceedings{xu2024pointllm,
-  title={PointLLM: Empowering Large Language Models to Understand Point Clouds},
-  author={Xu, Runsen and Wang, Xiaolong and Wang, Tai and Chen, Yilun and Pang, Jiangmiao and Lin, Dahua},
-  booktitle={ECCV},
-  year={2024}
-}
+
 ```
 
-## 📄 License
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
-<br />
-This work is under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
 
 ## 📚 Related Work
 Together, Let's make LLM for 3D great!
 - [Point-Bind & Point-LLM](https://arxiv.org/abs/2309.00615): aligns point clouds with Image-Bind, and leverages ImageBind-LLM to reason multi-modality input without 3D-instruction data training.
 - [3D-LLM](https://arxiv.org/abs/2307.12981): employs 2D foundation models to encode multi-view images of 3D point clouds.
+
 
 
 ## 👏 Acknowledgements
