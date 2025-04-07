@@ -13,10 +13,7 @@
 
 
 ## 🏠 About
-<!-- ![Teaser](assets/teaser.jpg) -->
-<div style="text-align: center;">
-    <img src="assets/dialogue.jpg" alt="Dialogue_Teaser" width=100% >
-</div>
+
 We introduce <b>MMS-LLM, a multi-modal large language model capable of understanding LiDAR point clouds of objects.</b> It perceives object types, geometric structures, and appearance without concerns for ambiguous depth, occlusion, or viewpoint dependency. This study aims to improve PointLLM’s ability to process LiDAR point clouds without relying on color information. We used typical laser scanning information (Intensity) to replace the missing color details in LiDAR point clouds. We designed a framework to automatically extract point cloud instances and generate text instructions. Using this framework, we created a new dataset with 4.1K LiDAR point cloud instances, 4.1K simple point-to-text instruction pairs, and 3.6K complex instruction pairs. Through this dataset, we fine-tuned the LLM. To rigorously evaluate the perceptual and generalization
 capabilities of the fine-tuned LLM, we employed an evaluation method based on GPT-4/ChatGPT. Experimental results demonstrate that our trained MMS-LLM 7B v1 outperforms the existing PointLLM 7B v1.2 in handling LiDAR point cloud data.
 
@@ -50,7 +47,7 @@ To enhance PointLLM’s capability and extend it to handle complex LiDAR point c
 #### Quantitative Comparisons with baselines.
 Please refer to our paper for more results.
 <p align="center">
-  <img src="assets/results.png" align="center" width="100%">
+  <img src="assets/results.png" align="center" width="70%">
 </p>
 Table presents the performance of our model, MMS-LLM 7B v1, compared to PointLLM 7B v1.2
 and the control group Reference 7B v1 on the ikgc17 test dataset. As shown in the table,
@@ -104,8 +101,9 @@ This dataset, used in MMS-LLM, comes from the Institute of Cartography and Geoin
 1. Semantic segmentation.
 The image below shows the visualization of one of the point clouds.
 <p align="center">
-  <img src="assets/pointcloud.png" align="center" width="100%">
+  <img src="assets/pointcloud.png" align="center" width="80%">
 </p>
+
 ```bash
 cd create_dataset/pointcloud
 python semantic.py
@@ -115,23 +113,27 @@ Inspired by [Leichter et al., 2021](https://isprs-archives.copernicus.org/articl
 <p align="center">
   <img src="assets/instance_extraction.png" align="center" width="100%">
 </p>
+
 ```bash
 cd create_dataset/pointcloud
 python instance.py
 ```
-3. Image with Cap3D.
-w
+3. Point cloud images from different viewpoints generate.
+Inspired by [Cap3D](https://arxiv.org/abs/2306.07279), we collect point cloud projections from different viewpoints.
 <p align="center">
-  <img src="assets/projection.png" align="center" width="100%">
+  <img src="assets/projection.png" align="center" width="80%">
 </p>
+
 ```bash
 cd create_dataset/instruction
 python project.py
 ```
-4. Image with point clouds project.
+4. Annotated MMS images generate:.
+Inspired by [Automatic Generation of Large Point Cloud Training Datasets Using Label Transfer ](https://www.ikg.uni-hannover.de/de/institut/personenverzeichnis/peters/publikationen/publikationen-detail?tx_t3luhpublications_publications%5Baction%5D=show&tx_t3luhpublications_publications%5Bcontroller%5D=Publication&tx_t3luhpublications_publications%5Bpublication%5D=10493&cHash=5d805fd97b8c7bce82707a64d3d183d4), we point cloud projected onto the Street View HD image.
 <p align="center">
   <img src="assets/mi.png" align="center" width="100%">
 </p>
+
 ```bash
 cd create_dataset/instruction
 python get_image-full.py
@@ -268,7 +270,8 @@ If you find our work and this codebase helpful, please consider starring this re
 Together, Let's make LLM for 3D great!
 - [Point-Bind & Point-LLM](https://arxiv.org/abs/2309.00615): aligns point clouds with Image-Bind, and leverages ImageBind-LLM to reason multi-modality input without 3D-instruction data training.
 - [3D-LLM](https://arxiv.org/abs/2307.12981): employs 2D foundation models to encode multi-view images of 3D point clouds.
-- [DETERMINATION OF PARKING SPACE AND ITS CONCURRENT USAGE OVER TIME USING SEMANTICALLY SEGMENTED MOBILE MAPPING DATA](https://isprs-archives.copernicus.org/articles/XLIII-B2-2021/185/2021/):propose a processing pipeline to extract car bounding boxes from a given 3D point cloud. 
+- [DETERMINATION OF PARKING SPACE AND ITS CONCURRENT USAGE OVER TIME USING SEMANTICALLY SEGMENTED MOBILE MAPPING DATA](https://isprs-archives.copernicus.org/articles/XLIII-B2-2021/185/2021/): propose a processing pipeline to extract car bounding boxes from a given 3D point cloud. 
+
 
 
 
