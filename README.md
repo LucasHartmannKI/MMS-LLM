@@ -98,7 +98,7 @@ This dataset, used in MMS-LLM, comes from the Institute of Cartography and Geoin
 </p>
 
 #### Training Data generieren
-1. Semantic segmentation.
+##### 1. Semantic segmentation.
 The image below shows the visualization of one of the point clouds.
 <p align="center">
   <img src="assets/pointcloud.png" align="center" width="80%">
@@ -108,7 +108,7 @@ The image below shows the visualization of one of the point clouds.
 cd create_dataset/pointcloud
 python semantic.py
 ```
-2. Instance segmentation.
+##### 2. Instance segmentation.
 Inspired by [Leichter et al., 2021](https://isprs-archives.copernicus.org/articles/XLIII-B2-2021/185/2021/), we propose an instance extraction strategy. Our workflow, shown in the image below, consists of four sequential processing steps.
 <p align="center">
   <img src="assets/instance_extraction.png" align="center" width="100%">
@@ -118,7 +118,7 @@ Inspired by [Leichter et al., 2021](https://isprs-archives.copernicus.org/articl
 cd create_dataset/pointcloud
 python instance.py
 ```
-3. Point cloud images from different viewpoints generate.
+##### 3. Point cloud images from different viewpoints generate.
 Inspired by [Cap3D](https://arxiv.org/abs/2306.07279), we collect point cloud projections from different viewpoints.
 <p align="center">
   <img src="assets/projection.png" align="center" width="80%">
@@ -128,7 +128,7 @@ Inspired by [Cap3D](https://arxiv.org/abs/2306.07279), we collect point cloud pr
 cd create_dataset/instruction
 python project.py
 ```
-4. Annotated MMS images generate:.
+##### 4. Annotated MMS images generate:.
 Inspired by [Automatic Generation of Large Point Cloud Training Datasets Using Label Transfer ](https://www.ikg.uni-hannover.de/de/institut/personenverzeichnis/peters/publikationen/publikationen-detail?tx_t3luhpublications_publications%5Baction%5D=show&tx_t3luhpublications_publications%5Bcontroller%5D=Publication&tx_t3luhpublications_publications%5Bpublication%5D=10493&cHash=5d805fd97b8c7bce82707a64d3d183d4), we point cloud projected onto the Street View HD image.
 <p align="center">
   <img src="assets/mi.png" align="center" width="100%">
@@ -138,12 +138,13 @@ Inspired by [Automatic Generation of Large Point Cloud Training Datasets Using L
 cd create_dataset/instruction
 python get_image-full.py
 ```
-5. Caption transform.
+##### 5. Caption transform.
 ```bash
 cd create_dataset/instruction
 python transform.py
 ```
-6. complex instruction generate.
+##### 6. complex instruction generate.
+Hier we use InternVL to generate the complex instructions.
 ```bash
 cd create_dataset/instruction
 python complex_instruction_generate.py
