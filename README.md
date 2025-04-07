@@ -36,7 +36,7 @@ capabilities of the fine-tuned LLM, we employed an evaluation method based on GP
 
 ## 💬 Dialogue Examples
 | Dialogue 1 | 
-| <img width="100%" src="assets/dialogue.png"> |  
+| <img width="50%" src="assets/dialogue.png"> |  
 
 ## 🔍 Overview
 
@@ -94,23 +94,44 @@ pip install flash-attn
 ```
 
 ### Data Preparation
+This dataset, used in MMS-LLM, comes from the Institute of Cartography and Geoinformatics (IKG). IKG researchers continuously collect urban data in Hanover using an MMS system, which includes two laser scanners, two cameras, and an IMU/GNSS device. The dataset, collected in the Linden-Nord district, contains approximately 0.9 billion points. Raw point cloud data was colored and enriched with semantic labels via label transfer.
+<p align="center">
+  <img src="assets/dicht_map.png" align="center" width="45%" style="margin-right: 5%;">
+  <img src="assets/satellite_map.png" align="center" width="45%">
+</p>
+
 #### Training Data generieren
 1. Semantic segmentation.
+The image below shows the visualization of one of the point clouds.
+<p align="center">
+  <img src="assets/pointcloud.png" align="center" width="100%">
+</p>
 ```bash
 cd create_dataset/pointcloud
 python semantic.py
 ```
 2. Instance segmentation.
+Inspired by [Leichter et al., 2021](https://isprs-archives.copernicus.org/articles/XLIII-B2-2021/185/2021/), we propose an instance extraction strategy. Our workflow, shown in the image below, consists of four sequential processing steps.
+<p align="center">
+  <img src="assets/instance_extraction.png" align="center" width="100%">
+</p>
 ```bash
 cd create_dataset/pointcloud
 python instance.py
 ```
 3. Image with Cap3D.
+w
+<p align="center">
+  <img src="assets/projection.png" align="center" width="100%">
+</p>
 ```bash
 cd create_dataset/instruction
 python project.py
 ```
 4. Image with point clouds project.
+<p align="center">
+  <img src="assets/mi.png" align="center" width="100%">
+</p>
 ```bash
 cd create_dataset/instruction
 python get_image-full.py
@@ -247,6 +268,7 @@ If you find our work and this codebase helpful, please consider starring this re
 Together, Let's make LLM for 3D great!
 - [Point-Bind & Point-LLM](https://arxiv.org/abs/2309.00615): aligns point clouds with Image-Bind, and leverages ImageBind-LLM to reason multi-modality input without 3D-instruction data training.
 - [3D-LLM](https://arxiv.org/abs/2307.12981): employs 2D foundation models to encode multi-view images of 3D point clouds.
+- [DETERMINATION OF PARKING SPACE AND ITS CONCURRENT USAGE OVER TIME USING SEMANTICALLY SEGMENTED MOBILE MAPPING DATA](https://isprs-archives.copernicus.org/articles/XLIII-B2-2021/185/2021/):propose a processing pipeline to extract car bounding boxes from a given 3D point cloud. 
 
 
 
@@ -256,3 +278,4 @@ Together, Let's make LLM for 3D great!
 - [Objaverse](https://objaverse.allenai.org): We use models of the Objaverse dataset for training and evaluation.
 - [Cap3D](https://github.com/crockwell/Cap3D/): We use the Cap3D captioning data for our data generation.
 - [ULIP-2](https://github.com/salesforce/ULIP): We use ULIP-2 for pre-training our point cloud encoder.
+- [InternVL](https://github.com/OpenGVLab/InternVL): We use InternVL captioning data for our data generation.
