@@ -44,8 +44,8 @@ def load_dataset(config_path, split, subset_nums, use_color):
     return dataset
 
 def get_dataloader(dataset, batch_size, shuffle=False, num_workers=4):
-    assert shuffle is False, "Since we using the index of ModelNet as Object ID when evaluation \
-        so shuffle shoudl be False and should always set random seed."
+    assert shuffle is False, "Since we use the index of ModelNet as Object ID when evaluation \
+        so shuffle should be False and a random seed should always be set."
     dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=shuffle, num_workers=num_workers)
     return dataloader
 

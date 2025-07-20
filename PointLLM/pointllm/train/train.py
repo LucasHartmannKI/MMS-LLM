@@ -45,7 +45,7 @@ class ModelArguments:
 @dataclass
 class DataArguments:
     data_path: str = field(default="ScanNet", metadata={"help": "Path to the training data."})
-    anno_path: str = field(default=None, metadata={"help": "Path to the utterance data. If None, will use referit3d by defautl."})
+    anno_path: str = field(default=None, metadata={"help": "Path to the utterance data. If None, will use referit3d by default."})
     use_color: bool = field(default=False, metadata={"help": "Whether to use color."})
     data_debug_num: int = field(default=0, metadata={"help": "Number of data to use in debug mode. If larger than 0, use debug mode, else use the whole data"})
     split_train_val: bool = field(default=False, metadata={"help": "Whether to split train and val."})
@@ -183,7 +183,7 @@ def train():
                 print('[WARNING] Attempting to use FSDP while {} parameters do not require gradients: {}'. format(len(params_no_grad), params_no_grad))
             else:
                 print('[WARNING] Attempting to use FSDP while {} parameters do not require gradients: {}...(omitted)'. format(len(params_no_grad), ', '.join(params_no_grad[:10])))
-            print("[WARNING] Attempting to use FSDP with partially frozen paramters, this is experimental.")
+            print("[WARNING] Attempting to use FSDP with partially frozen parameters, this is experimental.")
             print("[WARNING] As of 4/30/23, this feature requires PyTorch-nightly build.  See here for details: https://github.com/haotian-liu/LLaVA#experimental-use-fsdp-to-save-memory-in-pretraining")
 
             from torch.distributed.fsdp.fully_sharded_data_parallel import FullyShardedDataParallel as FSDP
